@@ -14,6 +14,7 @@ import os
 import re
 
 import feedparser
+import requests
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 POSTED_LOG = os.path.join(HERE, "posted.json")
@@ -49,6 +50,20 @@ FEEDS = {
         "https://www.reddit.com/r/Damnthatsinteresting/top/.rss?t=day",
         "https://www.reddit.com/r/UpliftingNews/top/.rss?t=day",
     ],
+    "space": [
+        "https://www.space.com/feeds/all",
+        "https://phys.org/rss-feed/space-news/",
+        "https://www.nasa.gov/feed/",
+    ],
+    "business": [
+        "https://techcrunch.com/feed/",
+        "https://www.cnbc.com/id/100003114/device/rss/rss.html",
+        "https://feeds.a.dj.com/rss/WSJcomUSBusiness.xml",
+    ],
+    "psychology": [
+        "https://www.sciencedaily.com/rss/mind_brain/psychology.xml",
+        "https://www.sciencedaily.com/rss/mind_brain.xml",
+    ],
 }
 
 MAX_AGE_HOURS = 48          # only consider fresh items
@@ -69,6 +84,32 @@ def _load_posted():
 
 def _key(title):
     return re.sub(r"[^a-z0-9]+", "", (title or "").lower())[:60]
+
+
+def _history_candidates(posted, seen):
+    """'On this day' events from Wikipedia's free API — evergreen backup for slow days."""
+    today = dt.date.today()
+    url = (f"https://en.wikipedia.org/api/rest_v1/feed/onthisday/events/"
+           f"{today.month:02d}/{today.day:02d}")
+    try:
+        r = requests.get(url, headers={"User-Agent": "EdgeDecoded/1.0 (@decodededge)"},
+                         timeout=20)
+        events = r.json().get("events", [])
+    except Exception:
+        return []
+    out = []
+    for ev in events[:14]:
+        text, year = ev.get("text", ""), ev.get("year")
+        if not text or not year:
+            continue
+        title = f"On this day in {year}: {text}"
+        k = _key(title)
+        if k in seen or k in posted:
+            continue
+        seen.add(k)
+        out.append({"key": k, "lane": "history", "title": title, "summary": text,
+                    "source": "Wikipedia · On This Day", "link": ""})
+    return out
 
 
 def fetch_candidates():
@@ -107,6 +148,7 @@ def fetch_candidates():
                     "source": (feed.feed.get("title") or url.split("/")[2]),
                     "link": entry.get("link", ""),
                 })
+    out.extend(_history_candidates(posted, seen))
     return out
 
 
