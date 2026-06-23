@@ -1,60 +1,56 @@
 {
-  "chosen_title": "Humans May Have Always Been Able to Regenerate Body Parts–Scar Tissue Just Gets in the Way",
-  "lane": "amazing",
-  "source": "Good News Network",
-  "score": 88,
-  "caption": "🦎 Salamanders can regrow entire limbs. Turns out, humans may have always been able to — our own bodies just keep blocking it.\n\nNew research suggests humans carry dormant genetic machinery for regeneration — the same ancient pathways that allow salamanders and axolotls to regrow full limbs from scratch. The problem isn't that we lack the ability. When injury strikes, the body's default response is to seal the wound with fibrous scar tissue as fast as possible — and that process appears to actively suppress the regeneration signals before they can fire.\n\nBy flipping specific genetic switches to suppress scar formation, scientists found they could potentially shift the body's injury response from patching to rebuilding. These mechanisms have been demonstrated in animal models, not yet in human clinical trials, but the core finding is a fundamental rethink: regeneration wasn't lost over millions of years of evolution — it was simply buried beneath a faster, cruder wound-sealing system that won the race every time.\n\nWhy it matters: if scientists can safely translate this to human medicine, it could reshape treatment for spinal cord injuries, amputations, and severe organ damage. The salamander wasn't special — it just never switched the signal off.\n\nSource: Good News Network\n\n#Science #DidYouKnow #Mindblowing #MedicalBreakthrough #HumanBody #Biology #Regeneration #FutureOfMedicine #HealthScience #Genetics",
+  "chosen_title": "SpaceX shares extend slide with another 3% fall; over $600 billion in market value wiped out in 3 sessions",
+  "lane": "finance",
+  "source": "Markets — Economic Times / CNBC",
+  "score": 87,
+  "caption": "🚀 SpaceX just had one of the most dramatic post-IPO crashes in Wall Street history.\n\nWithin three trading sessions of going public, SpaceX shares plunged so sharply that over $600 billion in market value was erased — pushing the stock below its own listing price. That is a historic wipeout by almost any measure.\n\nThe selloff was driven by three fears hitting simultaneously: an IPO valuation many analysts already considered stretched, mounting investor anxiety about the company's heavy debt-funded push into AI infrastructure, and a broader wave of selling hammering tech stocks across Wall Street. SpaceX had long been the crown jewel of private markets — but public markets play by colder rules.\n\nA 5% rebound followed as bargain hunters stepped in, though shares remained below their IPO listing price — meaning anyone who bought on day one is still underwater.\n\nWhy it matters: This is the sharpest possible reality check for the 'growth at any price' era of AI investing. Even the world's most iconic companies are not immune to the cold logic of public market valuations.\n\nSource: Markets — Economic Times / CNBC\n\n#SpaceX #StockMarket #Finance #WallStreet #ElonMusk #Tech #Investing #IPO #AI #DidYouKnow",
   "slides": [
     {
       "type": "cover",
-      "label": "AMAZING",
-      "art_prompt": "A wide-eyed cartoon human in a lab coat staring in total disbelief at their own hand, where severed fingers are sprouting back like glowing lime-green plant shoots from the stumps, while a cheerful cartoon salamander standing beside them on the lab bench flexes a brand-new arm and gives a confident thumbs-up, bold flat cartoon style, bright white background, no text anywhere in the image",
-      "headline": "YOUR BODY COULD REGROW ITSELF",
-      "highlight": "REGROW",
-      "source": "Good News Network",
+      "label": "FINANCE",
+      "art_prompt": "A gleaming SpaceX-style rocket blasting upward but shedding a torrent of giant dollar bills and bold red downward arrows that rain off its fuselage like feathers, while a tiny goggle-eyed cartoon investor in a rumpled suit stands on the launchpad below, clutching a stock-ticker printout showing a cliff-edge nosedive, mouth hanging open in disbelief, bright comic-book style with a stark white background",
+      "headline": "$600 BILLION gone in 3 days",
+      "highlight": "$600 BILLION",
+      "source": "Markets — Economic Times",
       "image": "assets/gen_00.png"
     },
     {
       "type": "context",
       "label": "THE STORY",
-      "headline": "Scar tissue has been blocking it all along",
-      "highlight": "BLOCKING",
-      "body": "Salamanders and axolotls can regrow entire limbs after amputation — a feat long assumed to be the exclusive property of certain animals. But new research suggests humans may have always carried the same ancient genetic machinery for regeneration, lying dormant inside our cells. The reason we don't use it: when the body is injured, it races to seal the wound with scar tissue first, and that process appears to actively shut off the regeneration signals before they ever get a chance to fire."
+      "headline": "SpaceX IPO'd — then the floor dropped",
+      "highlight": "floor dropped",
+      "body": "After one of the most anticipated stock market debuts in years, SpaceX shares tumbled across three consecutive sessions, erasing over $600 billion in market value and pushing the stock below its own listing price. The selling was driven by concerns over the company's lofty post-IPO valuation, its heavy reliance on debt-funded AI spending, and a broader technology selloff sweeping Wall Street. A 5% rebound followed as bargain hunters stepped in — but shares remained underwater for anyone who bought on IPO day."
     },
     {
       "type": "illustration",
-      "label": "THE COMPARISON",
-      "art_prompt": "A smug, muscle-flexing cartoon salamander proudly showing off a freshly regrown lime-green arm while standing next to a slumped, dejected cartoon human whose arm is buried in a giant chunky white plaster cast, a glowing DNA double-helix floating in the air between them as if the salamander is generously offering to hand it over, flat bold comic cartoon style, clean white background, no text in image",
-      "art": "flask",
-      "headline": "The salamander has always held the secret",
-      "highlight": "SECRET",
-      "body": "Salamanders suppress scar formation at the wound site and instead activate regeneration pathways — a process scientists found mirrors dormant pathways present in human cells. The difference between us and the salamander is not the blueprint for rebuilding. It is which program runs first.",
+      "label": "THE CATCH",
+      "art_prompt": "A sweating cartoon bull wearing a Wall Street tie, slumped at a trading desk surrounded by towering glowing AI server racks plastered with giant credit-card bills and price tags, a massive red arrow smashing down through the ceiling above him, a small SpaceX rocket model on the desk with an 'OVERVALUED' sticker slapped on it, flat lime-green and white comic style, high energy",
+      "art": "bolt",
+      "headline": "AI debt fears spooked the market",
+      "highlight": "AI DEBT",
+      "body": "Investors punished SpaceX for betting heavily on AI infrastructure funded by borrowed money — a strategy that dazzled private-market backers but rattled public shareholders as the Federal Reserve held rates high and tech valuations came under scrutiny.",
       "image": "assets/gen_02.png"
     },
     {
-      "type": "illustration",
-      "label": "HOW IT WORKS",
-      "art_prompt": "Cartoon extreme close-up inside a wound site: a mob of chunky grey scar-tissue blobs with stern frowning faces are frantically stacking tiny bricks to build a wall, while a single small glowing lime-green regeneration cell desperately tries to squeeze through a gap at the bottom, and in the background a cartoon scientist in goggles is excitedly reaching for a large genetic switch labeled OFF and flipping it toward ON, flat bold comic cartoon style, no text in image",
-      "art": "heart",
-      "headline": "Switch off scar tissue. Switch on repair.",
-      "highlight": "SWITCH ON",
-      "body": "By reprogramming specific genetic switches to suppress scar formation, researchers found the body may shift from sealing a wound to actually rebuilding it. The same injury that currently ends in permanent scar tissue could, in theory, end in restored, functional tissue — if the blocking signal is removed in time.",
-      "image": "assets/gen_03.png"
+      "type": "stat",
+      "label": "THE NUMBER",
+      "value": "$600B",
+      "caption": "Over $600 billion in SpaceX market value was wiped out across just three trading sessions — a short-term market-cap destruction larger than the total value of most Fortune 500 companies."
     },
     {
       "type": "points",
       "label": "WHY IT MATTERS",
       "points": [
-        "Salamanders, axolotls, and certain fish can fully regrow limbs after injury — and humans appear to share the deep evolutionary genetic blueprints that once made this possible in our ancient ancestors.",
-        "Scientists discovered that the body's scar-tissue response is not simply a healing shortcut — it actively competes with and suppresses regeneration signals, choosing fast wound closure over high-quality tissue repair.",
-        "By flipping genetic switches to suppress fibrosis and allow regeneration pathways to run, researchers demonstrated the body's latent ability to rebuild rather than just patch itself — a fundamentally different outcome from the same injury.",
-        "The research is still in early animal-model stages and has not yet entered human clinical trials, but if it translates, it could transform medicine for spinal cord injuries, amputations, burn damage, and organ repair."
+        "SpaceX's IPO was among the most anticipated public offerings in years, giving everyday retail investors their first chance to own a piece of Elon Musk's rocket and AI company.",
+        "Losing $600 billion in market cap across three sessions is a historically rare event — the scale rivals some of the largest single-stock crashes ever recorded on Wall Street.",
+        "The selloff signals a wider investor reckoning: technology companies that borrow aggressively to fund AI expansion are facing growing punishment in a high-interest-rate environment.",
+        "Despite the 5% single-day rebound driven by bargain hunters, SpaceX shares remained below their listing price, leaving IPO-day buyers sitting on paper losses."
       ]
     },
     {
       "type": "cta",
-      "headline": "FOLLOW FOR DAILY MIND-BENDING DISCOVERIES",
-      "highlight": "MIND-BENDING"
+      "headline": "Follow @decodededge for your daily edge",
+      "highlight": "daily edge"
     }
   ],
   "handle": "@decodededge",
