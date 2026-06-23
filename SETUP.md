@@ -33,6 +33,7 @@ daily with zero input.
 2. Repo → **Settings → Secrets and variables → Actions → New repository secret**,
    add:
    - `ANTHROPIC_API_KEY`
+   - `OPENAI_API_KEY`   (for the story cartoons)
    - `IG_USER_ID`
    - `IG_ACCESS_TOKEN`
 3. Repo → **Settings → Actions → General → Workflow permissions** → set

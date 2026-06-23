@@ -1,4 +1,5 @@
 anthropic>=0.111
+openai>=1.40
 feedparser>=6.0
 Pillow>=10.0
 requests>=2.31

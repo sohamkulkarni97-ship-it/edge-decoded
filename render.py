@@ -159,6 +159,29 @@ def draw_headline(draw, text, highlight, box, max_size=132, valign="bottom"):
     return size
 
 
+def draw_paragraph(draw, text, box, size=40, fill=WHITE, weight=500,
+                   leading=1.36, min_size=24, align="left"):
+    """Wrap a body paragraph (Inter) and auto-shrink until it fits the box."""
+    bx, by, bw, bh = box
+    words = (text or "").split()
+    s = size
+    while s > min_size:
+        font = inter(s, weight)
+        lines = _wrap(draw, words, font, bw)
+        if len(lines) * int(s * leading) <= bh:
+            break
+        s -= 2
+    font = inter(s, weight)
+    lh = int(s * leading)
+    lines = _wrap(draw, words, font, bw)
+    y = by
+    for ln in lines:
+        x = bx + (bw - tw(draw, ln, font)) / 2 if align == "center" else bx
+        draw.text((x, y), ln, font=font, fill=fill)
+        y += lh
+    return y
+
+
 # ---- illustrations (flat black+lime, drawn not AI) ---------------------------
 def _illo_rocket(draw, cx, cy, s):
     bw = int(s * 0.34)
@@ -221,6 +244,15 @@ _ILLOS = {"rocket": _illo_rocket, "pill": _illo_pill, "heart": _illo_heart,
           "flask": _illo_flask, "globe": _illo_globe, "bolt": _illo_bolt}
 
 
+def _paste_hero(ctx, path, cy=420, box=620):
+    """Composite an AI-generated cartoon into the slide's hero zone."""
+    im = Image.open(path).convert("RGBA")
+    im.thumbnail((box, box))
+    x = (W - im.width) // 2
+    y = cy - im.height // 2
+    ctx["img"].paste(im, (x, y), im)
+
+
 # ---- slide renderers ---------------------------------------------------------
 def slide_cover(draw, s, ctx):
     draw_label(draw, s.get("label", "BREAKING"), M, style="pill")
@@ -247,22 +279,20 @@ def slide_stat(draw, s, ctx):
 
 def slide_ring(draw, s, ctx):
     draw_label(draw, s.get("label", "DATA"), M, style="muted")
-    cx, cy, r = W // 2, 520, 200
-    draw.arc([cx - r, cy - r, cx + r, cy + r], 0, 360, fill=LINE, width=46)
+    cx, cy, r = W // 2, 420, 170
+    draw.arc([cx - r, cy - r, cx + r, cy + r], 0, 360, fill=LINE, width=42)
     pct = float(s.get("percent", 0))
     draw.arc([cx - r, cy - r, cx + r, cy + r], -90, -90 + pct / 100 * 360,
-             fill=LIME, width=46)
-    big = anton(150)
+             fill=LIME, width=42)
+    big = anton(130)
     btxt = s.get("big", f"{int(pct)}%")
-    bx = cx - tw(draw, btxt, big) / 2
-    draw.text((bx, cy - 110), btxt, font=big, fill=LIME)
-    cap = s.get("caption", "")
-    fc = inter(34, 600)
-    cxw = cx - tw(draw, cap, fc) / 2
-    draw.text((cxw, cy + r + 30), cap, font=fc, fill=SUB)
+    draw.text((cx - tw(draw, btxt, big) / 2, cy - 95), btxt, font=big, fill=LIME)
+    if s.get("caption"):
+        draw_paragraph(draw, s["caption"], (M, cy + r + 28, W - 2 * M, 170),
+                       size=34, fill=SUB, align="center")
     if s.get("headline"):
         draw_headline(draw, s["headline"], s.get("highlight"),
-                      (M, 880, W - 2 * M, 240), max_size=92, valign="top")
+                      (M, 880, W - 2 * M, 230), max_size=80, valign="top")
     draw_footer(draw, ctx["handle"], s.get("index"), ctx["total"])
 
 
@@ -293,26 +323,54 @@ def slide_bars(draw, s, ctx):
 
 def slide_illustration(draw, s, ctx):
     draw_label(draw, s.get("label", "SCIENCE"), M, style="muted")
-    fn = _ILLOS.get(s.get("art", "bolt"), _illo_bolt)
-    fn(draw, W // 2, 480, 360)
+    img = s.get("image")
+    if img and os.path.exists(os.path.join(HERE, img)):
+        _paste_hero(ctx, os.path.join(HERE, img), cy=420, box=620)
+    else:
+        _ILLOS.get(s.get("art", "bolt"), _illo_bolt)(draw, W // 2, 420, 300)
     draw_headline(draw, s["headline"], s.get("highlight"),
-                  (M, 800, W - 2 * M, 320), max_size=110, valign="top")
+                  (M, 640, W - 2 * M, 190), max_size=88, valign="top")
+    if s.get("body"):
+        draw_paragraph(draw, s["body"], (M, 860, W - 2 * M, 300),
+                       size=36, fill=(205, 205, 205))
+    draw_footer(draw, ctx["handle"], s.get("index"), ctx["total"])
+
+
+def slide_context(draw, s, ctx):
+    draw_label(draw, s.get("label", "THE STORY"), M, style="muted")
+    draw_headline(draw, s["headline"], s.get("highlight"),
+                  (M, 240, W - 2 * M, 280), max_size=92, valign="top")
+    draw_paragraph(draw, s.get("body", ""), (M, 580, W - 2 * M, 520),
+                   size=42, fill=(222, 222, 222))
     draw_footer(draw, ctx["handle"], s.get("index"), ctx["total"])
 
 
 def slide_points(draw, s, ctx):
     draw_label(draw, s.get("label", "WHY IT MATTERS"), M, style="muted")
-    y = 360
-    fp = inter(48, 600)
-    fd = anton(54)
-    for p in s.get("points", []):
-        draw.text((M, y - 4), "—", font=fd, fill=LIME)
-        lines = _wrap(draw, p.split(), fp, W - 2 * M - 80)
+    pts = s.get("points", [])
+    top, avail = 300, 850
+    size = 46
+    while size > 26:
+        fp = inter(size, 500)
+        lh = int(size * 1.32)
+        gap = int(size * 0.95)
+        wrapped = [_wrap(draw, p.split(), fp, W - 2 * M - 76) for p in pts]
+        if sum(len(w) * lh + gap for w in wrapped) <= avail:
+            break
+        size -= 2
+    fp = inter(size, 500)
+    lh = int(size * 1.32)
+    gap = int(size * 0.95)
+    fd = anton(int(size * 1.05))
+    wrapped = [_wrap(draw, p.split(), fp, W - 2 * M - 76) for p in pts]
+    y = top
+    for lines in wrapped:
+        draw.text((M, y - 6), "—", font=fd, fill=LIME)
         yy = y
         for ln in lines:
-            draw.text((M + 80, yy), ln, font=fp, fill=WHITE)
-            yy += 60
-        y = yy + 56
+            draw.text((M + 76, yy), ln, font=fp, fill=WHITE)
+            yy += lh
+        y = yy + gap
     draw_footer(draw, ctx["handle"], s.get("index"), ctx["total"])
 
 
@@ -328,15 +386,40 @@ def slide_cta(draw, s, ctx):
 _RENDERERS = {
     "cover": slide_cover, "stat": slide_stat, "ring": slide_ring,
     "bars": slide_bars, "illustration": slide_illustration,
-    "points": slide_points, "cta": slide_cta,
+    "context": slide_context, "points": slide_points, "cta": slide_cta,
 }
 
 
 # ---- driver ------------------------------------------------------------------
+def _infer_type(s, index=None, total=None):
+    """Resilience: if the model forgot the 'type' tag, deduce it from the fields."""
+    if s.get("type"):
+        return s["type"]
+    if "source" in s:
+        return "cover"
+    if "points" in s:
+        return "points"
+    if "percent" in s:
+        return "ring"
+    if "bars" in s:
+        return "bars"
+    if "value" in s:
+        return "stat"
+    if "art" in s:
+        return "illustration"
+    if "body" in s:
+        return "context"
+    if total and index == total:
+        return "cta"
+    return "cover"
+
+
 def render_slide(spec, ctx):
     img = Image.new("RGB", (W, H), BG)
     draw = ImageDraw.Draw(img)
-    _RENDERERS.get(spec["type"], slide_cover)(draw, spec, ctx)
+    ctx = {**ctx, "img": img}
+    stype = _infer_type(spec, spec.get("index"), ctx.get("total"))
+    _RENDERERS.get(stype, slide_cover)(draw, spec, ctx)
     return img
 
 

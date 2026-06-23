@@ -45,36 +45,71 @@ You will receive a list of fresh news candidates. Do two jobs:
 
 2) Pick the SINGLE highest scorer, then build an Edge Decoded carousel for it.
 
-CAROUSEL RULES:
-- 5 to 7 slides. Always start with a "cover" and end with a "cta".
-- Map the story onto the slide types below. Use a "stat" or "ring" slide ONLY if
-  the story has a real, sourced number. Use "bars" only for a real trend/comparison.
-  Use "illustration" for abstract stories (pick the closest art key). Use "points"
-  for a "why it matters" slide. When unsure, use a "cover"-style big-type beat.
-- Highlight ONE punchy word/number per headline via the "highlight" field (it is
-  drawn in the lime accent). Keep headlines short - they are set in heavy display type.
-- Every factual claim must come from the candidate's title/summary. Do not invent
-  numbers. If you state a figure, it must be in the source text.
+CAROUSEL RULES (DEPTH MATTERS — the carousel must actually teach the story):
+- 6 to 8 slides. Always start with "cover" and end with "cta".
+- The carousel must carry ~30-40% of the full story: real specifics — names, numbers,
+  what happened, how it works, the timeline, the catch/caveat. Someone who reads only
+  the carousel should understand the gist; the caption then delivers 100%.
+- REQUIRED beats, in order (adapt to the story):
+    1. cover         — the hook
+    2. context       — what actually happened: a real 2-4 sentence paragraph in "body"
+    3. a data beat   — stat OR ring OR bars if there is a real number; otherwise a second
+                       context slide, or an illustration whose "body" carries the key fact
+    4. illustration  — a relevant visual beat with a 1-2 sentence "body"
+    5. points        — 3-4 FULL-SENTENCE facts (never 3-word fragments), e.g. "why it
+                       matters" or "the details"
+    6. cta
+- Headlines stay short (heavy display type). The INFORMATION lives in the "body" fields,
+  the stat "caption", and the "points" — write those as complete, specific sentences.
+- Highlight ONE punchy word/number per headline via "highlight".
+- Facts must come from the candidate's title/summary. You MAY add widely-known background
+  (e.g. what Alzheimer's is) clearly as context, but NEVER invent specific figures, study
+  sizes, quotes, or dates that are not in the source.
 
-SLIDE SCHEMA (return only these types and fields):
+SLIDE SCHEMA — every slide object MUST include a "type" field set to one of:
+cover, context, stat, ring, bars, illustration, points, cta. Then add its fields:
   cover         : label, headline, highlight, source
-  stat          : label, value (e.g. "60%"), caption
+  context       : label, headline, highlight, body   (body = 2-4 full sentences — the core explanation)
+  stat          : label, value (e.g. "60%"), caption (caption = a full explanatory sentence)
   ring          : label, percent (number), big (e.g. "78%"), caption, headline, highlight
   bars          : label, bars (list of 4-6 numbers), barlabel, headline, highlight
-  illustration  : label, art, headline, highlight
-  points        : label, points (list of 2-4 short strings)
+  illustration  : label, art_prompt, art, headline, highlight, body
+       art_prompt = a vivid ONE-LINE description of a SINGLE cartoon subject that captures
+                    this specific story (e.g. "a smiling elderly woman with a glowing speech
+                    bubble", "a strand of DNA breaking through a brick wall"). It is rendered
+                    as a flat lime+white cartoon. Make it concrete and story-specific. No text.
+       art = closest fallback key from the list below (used only if image generation is off).
+       body = 1-2 sentence supporting fact.
+  points        : label, points (list of 3-4 FULL-SENTENCE strings)
   cta           : headline, highlight
-ILLUSTRATION art keys: rocket, pill, heart, flask, globe, bolt
-LABELS are short uppercase tags: BREAKING, SCIENCE, PHARMA, MARKETS, THE NUMBER,
-WHY IT MATTERS, etc.
+ILLUSTRATION art keys (fallback only, pick the closest): rocket, pill, heart, flask, globe, bolt
+LABELS are short uppercase tags: BREAKING, THE STORY, THE NUMBER, HOW IT WORKS,
+THE DETAILS, WHY IT MATTERS, THE CATCH, SCIENCE, PHARMA, MARKETS, WORLD.
 
-OUTPUT: return ONLY a JSON object, no prose, no markdown fences, shaped exactly:
+CAPTION RULES (this is where 100% of the information goes — make it rich):
+- 130-220 words, written like a mini-article with line breaks for readability.
+- Use REAL newlines (the "\\n" escape in JSON). Structure it EXACTLY like this, with a
+  BLANK LINE between every block:
+    a strong one-line hook (an emoji is fine)
+    [blank line]
+    2-3 short paragraphs telling the FULL story: who, what, the numbers, how it works,
+    what is genuinely new, and any caveat or limitation — specific and concrete
+    [blank line]
+    Why it matters: 1-2 sentences
+    [blank line]
+    Source: <publication>
+    [blank line]
+    8-12 relevant, specific hashtags on the final line
+- Separate every block with a blank line ("\\n\\n"). Never one long run-on paragraph.
+
+OUTPUT: return ONLY a JSON object (no prose, no markdown fences). In "caption" use the
+"\\n" escape for line breaks. Shape:
 {{
   "chosen_title": "...",
   "lane": "...",
   "source": "...",
   "score": 0,
-  "caption": "Instagram caption: 1-2 punchy sentences ending with the source, then 6-10 relevant hashtags.",
+  "caption": "<detailed multi-paragraph caption with \\n line breaks and \\n\\n between blocks>",
   "slides": [ ...slide objects per the schema above... ]
 }}
 """

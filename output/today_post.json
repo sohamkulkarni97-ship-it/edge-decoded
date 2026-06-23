@@ -1,52 +1,50 @@
 {
-  "chosen_title": "Woman with Alzheimer's starts conversing again after taking psilocybin",
-  "lane": "science",
-  "source": "New Scientist",
-  "score": 87,
-  "caption": "A woman with severe Alzheimer's who hadn't spoken more than monosyllables in years began initiating real conversation — after a single dose of psilocybin. Source: New Scientist. #Alzheimers #Psilocybin #BrainHealth #Neuroscience #MagicMushrooms #DementiaResearch #MedicalBreakthrough #ScienceNews #DecodeDaily #HealthNews",
+  "chosen_title": "CARsgen makes history as China approves world's first CAR-T therapy for solid tumors",
+  "lane": "pharma",
+  "source": "Fierce Pharma",
+  "score": 83,
+  "caption": "🔬 For decades, solid tumors have beaten back every CAR-T attempt. That just changed.\n\nChina has approved CARsgen Therapeutics' CAR-T cell therapy targeting solid tumors — a global first. The drug homes in on Claudin18.2, a protein overexpressed on cells in gastric, pancreatic, and esophageal cancers, some of the deadliest malignancies in oncology. CAR-T (Chimeric Antigen Receptor T-cell) therapy works by engineering a patient's own immune cells to recognize and destroy cancer, then infusing billions of them back into the body.\n\nSince the first FDA approval in 2017, CAR-T has transformed outcomes in blood cancers like leukemia and lymphoma, with some patients achieving complete remission. But solid tumors — roughly 90% of all human cancers — have consistently neutralized the approach by creating a hostile microenvironment that disarms engineered T-cells. CARsgen's Claudin18.2-targeted therapy appears to have cleared that barrier, at least for select tumor types, becoming the first CAR-T to win regulatory approval for a solid tumor anywhere in the world.\n\nWhy it matters: This is proof-of-concept that CAR-T can breach solid tumors, potentially opening a new era of immunotherapy for the cancers that kill the most people. US and European regulators will be watching closely.\n\nSource: Fierce Pharma\n\n#CancerResearch #CART #Immunotherapy #CARsgen #SolidTumors #Oncology #CancerTreatment #Pharma #Biotech #MedicalBreakthrough #GastricCancer #CellTherapy",
   "slides": [
     {
-      "type": "cover",
-      "label": "SCIENCE",
-      "headline": "One Dose. She Spoke Again.",
-      "highlight": "One",
-      "source": "New Scientist"
+      "label": "BREAKING",
+      "headline": "The First CAR-T to Beat Solid Tumors",
+      "highlight": "First",
+      "source": "Fierce Pharma"
     },
     {
-      "type": "illustration",
-      "label": "THE PATIENT",
-      "art": "pill",
-      "headline": "Years Without Real Words",
-      "highlight": "Years"
+      "label": "THE STORY",
+      "headline": "A Decades-Long Wall Just Fell",
+      "highlight": "Wall",
+      "body": "China has approved CARsgen Therapeutics' CAR-T cell therapy targeting solid tumors — a global first in cancer medicine. The drug targets Claudin18.2, a protein overexpressed on certain solid tumor cells including gastric and pancreatic cancers. CAR-T therapy has revolutionized blood cancer treatment since 2017, but solid tumors had blocked every previous attempt — creating a wall researchers spent decades trying to breach."
     },
     {
-      "type": "stat",
-      "label": "THE TREATMENT",
-      "value": "1 Dose",
-      "caption": "A woman with severe Alzheimer's — silent beyond monosyllables for years — began initiating conversation after a single administration of psilocybin.",
-      "index": "psilocybin"
+      "label": "THE NUMBER",
+      "percent": 90,
+      "big": "90%",
+      "caption": "Roughly 90% of all human cancers are solid tumors — the very cancer type that CAR-T therapy has failed to treat for decades, making this China approval a landmark turning point.",
+      "headline": "of All Cancers Are Solid Tumors",
+      "highlight": "90%"
     },
     {
-      "type": "illustration",
-      "label": "THE RESULT",
-      "art": "heart",
-      "headline": "She Started Talking Again",
-      "highlight": "Talking"
+      "label": "HOW IT WORKS",
+      "art": "flask",
+      "image": "assets/gen_test.png",
+      "headline": "Your Own Cells, Reprogrammed to Kill",
+      "highlight": "Reprogrammed",
+      "body": "CAR-T extracts a patient's T-cells, engineers them in a lab with a receptor that locks onto a cancer-specific protein — here, Claudin18.2 — then infuses billions back into the body as living drugs. Solid tumors had long defeated this by creating an immunosuppressive microenvironment that disarms the engineered cells on arrival."
     },
     {
-      "type": "points",
       "label": "WHY IT MATTERS",
       "points": [
-        "She hadn't spoken beyond monosyllables in years — then one dose changed that",
-        "Psilocybin triggered conversation she initiated herself, not just responses",
-        "No approved drug today can reverse severe Alzheimer's decline",
-        "This single case could accelerate psilocybin trials in dementia globally"
+        "CARsgen's therapy targets Claudin18.2, a protein overexpressed on gastric, pancreatic, and esophageal cancer cells, giving engineered T-cells a precise molecular target so they attack tumors without destroying healthy tissue.",
+        "CAR-T drugs transformed blood cancer care after the first FDA approval in 2017, but solid tumors — responsible for the overwhelming majority of global cancer deaths — had resisted every prior CAR-T approach.",
+        "China's approval is the first time any CAR-T therapy has cleared a national regulator for a solid tumor anywhere in the world, setting a direct precedent for future regulatory submissions in the US and Europe.",
+        "If the Claudin18.2 approach proves broadly applicable, it could eventually extend to other tumor types that express the same protein, targeting some of the most treatment-resistant cancers in all of oncology."
       ]
     },
     {
-      "type": "cta",
-      "headline": "Follow @decode.daily — breakthroughs decoded daily",
-      "highlight": "breakthroughs"
+      "headline": "Which Solid Tumor Could CAR-T Target Next?",
+      "highlight": "Next"
     }
   ],
   "handle": "@decodededge"

@@ -87,11 +87,15 @@ def fetch_candidates():
                     if age > dt.timedelta(hours=MAX_AGE_HOURS):
                         continue
                 seen.add(k)
+                body = ""
+                if entry.get("content"):
+                    body = entry["content"][0].get("value", "")
+                body = body or entry.get("summary", "") or entry.get("description", "")
                 out.append({
                     "key": k,
                     "lane": lane,
                     "title": title,
-                    "summary": _clean(entry.get("summary"))[:600],
+                    "summary": _clean(body)[:1800],
                     "source": (feed.feed.get("title") or url.split("/")[2]),
                     "link": entry.get("link", ""),
                 })
