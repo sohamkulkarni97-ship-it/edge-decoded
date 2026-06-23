@@ -18,19 +18,19 @@ MODEL = "gpt-image-1"
 # while being eye-catching enough to stop the scroll.
 STYLE = (
     "Bold punchy editorial CARTOON illustration with comic-book energy and personality. "
-    "Thick clean black outlines, flat vibrant colors, acid-lime green (#C8FF00) as the "
-    "DOMINANT accent alongside white and a couple of bold pop colors. Expressive, slightly "
+    "Thick clean black outlines, flat vibrant colors, the color {accent} as the DOMINANT "
+    "accent alongside white and a couple of bold pop colors. Expressive, slightly "
     "exaggerated and funny characters; dynamic composition. Fully TRANSPARENT "
     "background (the art will sit on a black canvas). One focused character or mini-scene. "
     "Absolutely NO text, letters, numbers, speech-bubble words, watermark, or border. Scene: "
 )
 
 
-def generate(art_prompt, out_path, size="1024x1024", quality="medium"):
+def generate(art_prompt, out_path, accent_hex="#C8FF00", size="1024x1024", quality="medium"):
     client = OpenAI()
     res = client.images.generate(
         model=MODEL,
-        prompt=STYLE + art_prompt,
+        prompt=STYLE.format(accent=accent_hex) + art_prompt,
         size=size,
         quality=quality,
         background="transparent",

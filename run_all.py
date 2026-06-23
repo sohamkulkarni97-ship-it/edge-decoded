@@ -18,8 +18,8 @@ import render
 HERE = pick_and_write.HERE
 
 
-def _add_cartoons(post):
-    """For each illustration slide with an art_prompt, generate a cartoon (best-effort)."""
+def _add_cartoons(post, accent_hex):
+    """For each slide with an art_prompt, generate a cartoon in the day's accent (best-effort)."""
     if not os.environ.get("OPENAI_API_KEY"):
         print("[note] OPENAI_API_KEY not set — using fallback drawn shapes.")
         return
@@ -30,7 +30,7 @@ def _add_cartoons(post):
             continue
         rel = os.path.join("assets", f"gen_{i:02d}.png")
         try:
-            gen_image.generate(prompt, os.path.join(HERE, rel))
+            gen_image.generate(prompt, os.path.join(HERE, rel), accent_hex=accent_hex)
             sl["image"] = rel
             print(f"  cartoon -> {rel}  ({prompt[:48]}...)")
         except Exception as e:
@@ -44,7 +44,11 @@ def main():
     print(f"Fetched {len(cands)} candidates.")
     post = pick_and_write.generate_post(cands, avoid_lanes=pick_and_write._recent_lanes())
     print(f"Chosen [{post.get('lane')}] (score {post.get('score')}): {post.get('chosen_title')}")
-    _add_cartoons(post)
+    name, rgb, accent_hex = render.pick_palette()
+    post["palette"] = name
+    post["accent_rgb"] = list(rgb)
+    print(f"Palette: {name} ({accent_hex})")
+    _add_cartoons(post, accent_hex)
     out = os.path.join(HERE, "output", "today_post.json")
     os.makedirs(os.path.dirname(out), exist_ok=True)
     with open(out, "w", encoding="utf-8") as fh:

@@ -20,10 +20,17 @@ POSTED_LOG = os.path.join(HERE, "posted.json")
 
 # lane -> list of free RSS feeds (no key required)
 FEEDS = {
-    "news": [
-        "https://feeds.reuters.com/reuters/worldNews",
-        "https://feeds.bbci.co.uk/news/world/rss.xml",
-        "https://www.thehindu.com/news/national/feeder/default.rss",
+    "finance": [
+        "https://www.moneycontrol.com/rss/MCtopnews.xml",
+        "https://economictimes.indiatimes.com/markets/rssfeeds/1977021501.cms",
+        "https://feeds.a.dj.com/rss/RSSMarketsMain.xml",
+        "https://www.cnbc.com/id/10000664/device/rss/rss.html",
+    ],
+    "ai": [
+        "https://www.technologyreview.com/feed/",
+        "https://venturebeat.com/category/ai/feed/",
+        "https://techcrunch.com/tag/artificial-intelligence/feed/",
+        "https://www.theverge.com/rss/index.xml",
     ],
     "science": [
         "https://www.sciencedaily.com/rss/top/science.xml",
@@ -36,10 +43,11 @@ FEEDS = {
         "https://www.fiercepharma.com/rss/xml",
         "https://www.who.int/feeds/entity/mediacentre/news/en/rss.xml",
     ],
-    "markets": [
-        "https://www.moneycontrol.com/rss/MCtopnews.xml",
-        "https://economictimes.indiatimes.com/markets/rssfeeds/1977021501.cms",
-        "https://feeds.reuters.com/reuters/businessNews",
+    "amazing": [
+        "https://www.goodnewsnetwork.org/feed/",
+        "https://www.upi.com/rss/Odd_News/",
+        "https://www.reddit.com/r/Damnthatsinteresting/top/.rss?t=day",
+        "https://www.reddit.com/r/UpliftingNews/top/.rss?t=day",
     ],
 }
 

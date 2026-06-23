@@ -26,7 +26,30 @@ WHITE = (255, 255, 255)
 MUTED = (110, 110, 110)
 SUB = (150, 150, 150)
 LINE = (38, 38, 38)
-INK = (10, 10, 10)          # text on lime
+INK = (10, 10, 10)          # text on accent
+
+# Daily-rotating accent palettes (bg stays black for brand + legibility).
+PALETTES = [
+    ("lime",   (200, 255, 0),   "#C8FF00"),
+    ("cyan",   (0, 229, 255),   "#00E5FF"),
+    ("pink",   (255, 61, 165),  "#FF3DA5"),
+    ("orange", (255, 106, 0),   "#FF6A00"),
+    ("yellow", (255, 212, 0),   "#FFD400"),
+    ("violet", (157, 123, 255), "#9D7BFF"),
+]
+
+
+def pick_palette(seed=None):
+    """Deterministic daily rotation; pass a seed to force one."""
+    import datetime as _dt
+    if seed is None:
+        seed = _dt.date.today().toordinal()
+    return PALETTES[seed % len(PALETTES)]
+
+
+def set_accent(rgb):
+    global LIME
+    LIME = tuple(rgb)
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 FONT_DIR = os.path.join(HERE, "fonts")
@@ -431,6 +454,7 @@ def render_slide(spec, ctx):
 
 def render_post(post, out_dir=OUT_DIR):
     os.makedirs(out_dir, exist_ok=True)
+    set_accent(post.get("accent_rgb") or pick_palette()[1])
     handle = post.get("handle", "@decodededge")
     slides = post["slides"]
     ctx = {"handle": handle, "total": len(slides)}
