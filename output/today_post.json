@@ -2,49 +2,65 @@
   "chosen_title": "CARsgen makes history as China approves world's first CAR-T therapy for solid tumors",
   "lane": "pharma",
   "source": "Fierce Pharma",
-  "score": 83,
-  "caption": "🔬 For decades, solid tumors have beaten back every CAR-T attempt. That just changed.\n\nChina has approved CARsgen Therapeutics' CAR-T cell therapy targeting solid tumors — a global first. The drug homes in on Claudin18.2, a protein overexpressed on cells in gastric, pancreatic, and esophageal cancers, some of the deadliest malignancies in oncology. CAR-T (Chimeric Antigen Receptor T-cell) therapy works by engineering a patient's own immune cells to recognize and destroy cancer, then infusing billions of them back into the body.\n\nSince the first FDA approval in 2017, CAR-T has transformed outcomes in blood cancers like leukemia and lymphoma, with some patients achieving complete remission. But solid tumors — roughly 90% of all human cancers — have consistently neutralized the approach by creating a hostile microenvironment that disarms engineered T-cells. CARsgen's Claudin18.2-targeted therapy appears to have cleared that barrier, at least for select tumor types, becoming the first CAR-T to win regulatory approval for a solid tumor anywhere in the world.\n\nWhy it matters: This is proof-of-concept that CAR-T can breach solid tumors, potentially opening a new era of immunotherapy for the cancers that kill the most people. US and European regulators will be watching closely.\n\nSource: Fierce Pharma\n\n#CancerResearch #CART #Immunotherapy #CARsgen #SolidTumors #Oncology #CancerTreatment #Pharma #Biotech #MedicalBreakthrough #GastricCancer #CellTherapy",
+  "score": 84,
+  "caption": "🧬 A cancer treatment once deemed impossible just crossed the finish line.\n\nFor nearly a decade, CAR-T therapy — which reprograms a patient's own immune cells to hunt cancer — revolutionised blood cancers like leukemia and lymphoma. But solid tumors, which form physical masses and actively suppress the immune system, defeated every attempt. Chinese biotech CARsgen just changed that: China's National Medical Products Administration has approved the world's first CAR-T therapy for a solid tumor.\n\nThe treatment targets Claudin18.2, a protein expressed on gastric and other solid tumor cells. It is the first CAR-T therapy to receive regulatory approval anywhere in the world outside blood cancers — a milestone researchers have been chasing since 2017.\n\nSolid tumors account for roughly 90% of all cancer diagnoses globally, including lung, stomach, colon, and breast cancers — meaning the overwhelming majority of cancer patients were ineligible for CAR-T therapy until now. This approval signals that the biological wall has finally been breached.\n\nWhy it matters: If the approach can be extended to other solid tumor targets, CAR-T — once reserved for a narrow slice of cancer patients — could eventually reach the majority of people diagnosed with cancer.\n\nSource: Fierce Pharma\n\n#CARTcell #CancerBreakthrough #Oncology #CARsgen #SolidTumors #Immunotherapy #CancerResearch #Biotech #Pharma #MedicalNews #HealthScience #CancerTreatment",
   "slides": [
     {
+      "type": "cover",
       "label": "BREAKING",
-      "headline": "The First CAR-T to Beat Solid Tumors",
-      "highlight": "First",
-      "source": "Fierce Pharma"
+      "art_prompt": "A single cartoon T-cell warrior — a round, fierce character in gleaming silver armor with a glowing biohazard crest — crashing fist-first through a crumbling dark grey fortress wall shaped like a lumpy solid tumor; a gold 'WORLD FIRST' banner streams above the breach; shockwave energy lines explode from the impact point; debris flying; bold flat cartoon style, lime green and white palette",
+      "headline": "The cancer treatment that was supposed to be impossible",
+      "highlight": "impossible",
+      "source": "Fierce Pharma",
+      "image": "assets\\gen_00.png"
     },
     {
+      "type": "context",
       "label": "THE STORY",
-      "headline": "A Decades-Long Wall Just Fell",
-      "highlight": "Wall",
-      "body": "China has approved CARsgen Therapeutics' CAR-T cell therapy targeting solid tumors — a global first in cancer medicine. The drug targets Claudin18.2, a protein overexpressed on certain solid tumor cells including gastric and pancreatic cancers. CAR-T therapy has revolutionized blood cancer treatment since 2017, but solid tumors had blocked every previous attempt — creating a wall researchers spent decades trying to breach."
+      "headline": "CAR-T just crossed its final frontier",
+      "highlight": "final frontier",
+      "body": "CAR-T therapy takes a patient's own T-cells, genetically reprograms them to recognise and destroy cancer, then infuses them back into the body. It has been approved for blood cancers since 2017 — but solid tumors, which represent the vast majority of cancer cases, have blocked every attempt for nearly a decade. Chinese biotech CARsgen has now received regulatory approval from China's National Medical Products Administration for a CAR-T therapy targeting a solid tumor, a global first. The therapy homes in on Claudin18.2, a protein expressed on gastric and other solid tumor cells."
     },
     {
+      "type": "illustration",
+      "label": "THE CATCH",
+      "art_prompt": "A cartoon T-cell soldier in full shining armor standing helplessly outside a giant dark fortress shaped like a spiky, lumpy tumor; the fortress gate is chained shut and guarded by plump grey blob 'immunosuppressor' sentinels blocking every entrance; the T-cell holds a cracked shield and stares up with wide, frustrated eyes; a bold NO ENTRY sign on the gate; flat bold cartoon style, lime green, grey, and white",
+      "art": "heart",
+      "headline": "Why solid tumors always won",
+      "highlight": "always won",
+      "body": "Solid tumors create a hostile immunosuppressive microenvironment — essentially disarming CAR-T cells before they can attack. This biological defence made gastric, lung, colon, and other solid tumor cancers effectively off-limits to CAR-T immunotherapy for nearly a decade.",
+      "image": "assets\\gen_02.png"
+    },
+    {
+      "type": "stat",
       "label": "THE NUMBER",
-      "percent": 90,
-      "big": "90%",
-      "caption": "Roughly 90% of all human cancers are solid tumors — the very cancer type that CAR-T therapy has failed to treat for decades, making this China approval a landmark turning point.",
-      "headline": "of All Cancers Are Solid Tumors",
-      "highlight": "90%"
+      "value": "~90%",
+      "caption": "Solid tumors account for roughly 90% of all cancer diagnoses worldwide — lung, stomach, colon, breast, and more — meaning the overwhelming majority of cancer patients had no access to CAR-T therapy until CARsgen's Claudin18.2-targeted approval changed the equation."
     },
     {
+      "type": "illustration",
       "label": "HOW IT WORKS",
+      "art_prompt": "A cartoon scientist in a white lab coat carefully screwing a glowing green targeting scope labeled 'CLAUDIN 18.2' onto a compact, determined T-cell character; the T-cell vibrates with anticipation, fists clenched, eyes laser-focused and gleaming; electric sparks and energy bolts fly from the upgrade station; humming lab machinery surrounds them; flat bold cartoon style, lime green, electric yellow, and white",
       "art": "flask",
-      "image": "assets/gen_test.png",
-      "headline": "Your Own Cells, Reprogrammed to Kill",
-      "highlight": "Reprogrammed",
-      "body": "CAR-T extracts a patient's T-cells, engineers them in a lab with a receptor that locks onto a cancer-specific protein — here, Claudin18.2 — then infuses billions back into the body as living drugs. Solid tumors had long defeated this by creating an immunosuppressive microenvironment that disarms the engineered cells on arrival."
+      "headline": "The key: a precise new target",
+      "highlight": "Claudin18.2",
+      "body": "CARsgen's therapy engineers T-cells to lock onto Claudin18.2, a protein found on the surface of gastric tumor cells. This specific receptor gives the reprogrammed immune cell a molecular foothold inside the previously impenetrable tumor microenvironment — the trick that had eluded researchers for years.",
+      "image": "assets\\gen_04.png"
     },
     {
+      "type": "points",
       "label": "WHY IT MATTERS",
       "points": [
-        "CARsgen's therapy targets Claudin18.2, a protein overexpressed on gastric, pancreatic, and esophageal cancer cells, giving engineered T-cells a precise molecular target so they attack tumors without destroying healthy tissue.",
-        "CAR-T drugs transformed blood cancer care after the first FDA approval in 2017, but solid tumors — responsible for the overwhelming majority of global cancer deaths — had resisted every prior CAR-T approach.",
-        "China's approval is the first time any CAR-T therapy has cleared a national regulator for a solid tumor anywhere in the world, setting a direct precedent for future regulatory submissions in the US and Europe.",
-        "If the Claudin18.2 approach proves broadly applicable, it could eventually extend to other tumor types that express the same protein, targeting some of the most treatment-resistant cancers in all of oncology."
+        "This is the first CAR-T cell therapy to receive regulatory approval anywhere in the world for a solid tumor, ending a nearly decade-long stalemate that began when CAR-T first won approval for blood cancers in 2017.",
+        "CARsgen's Claudin18.2-targeted treatment is initially relevant to gastric cancer, one of the leading causes of cancer death globally, with potential to be adapted to other Claudin18.2-expressing tumor types.",
+        "China's National Medical Products Administration approval establishes proof-of-concept that the solid tumor immune barrier can be broken, which is widely expected to accelerate solid tumor CAR-T trials at biotech firms worldwide.",
+        "If the approach can be extended to other solid tumor targets — lung, colon, pancreatic — CAR-T therapy could eventually become available to the majority of cancer patients who were previously ineligible for it."
       ]
     },
     {
-      "headline": "Which Solid Tumor Could CAR-T Target Next?",
-      "highlight": "Next"
+      "type": "cta",
+      "headline": "Follow for the medical breakthroughs that actually change cancer",
+      "highlight": "change cancer"
     }
   ],
   "handle": "@decodededge"

@@ -256,8 +256,14 @@ def _paste_hero(ctx, path, cy=420, box=620):
 # ---- slide renderers ---------------------------------------------------------
 def slide_cover(draw, s, ctx):
     draw_label(draw, s.get("label", "BREAKING"), M, style="pill")
-    draw_headline(draw, s["headline"], s.get("highlight"),
-                  (M, 300, W - 2 * M, 720), max_size=140, valign="bottom")
+    img = s.get("image")
+    if img and os.path.exists(os.path.join(HERE, img)):
+        _paste_hero(ctx, os.path.join(HERE, img), cy=440, box=600)
+        hl_box, maxsz = (M, 760, W - 2 * M, 300), 118
+    else:
+        hl_box, maxsz = (M, 300, W - 2 * M, 720), 140
+    draw_headline(draw, s["headline"], s.get("highlight"), hl_box,
+                  max_size=maxsz, valign="bottom")
     f = inter(30, 800)
     draw_tracked(draw, (M, H - 250), "SWIPE →", f, LIME, tracking=2)
     draw_footer(draw, ctx["handle"], source=s.get("source"))

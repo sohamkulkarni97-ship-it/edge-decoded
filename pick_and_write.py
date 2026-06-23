@@ -45,19 +45,25 @@ You will receive a list of fresh news candidates. Do two jobs:
 
 2) Pick the SINGLE highest scorer, then build an Edge Decoded carousel for it.
 
-CAROUSEL RULES (DEPTH MATTERS — the carousel must actually teach the story):
+CAROUSEL RULES (ENGAGING first, informative second):
 - 6 to 8 slides. Always start with "cover" and end with "cta".
-- The carousel must carry ~30-40% of the full story: real specifics — names, numbers,
-  what happened, how it works, the timeline, the catch/caveat. Someone who reads only
-  the carousel should understand the gist; the caption then delivers 100%.
+- GRAPHICS-FIRST. This is a VISUAL page. Before writing slides, split the story into
+  (a) content beats and (b) 2-3 GRAPHIC MOMENTS worth illustrating. Put an "art_prompt" on
+  the COVER and on 1-2 illustration slides — 2-3 graphics per post. Every art_prompt is a
+  detailed, characterful cartoon SCENE (a character mid-action, comic energy, funny/bold,
+  props), NEVER a plain icon. The image model sees ONLY your art_prompt, so describe the
+  whole scene in one rich line.
+- THE COVER DECIDES EVERYTHING — people only swipe if it grabs them. Give the cover the
+  boldest graphic and the punchiest, most curiosity-provoking headline.
+- Still carry ~30-40% of the story across the slides (names, numbers, how it works, the
+  catch); the caption then delivers 100%.
 - REQUIRED beats, in order (adapt to the story):
-    1. cover         — the hook
+    1. cover         — bold art_prompt graphic + punchy hook headline
     2. context       — what actually happened: a real 2-4 sentence paragraph in "body"
-    3. a data beat   — stat OR ring OR bars if there is a real number; otherwise a second
-                       context slide, or an illustration whose "body" carries the key fact
-    4. illustration  — a relevant visual beat with a 1-2 sentence "body"
-    5. points        — 3-4 FULL-SENTENCE facts (never 3-word fragments), e.g. "why it
-                       matters" or "the details"
+    3. illustration  — a vivid art_prompt scene + a 1-2 sentence "body"
+    4. a data beat   — stat OR ring OR bars if there is a real number; otherwise a SECOND
+                       illustration (with art_prompt) or another context slide
+    5. points        — 3-4 FULL-SENTENCE facts (never fragments), e.g. "why it matters"
     6. cta
 - Headlines stay short (heavy display type). The INFORMATION lives in the "body" fields,
   the stat "caption", and the "points" — write those as complete, specific sentences.
@@ -68,7 +74,10 @@ CAROUSEL RULES (DEPTH MATTERS — the carousel must actually teach the story):
 
 SLIDE SCHEMA — every slide object MUST include a "type" field set to one of:
 cover, context, stat, ring, bars, illustration, points, cta. Then add its fields:
-  cover         : label, headline, highlight, source
+  cover         : label, art_prompt, headline, highlight, source
+       art_prompt = a VIVID, detailed, scroll-stopping cartoon SCENE for the cover (a
+                    character mid-action, comic energy) — the single most important graphic;
+                    it decides whether people swipe. Describe it fully. No text in the image.
   context       : label, headline, highlight, body   (body = 2-4 full sentences — the core explanation)
   stat          : label, value (e.g. "60%"), caption (caption = a full explanatory sentence)
   ring          : label, percent (number), big (e.g. "78%"), caption, headline, highlight
@@ -127,12 +136,15 @@ def _call_model(system, user):
     client = anthropic.Anthropic()
     resp = client.messages.create(
         model=MODEL,
-        max_tokens=8000,
+        max_tokens=16000,
         thinking={"type": "adaptive"},
         system=system,
         messages=[{"role": "user", "content": user}],
     )
-    return "".join(b.text for b in resp.content if b.type == "text")
+    text = "".join(b.text for b in resp.content if b.type == "text")
+    if not text.strip():
+        raise RuntimeError(f"Empty model text (stop_reason={resp.stop_reason}).")
+    return text
 
 
 def _extract_json(text):

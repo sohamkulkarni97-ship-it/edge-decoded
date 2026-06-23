@@ -14,13 +14,15 @@ from openai import OpenAI
 
 MODEL = "gpt-image-1"
 
-# Locked house style — keeps every cartoon on-brand regardless of subject.
+# House style — bold, punchy, characterful; lime-dominant so it stays on-brand
+# while being eye-catching enough to stop the scroll.
 STYLE = (
-    "Flat 2-color vector cartoon illustration in a bold minimalist style. "
-    "Use ONLY acid-lime green (#C8FF00) and white, on a fully transparent background. "
-    "Thick clean outlines, simple geometric shapes, high contrast, centered single subject. "
-    "No gradients, no shadows, no 3D, no background scenery, and absolutely no text, "
-    "letters, numbers, or watermarks. Subject: "
+    "Bold punchy editorial CARTOON illustration with comic-book energy and personality. "
+    "Thick clean black outlines, flat vibrant colors, acid-lime green (#C8FF00) as the "
+    "DOMINANT accent alongside white and a couple of bold pop colors. Expressive, slightly "
+    "exaggerated and funny characters; dynamic composition. Fully TRANSPARENT "
+    "background (the art will sit on a black canvas). One focused character or mini-scene. "
+    "Absolutely NO text, letters, numbers, speech-bubble words, watermark, or border. Scene: "
 )
 
 
