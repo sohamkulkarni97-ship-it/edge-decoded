@@ -1,0 +1,12 @@
+{
+  "handle": "@decodededge",
+  "slides": [
+    {"type": "cover", "label": "BREAKING", "headline": "New drug cuts heart risk by 60%", "highlight": "60%", "source": "Reuters"},
+    {"type": "stat", "label": "The number", "value": "60%", "caption": "fewer heart attacks & strokes vs placebo across the 12,000-patient trial."},
+    {"type": "illustration", "label": "Science", "art": "rocket", "headline": "Fusion, from a lab", "highlight": "lab"},
+    {"type": "bars", "label": "Markets", "bars": [30, 55, 45, 80, 100], "barlabel": "+4.2%", "headline": "Nifty hits record high", "highlight": "record"},
+    {"type": "ring", "label": "Pharma", "percent": 78, "big": "78%", "caption": "efficacy in phase 3 trial", "headline": "Malaria shot clears phase 3", "highlight": "phase 3"},
+    {"type": "points", "label": "Why it matters", "points": ["Heart disease is the world's #1 killer.", "First pill to beat statins head-to-head.", "Could reach pharmacies by 2027."]},
+    {"type": "cta", "headline": "Follow for the day's biggest story", "highlight": "biggest"}
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "chosen_title": "Woman with Alzheimer's starts conversing again after taking psilocybin",
+  "lane": "science",
+  "source": "New Scientist",
+  "score": 87,
+  "caption": "A woman with severe Alzheimer's who hadn't spoken more than monosyllables in years began initiating real conversation — after a single dose of psilocybin. Source: New Scientist. #Alzheimers #Psilocybin #BrainHealth #Neuroscience #MagicMushrooms #DementiaResearch #MedicalBreakthrough #ScienceNews #DecodeDaily #HealthNews",
+  "slides": [
+    {
+      "type": "cover",
+      "label": "SCIENCE",
+      "headline": "One Dose. She Spoke Again.",
+      "highlight": "One",
+      "source": "New Scientist"
+    },
+    {
+      "type": "illustration",
+      "label": "THE PATIENT",
+      "art": "pill",
+      "headline": "Years Without Real Words",
+      "highlight": "Years"
+    },
+    {
+      "type": "stat",
+      "label": "THE TREATMENT",
+      "value": "1 Dose",
+      "caption": "A woman with severe Alzheimer's — silent beyond monosyllables for years — began initiating conversation after a single administration of psilocybin.",
+      "index": "psilocybin"
+    },
+    {
+      "type": "illustration",
+      "label": "THE RESULT",
+      "art": "heart",
+      "headline": "She Started Talking Again",
+      "highlight": "Talking"
+    },
+    {
+      "type": "points",
+      "label": "WHY IT MATTERS",
+      "points": [
+        "She hadn't spoken beyond monosyllables in years — then one dose changed that",
+        "Psilocybin triggered conversation she initiated herself, not just responses",
+        "No approved drug today can reverse severe Alzheimer's decline",
+        "This single case could accelerate psilocybin trials in dementia globally"
+      ]
+    },
+    {
+      "type": "cta",
+      "headline": "Follow @decode.daily — breakthroughs decoded daily",
+      "highlight": "breakthroughs"
+    }
+  ],
+  "handle": "@decodededge"
+}

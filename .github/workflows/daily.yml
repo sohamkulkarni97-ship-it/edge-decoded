@@ -1,0 +1,48 @@
+name: DECODE daily post
+
+on:
+  schedule:
+    - cron: "0 3 * * *"      # 03:00 UTC = 08:30 AM IST, every day
+  workflow_dispatch: {}        # lets you trigger a run manually from the Actions tab
+
+permissions:
+  contents: write              # allow committing the rendered images back
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Build today's post (fetch -> Sonnet -> render)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python run_all.py
+
+      - name: Commit rendered images
+        run: |
+          git config user.name  "decode-bot"
+          git config user.email "decode-bot@users.noreply.github.com"
+          git add output/ posted.json
+          git commit -m "post: $(date -u +%F)" || echo "nothing to commit"
+          git push
+
+      - name: Publish carousel to Instagram
+        env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IMAGE_BASE_URL: "https://raw.githubusercontent.com/${{ github.repository }}/${{ github.ref_name }}/output"
+        run: python publish.py
+
+      - name: Log the post
+        run: |
+          git add posted.json || true
+          git commit -m "log: $(date -u +%F)" || echo "nothing to log"
+          git push || echo "no log push"
