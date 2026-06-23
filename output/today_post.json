@@ -1,67 +1,67 @@
 {
-  "chosen_title": "CARsgen makes history as China approves world's first CAR-T therapy for solid tumors",
-  "lane": "pharma",
-  "source": "Fierce Pharma",
-  "score": 84,
-  "caption": "🧬 A cancer treatment once deemed impossible just crossed the finish line.\n\nFor nearly a decade, CAR-T therapy — which reprograms a patient's own immune cells to hunt cancer — revolutionised blood cancers like leukemia and lymphoma. But solid tumors, which form physical masses and actively suppress the immune system, defeated every attempt. Chinese biotech CARsgen just changed that: China's National Medical Products Administration has approved the world's first CAR-T therapy for a solid tumor.\n\nThe treatment targets Claudin18.2, a protein expressed on gastric and other solid tumor cells. It is the first CAR-T therapy to receive regulatory approval anywhere in the world outside blood cancers — a milestone researchers have been chasing since 2017.\n\nSolid tumors account for roughly 90% of all cancer diagnoses globally, including lung, stomach, colon, and breast cancers — meaning the overwhelming majority of cancer patients were ineligible for CAR-T therapy until now. This approval signals that the biological wall has finally been breached.\n\nWhy it matters: If the approach can be extended to other solid tumor targets, CAR-T — once reserved for a narrow slice of cancer patients — could eventually reach the majority of people diagnosed with cancer.\n\nSource: Fierce Pharma\n\n#CARTcell #CancerBreakthrough #Oncology #CARsgen #SolidTumors #Immunotherapy #CancerResearch #Biotech #Pharma #MedicalNews #HealthScience #CancerTreatment",
+  "chosen_title": "Humans May Have Always Been Able to Regenerate Body Parts–Scar Tissue Just Gets in the Way",
+  "lane": "amazing",
+  "source": "Good News Network",
+  "score": 88,
+  "caption": "🦎 Salamanders can regrow entire limbs. Turns out, humans may have always been able to — our own bodies just keep blocking it.\n\nNew research suggests humans carry dormant genetic machinery for regeneration — the same ancient pathways that allow salamanders and axolotls to regrow full limbs from scratch. The problem isn't that we lack the ability. When injury strikes, the body's default response is to seal the wound with fibrous scar tissue as fast as possible — and that process appears to actively suppress the regeneration signals before they can fire.\n\nBy flipping specific genetic switches to suppress scar formation, scientists found they could potentially shift the body's injury response from patching to rebuilding. These mechanisms have been demonstrated in animal models, not yet in human clinical trials, but the core finding is a fundamental rethink: regeneration wasn't lost over millions of years of evolution — it was simply buried beneath a faster, cruder wound-sealing system that won the race every time.\n\nWhy it matters: if scientists can safely translate this to human medicine, it could reshape treatment for spinal cord injuries, amputations, and severe organ damage. The salamander wasn't special — it just never switched the signal off.\n\nSource: Good News Network\n\n#Science #DidYouKnow #Mindblowing #MedicalBreakthrough #HumanBody #Biology #Regeneration #FutureOfMedicine #HealthScience #Genetics",
   "slides": [
     {
       "type": "cover",
-      "label": "BREAKING",
-      "art_prompt": "A single cartoon T-cell warrior — a round, fierce character in gleaming silver armor with a glowing biohazard crest — crashing fist-first through a crumbling dark grey fortress wall shaped like a lumpy solid tumor; a gold 'WORLD FIRST' banner streams above the breach; shockwave energy lines explode from the impact point; debris flying; bold flat cartoon style, lime green and white palette",
-      "headline": "The cancer treatment that was supposed to be impossible",
-      "highlight": "impossible",
-      "source": "Fierce Pharma",
-      "image": "assets\\gen_00.png"
+      "label": "AMAZING",
+      "art_prompt": "A wide-eyed cartoon human in a lab coat staring in total disbelief at their own hand, where severed fingers are sprouting back like glowing lime-green plant shoots from the stumps, while a cheerful cartoon salamander standing beside them on the lab bench flexes a brand-new arm and gives a confident thumbs-up, bold flat cartoon style, bright white background, no text anywhere in the image",
+      "headline": "YOUR BODY COULD REGROW ITSELF",
+      "highlight": "REGROW",
+      "source": "Good News Network",
+      "image": "assets/gen_00.png"
     },
     {
       "type": "context",
       "label": "THE STORY",
-      "headline": "CAR-T just crossed its final frontier",
-      "highlight": "final frontier",
-      "body": "CAR-T therapy takes a patient's own T-cells, genetically reprograms them to recognise and destroy cancer, then infuses them back into the body. It has been approved for blood cancers since 2017 — but solid tumors, which represent the vast majority of cancer cases, have blocked every attempt for nearly a decade. Chinese biotech CARsgen has now received regulatory approval from China's National Medical Products Administration for a CAR-T therapy targeting a solid tumor, a global first. The therapy homes in on Claudin18.2, a protein expressed on gastric and other solid tumor cells."
+      "headline": "Scar tissue has been blocking it all along",
+      "highlight": "BLOCKING",
+      "body": "Salamanders and axolotls can regrow entire limbs after amputation — a feat long assumed to be the exclusive property of certain animals. But new research suggests humans may have always carried the same ancient genetic machinery for regeneration, lying dormant inside our cells. The reason we don't use it: when the body is injured, it races to seal the wound with scar tissue first, and that process appears to actively shut off the regeneration signals before they ever get a chance to fire."
     },
     {
       "type": "illustration",
-      "label": "THE CATCH",
-      "art_prompt": "A cartoon T-cell soldier in full shining armor standing helplessly outside a giant dark fortress shaped like a spiky, lumpy tumor; the fortress gate is chained shut and guarded by plump grey blob 'immunosuppressor' sentinels blocking every entrance; the T-cell holds a cracked shield and stares up with wide, frustrated eyes; a bold NO ENTRY sign on the gate; flat bold cartoon style, lime green, grey, and white",
-      "art": "heart",
-      "headline": "Why solid tumors always won",
-      "highlight": "always won",
-      "body": "Solid tumors create a hostile immunosuppressive microenvironment — essentially disarming CAR-T cells before they can attack. This biological defence made gastric, lung, colon, and other solid tumor cancers effectively off-limits to CAR-T immunotherapy for nearly a decade.",
-      "image": "assets\\gen_02.png"
-    },
-    {
-      "type": "stat",
-      "label": "THE NUMBER",
-      "value": "~90%",
-      "caption": "Solid tumors account for roughly 90% of all cancer diagnoses worldwide — lung, stomach, colon, breast, and more — meaning the overwhelming majority of cancer patients had no access to CAR-T therapy until CARsgen's Claudin18.2-targeted approval changed the equation."
+      "label": "THE COMPARISON",
+      "art_prompt": "A smug, muscle-flexing cartoon salamander proudly showing off a freshly regrown lime-green arm while standing next to a slumped, dejected cartoon human whose arm is buried in a giant chunky white plaster cast, a glowing DNA double-helix floating in the air between them as if the salamander is generously offering to hand it over, flat bold comic cartoon style, clean white background, no text in image",
+      "art": "flask",
+      "headline": "The salamander has always held the secret",
+      "highlight": "SECRET",
+      "body": "Salamanders suppress scar formation at the wound site and instead activate regeneration pathways — a process scientists found mirrors dormant pathways present in human cells. The difference between us and the salamander is not the blueprint for rebuilding. It is which program runs first.",
+      "image": "assets/gen_02.png"
     },
     {
       "type": "illustration",
       "label": "HOW IT WORKS",
-      "art_prompt": "A cartoon scientist in a white lab coat carefully screwing a glowing green targeting scope labeled 'CLAUDIN 18.2' onto a compact, determined T-cell character; the T-cell vibrates with anticipation, fists clenched, eyes laser-focused and gleaming; electric sparks and energy bolts fly from the upgrade station; humming lab machinery surrounds them; flat bold cartoon style, lime green, electric yellow, and white",
-      "art": "flask",
-      "headline": "The key: a precise new target",
-      "highlight": "Claudin18.2",
-      "body": "CARsgen's therapy engineers T-cells to lock onto Claudin18.2, a protein found on the surface of gastric tumor cells. This specific receptor gives the reprogrammed immune cell a molecular foothold inside the previously impenetrable tumor microenvironment — the trick that had eluded researchers for years.",
-      "image": "assets\\gen_04.png"
+      "art_prompt": "Cartoon extreme close-up inside a wound site: a mob of chunky grey scar-tissue blobs with stern frowning faces are frantically stacking tiny bricks to build a wall, while a single small glowing lime-green regeneration cell desperately tries to squeeze through a gap at the bottom, and in the background a cartoon scientist in goggles is excitedly reaching for a large genetic switch labeled OFF and flipping it toward ON, flat bold comic cartoon style, no text in image",
+      "art": "heart",
+      "headline": "Switch off scar tissue. Switch on repair.",
+      "highlight": "SWITCH ON",
+      "body": "By reprogramming specific genetic switches to suppress scar formation, researchers found the body may shift from sealing a wound to actually rebuilding it. The same injury that currently ends in permanent scar tissue could, in theory, end in restored, functional tissue — if the blocking signal is removed in time.",
+      "image": "assets/gen_03.png"
     },
     {
       "type": "points",
       "label": "WHY IT MATTERS",
       "points": [
-        "This is the first CAR-T cell therapy to receive regulatory approval anywhere in the world for a solid tumor, ending a nearly decade-long stalemate that began when CAR-T first won approval for blood cancers in 2017.",
-        "CARsgen's Claudin18.2-targeted treatment is initially relevant to gastric cancer, one of the leading causes of cancer death globally, with potential to be adapted to other Claudin18.2-expressing tumor types.",
-        "China's National Medical Products Administration approval establishes proof-of-concept that the solid tumor immune barrier can be broken, which is widely expected to accelerate solid tumor CAR-T trials at biotech firms worldwide.",
-        "If the approach can be extended to other solid tumor targets — lung, colon, pancreatic — CAR-T therapy could eventually become available to the majority of cancer patients who were previously ineligible for it."
+        "Salamanders, axolotls, and certain fish can fully regrow limbs after injury — and humans appear to share the deep evolutionary genetic blueprints that once made this possible in our ancient ancestors.",
+        "Scientists discovered that the body's scar-tissue response is not simply a healing shortcut — it actively competes with and suppresses regeneration signals, choosing fast wound closure over high-quality tissue repair.",
+        "By flipping genetic switches to suppress fibrosis and allow regeneration pathways to run, researchers demonstrated the body's latent ability to rebuild rather than just patch itself — a fundamentally different outcome from the same injury.",
+        "The research is still in early animal-model stages and has not yet entered human clinical trials, but if it translates, it could transform medicine for spinal cord injuries, amputations, burn damage, and organ repair."
       ]
     },
     {
       "type": "cta",
-      "headline": "Follow for the medical breakthroughs that actually change cancer",
-      "highlight": "change cancer"
+      "headline": "FOLLOW FOR DAILY MIND-BENDING DISCOVERIES",
+      "highlight": "MIND-BENDING"
     }
   ],
-  "handle": "@decodededge"
+  "handle": "@decodededge",
+  "palette": "pink",
+  "accent_rgb": [
+    255,
+    61,
+    165
+  ]
 }
