@@ -1,63 +1,73 @@
 {
-  "chosen_title": "SpaceX shares extend slide with another 3% fall; over $600 billion in market value wiped out in 3 sessions",
-  "lane": "finance",
-  "source": "Markets — Economic Times / CNBC",
-  "score": 87,
-  "caption": "🚀 SpaceX just had one of the most dramatic post-IPO crashes in Wall Street history.\n\nWithin three trading sessions of going public, SpaceX shares plunged so sharply that over $600 billion in market value was erased — pushing the stock below its own listing price. That is a historic wipeout by almost any measure.\n\nThe selloff was driven by three fears hitting simultaneously: an IPO valuation many analysts already considered stretched, mounting investor anxiety about the company's heavy debt-funded push into AI infrastructure, and a broader wave of selling hammering tech stocks across Wall Street. SpaceX had long been the crown jewel of private markets — but public markets play by colder rules.\n\nA 5% rebound followed as bargain hunters stepped in, though shares remained below their IPO listing price — meaning anyone who bought on day one is still underwater.\n\nWhy it matters: This is the sharpest possible reality check for the 'growth at any price' era of AI investing. Even the world's most iconic companies are not immune to the cold logic of public market valuations.\n\nSource: Markets — Economic Times / CNBC\n\n#SpaceX #StockMarket #Finance #WallStreet #ElonMusk #Tech #Investing #IPO #AI #DidYouKnow",
+  "chosen_title": "You should turn off fans when it's too hot – but how hot is too hot?",
+  "lane": "science",
+  "source": "New Scientist",
+  "score": 88,
+  "caption": "🌡️ Counterintuitive but true: at a certain point, your fan stops cooling you and starts cooking you.\n\nElectric fans work by blowing air across sweaty skin, speeding up evaporation — and evaporation carries heat away from your body. That works brilliantly at moderate temperatures. But once the surrounding air gets hotter than your skin, the fan starts pushing hot air directly at you, sweat evaporates faster than your body can replace it, and your core temperature can actually rise rather than fall.\n\nThe exact threshold isn't universal. In dry conditions, published heat research and WHO guidance broadly cite around 35°C (95°F) as the approximate point where fans become counterproductive. Humidity changes the math: in muggy air, sweat evaporates more slowly, so the danger threshold can drop to around 33°C (91°F). Older adults and people on certain medications — diuretics, beta-blockers — sweat less efficiently, meaning their danger zone kicks in even sooner.\n\nWhy it matters: heat-related illness kills thousands every year, many of them indoors with a fan spinning. Knowing when to switch to a damp cloth, a cool shower, or air conditioning could genuinely save a life — especially during this summer's record-breaking heat.\n\nSource: New Scientist\n\n#Science #Health #DidYouKnow #Mindblowing #HeatWave #SummerSafety #LifeHacks #ExtremeHeat #HeatStroke #StayCool",
   "slides": [
     {
       "type": "cover",
-      "label": "FINANCE",
-      "art_prompt": "A gleaming SpaceX-style rocket blasting upward but shedding a torrent of giant dollar bills and bold red downward arrows that rain off its fuselage like feathers, while a tiny goggle-eyed cartoon investor in a rumpled suit stands on the launchpad below, clutching a stock-ticker printout showing a cliff-edge nosedive, mouth hanging open in disbelief, bright comic-book style with a stark white background",
-      "headline": "$600 BILLION gone in 3 days",
-      "highlight": "$600 BILLION",
-      "source": "Markets — Economic Times",
+      "label": "SCIENCE",
+      "art_prompt": "A sweating cartoon man sits directly in front of a huge electric fan on a blazing summer day; instead of cool blue air, the fan blasts visible orange-red heat waves into his face — his hair flies straight back, his cheeks glow bright red, and enormous sweat drops arc off him sideways; a thermometer on the wall behind him is bursting at the top with a little explosion; flat bold cartoon style, lime green and white palette, no text in the image.",
+      "headline": "Your fan is making you hotter",
+      "highlight": "hotter",
+      "source": "New Scientist",
       "image": "assets/gen_00.png"
     },
     {
       "type": "context",
       "label": "THE STORY",
-      "headline": "SpaceX IPO'd — then the floor dropped",
-      "highlight": "floor dropped",
-      "body": "After one of the most anticipated stock market debuts in years, SpaceX shares tumbled across three consecutive sessions, erasing over $600 billion in market value and pushing the stock below its own listing price. The selling was driven by concerns over the company's lofty post-IPO valuation, its heavy reliance on debt-funded AI spending, and a broader technology selloff sweeping Wall Street. A 5% rebound followed as bargain hunters stepped in — but shares remained underwater for anyone who bought on IPO day."
+      "headline": "Fans cool you — until they don't",
+      "highlight": "don't",
+      "body": "Electric fans work by accelerating the evaporation of sweat from your skin, which carries body heat away and leaves you feeling cooler. But scientists explain this mechanism depends entirely on the surrounding air being cooler than your skin temperature. Once temperatures climb high enough, a running fan stops cooling you and instead blasts hot air directly against your body, driving up moisture loss and potentially raising your core temperature — the exact opposite of what you need in extreme heat."
     },
     {
       "type": "illustration",
-      "label": "THE CATCH",
-      "art_prompt": "A sweating cartoon bull wearing a Wall Street tie, slumped at a trading desk surrounded by towering glowing AI server racks plastered with giant credit-card bills and price tags, a massive red arrow smashing down through the ceiling above him, a small SpaceX rocket model on the desk with an 'OVERVALUED' sticker slapped on it, flat lime-green and white comic style, high energy",
+      "label": "HOW IT WORKS",
+      "art_prompt": "A bold cartoon split-screen scene: on the left half, a cheerful person sits in front of a fan on a mild day — gentle sky-blue sweat-evaporation arrows curl gracefully off their skin into the air and they look blissfully refreshed; on the right half, the same person faces an identical fan on a scorching day but fierce orange arrows blast back from the fan toward them, sweat flying off in sheets like a garden hose, the person dizzy and wilted with spiral eyes — flat cartoon style, lime and white accents, expressive comic characters, no text in image.",
       "art": "bolt",
-      "headline": "AI debt fears spooked the market",
-      "highlight": "AI DEBT",
-      "body": "Investors punished SpaceX for betting heavily on AI infrastructure funded by borrowed money — a strategy that dazzled private-market backers but rattled public shareholders as the Federal Reserve held rates high and tech valuations came under scrutiny.",
+      "headline": "Evaporation: saviour or villain?",
+      "highlight": "villain",
+      "body": "In moderate heat, a fan speeds up evaporation and genuinely cools you down. In extreme heat, that same mechanism turbocharges moisture loss while delivering hot air to your skin — accelerating dehydration with zero temperature benefit.",
       "image": "assets/gen_02.png"
     },
     {
       "type": "stat",
       "label": "THE NUMBER",
-      "value": "$600B",
-      "caption": "Over $600 billion in SpaceX market value was wiped out across just three trading sessions — a short-term market-cap destruction larger than the total value of most Fortune 500 companies."
+      "value": "~35°C",
+      "caption": "The approximate air temperature above which electric fans stop cooling and begin increasing heat stress in dry conditions — a threshold broadly cited in heat health research and WHO guidance; in high humidity, that tipping point can drop to around 33°C (91°F), because muggy air slows the evaporation that makes fans useful in the first place."
+    },
+    {
+      "type": "illustration",
+      "label": "THE CATCH",
+      "art_prompt": "A cartoon side-by-side comparison: on the left, a frail elderly woman sits in front of a fan looking dangerously flushed and dizzy, her sweat glands illustrated as tiny rusted-shut taps with 'OUT OF ORDER' signs drawn on them; on the right, a healthy young adult facing the same fan looks completely comfortable, their sweat glands shown as cheerfully working garden sprinklers — flat cartoon style, bold lime accents, expressive and warm characters, no text in image.",
+      "art": "heart",
+      "headline": "Age shrinks your safe window",
+      "highlight": "Age",
+      "body": "Older adults often have impaired sweat responses, and people on diuretics or beta-blockers sweat less efficiently — meaning the dangerous tipping point arrives at lower temperatures for them than for younger, healthy people.",
+      "image": "assets/gen_04.png"
     },
     {
       "type": "points",
       "label": "WHY IT MATTERS",
       "points": [
-        "SpaceX's IPO was among the most anticipated public offerings in years, giving everyday retail investors their first chance to own a piece of Elon Musk's rocket and AI company.",
-        "Losing $600 billion in market cap across three sessions is a historically rare event — the scale rivals some of the largest single-stock crashes ever recorded on Wall Street.",
-        "The selloff signals a wider investor reckoning: technology companies that borrow aggressively to fund AI expansion are facing growing punishment in a high-interest-rate environment.",
-        "Despite the 5% single-day rebound driven by bargain hunters, SpaceX shares remained below their listing price, leaving IPO-day buyers sitting on paper losses."
+        "Fans produce no cold air whatsoever — they cool only by accelerating sweat evaporation, so when ambient air is already hotter than your skin, running a fan simply speeds up dangerous dehydration without lowering your temperature.",
+        "Humidity is the hidden multiplier: on a muggy summer day, sweat evaporates far more slowly than in dry heat, which compresses the temperature range in which a fan is actually helpful.",
+        "Older adults, people taking diuretics or beta-blockers, and anyone with cardiovascular or kidney conditions have a reduced sweat capacity and face a lower heat threshold — they should not rely on fans alone during extreme weather events.",
+        "When a fan stops being safe, the effective alternatives are a damp cloth applied to the neck and wrists, a cool shower, or moving to an air-conditioned space — all of which remove heat from the body through mechanisms that work even when fans don't."
       ]
     },
     {
       "type": "cta",
-      "headline": "Follow @decodededge for your daily edge",
-      "highlight": "daily edge"
+      "headline": "Share this before someone gets hurt",
+      "highlight": "Share"
     }
   ],
   "handle": "@decodededge",
-  "palette": "pink",
+  "palette": "orange",
   "accent_rgb": [
     255,
-    61,
-    165
+    106,
+    0
   ]
 }
