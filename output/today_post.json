@@ -1,73 +1,63 @@
 {
-  "chosen_title": "You should turn off fans when it's too hot – but how hot is too hot?",
-  "lane": "science",
-  "source": "New Scientist",
-  "score": 88,
-  "caption": "🌡️ Counterintuitive but true: at a certain point, your fan stops cooling you and starts cooking you.\n\nElectric fans work by blowing air across sweaty skin, speeding up evaporation — and evaporation carries heat away from your body. That works brilliantly at moderate temperatures. But once the surrounding air gets hotter than your skin, the fan starts pushing hot air directly at you, sweat evaporates faster than your body can replace it, and your core temperature can actually rise rather than fall.\n\nThe exact threshold isn't universal. In dry conditions, published heat research and WHO guidance broadly cite around 35°C (95°F) as the approximate point where fans become counterproductive. Humidity changes the math: in muggy air, sweat evaporates more slowly, so the danger threshold can drop to around 33°C (91°F). Older adults and people on certain medications — diuretics, beta-blockers — sweat less efficiently, meaning their danger zone kicks in even sooner.\n\nWhy it matters: heat-related illness kills thousands every year, many of them indoors with a fan spinning. Knowing when to switch to a damp cloth, a cool shower, or air conditioning could genuinely save a life — especially during this summer's record-breaking heat.\n\nSource: New Scientist\n\n#Science #Health #DidYouKnow #Mindblowing #HeatWave #SummerSafety #LifeHacks #ExtremeHeat #HeatStroke #StayCool",
+  "chosen_title": "They knew the pill was fake but their memory still improved",
+  "lane": "psychology",
+  "source": "ScienceDaily",
+  "score": 83,
+  "caption": "🧠 They told participants the pill was fake. Their memories improved anyway.\n\nScientists gave healthy older adults 'open-label' placebos — sugar pills they were explicitly told had zero active ingredient — and asked them to take the pills for just three weeks. The result? Measurable improvements in memory, physical performance, and stress levels. No deception necessary.\n\nThis challenges one of the most basic assumptions about how placebos work. The standard belief has been that the effect depends on the patient believing the treatment is real. But the study suggests the brain's conditioned response — a lifetime of 'take a pill, feel better' wiring — can fire even when you consciously know there's nothing inside.\n\nWhy it matters: If open-label placebos reliably work, doctors could one day ethically prescribe them for chronic pain, fatigue, or anxiety — delivering real, measurable benefits with zero drug side effects and zero deception.\n\nSource: ScienceDaily\n\n#Psychology #Science #DidYouKnow #Mindblowing #BrainScience #PlaceboEffect #MedicalBreakthrough #MemoryHealth #MentalHealth #Health",
   "slides": [
     {
       "type": "cover",
-      "label": "SCIENCE",
-      "art_prompt": "A sweating cartoon man sits directly in front of a huge electric fan on a blazing summer day; instead of cool blue air, the fan blasts visible orange-red heat waves into his face — his hair flies straight back, his cheeks glow bright red, and enormous sweat drops arc off him sideways; a thermometer on the wall behind him is bursting at the top with a little explosion; flat bold cartoon style, lime green and white palette, no text in the image.",
-      "headline": "Your fan is making you hotter",
-      "highlight": "hotter",
-      "source": "New Scientist",
+      "label": "PSYCHOLOGY",
+      "art_prompt": "A bewildered elderly woman holding a tiny sugar pill up to a bright light with a cartoon magnifying glass, squinting in total disbelief, while a giant glowing brain floats above her head celebrating with confetti and tiny sparks shooting from its synapses; flat lime green and white cartoon style, bold comic energy, no text in image",
+      "headline": "They knew it was FAKE. Their memory improved anyway.",
+      "highlight": "FAKE",
+      "source": "ScienceDaily",
       "image": "assets/gen_00.png"
     },
     {
       "type": "context",
       "label": "THE STORY",
-      "headline": "Fans cool you — until they don't",
-      "highlight": "don't",
-      "body": "Electric fans work by accelerating the evaporation of sweat from your skin, which carries body heat away and leaves you feeling cooler. But scientists explain this mechanism depends entirely on the surrounding air being cooler than your skin temperature. Once temperatures climb high enough, a running fan stops cooling you and instead blasts hot air directly against your body, driving up moisture loss and potentially raising your core temperature — the exact opposite of what you need in extreme heat."
+      "headline": "Zero deception. Real results.",
+      "highlight": "Zero",
+      "body": "Scientists gave healthy older adults placebo pills and told them upfront — explicitly — that the pills contained no active ingredient whatsoever. After just three weeks, participants showed measurable improvements in memory, physical performance, and stress levels. The most striking finding: being fully aware the pill was fake did not blunt the effect at all."
     },
     {
       "type": "illustration",
       "label": "HOW IT WORKS",
-      "art_prompt": "A bold cartoon split-screen scene: on the left half, a cheerful person sits in front of a fan on a mild day — gentle sky-blue sweat-evaporation arrows curl gracefully off their skin into the air and they look blissfully refreshed; on the right half, the same person faces an identical fan on a scorching day but fierce orange arrows blast back from the fan toward them, sweat flying off in sheets like a garden hose, the person dizzy and wilted with spiral eyes — flat cartoon style, lime and white accents, expressive comic characters, no text in image.",
-      "art": "bolt",
-      "headline": "Evaporation: saviour or villain?",
-      "highlight": "villain",
-      "body": "In moderate heat, a fan speeds up evaporation and genuinely cools you down. In extreme heat, that same mechanism turbocharges moisture loss while delivering hot air to your skin — accelerating dehydration with zero temperature benefit.",
+      "art_prompt": "A smug cartoon brain wearing a tiny white pharmacist coat, confidently pressing a large glowing 'SELF-HEAL' button on a control panel while a plain sugar pill rolls past on a conveyor belt; little lightning bolt sparks fire across illustrated synapses in the background; flat lime green and white cartoon style, no text in image",
+      "art": "heart",
+      "headline": "Your brain is its own pharmacist",
+      "highlight": "brain",
+      "body": "Researchers believe the ritual of taking a pill — even a known fake — activates the brain's conditioned healing response. After a lifetime of 'pill → relief' associations, the nervous system has learned to start healing the moment you swallow, regardless of what is actually inside.",
       "image": "assets/gen_02.png"
     },
     {
       "type": "stat",
       "label": "THE NUMBER",
-      "value": "~35°C",
-      "caption": "The approximate air temperature above which electric fans stop cooling and begin increasing heat stress in dry conditions — a threshold broadly cited in heat health research and WHO guidance; in high humidity, that tipping point can drop to around 33°C (91°F), because muggy air slows the evaporation that makes fans useful in the first place."
-    },
-    {
-      "type": "illustration",
-      "label": "THE CATCH",
-      "art_prompt": "A cartoon side-by-side comparison: on the left, a frail elderly woman sits in front of a fan looking dangerously flushed and dizzy, her sweat glands illustrated as tiny rusted-shut taps with 'OUT OF ORDER' signs drawn on them; on the right, a healthy young adult facing the same fan looks completely comfortable, their sweat glands shown as cheerfully working garden sprinklers — flat cartoon style, bold lime accents, expressive and warm characters, no text in image.",
-      "art": "heart",
-      "headline": "Age shrinks your safe window",
-      "highlight": "Age",
-      "body": "Older adults often have impaired sweat responses, and people on diuretics or beta-blockers sweat less efficiently — meaning the dangerous tipping point arrives at lower temperatures for them than for younger, healthy people.",
-      "image": "assets/gen_04.png"
+      "value": "3 WEEKS",
+      "caption": "That is all it took for measurable improvements in memory, physical performance, and stress to appear in healthy older adults taking open-label placebos — pills they were explicitly told had no active ingredient inside."
     },
     {
       "type": "points",
       "label": "WHY IT MATTERS",
       "points": [
-        "Fans produce no cold air whatsoever — they cool only by accelerating sweat evaporation, so when ambient air is already hotter than your skin, running a fan simply speeds up dangerous dehydration without lowering your temperature.",
-        "Humidity is the hidden multiplier: on a muggy summer day, sweat evaporates far more slowly than in dry heat, which compresses the temperature range in which a fan is actually helpful.",
-        "Older adults, people taking diuretics or beta-blockers, and anyone with cardiovascular or kidney conditions have a reduced sweat capacity and face a lower heat threshold — they should not rely on fans alone during extreme weather events.",
-        "When a fan stops being safe, the effective alternatives are a damp cloth applied to the neck and wrists, a cool shower, or moving to an air-conditioned space — all of which remove heat from the body through mechanisms that work even when fans don't."
+        "This was a fully 'open-label' trial — participants were clearly told the pills were placebos before they ever took one — yet significant improvements still appeared, directly overturning the assumption that deception is a required ingredient for the placebo effect.",
+        "The benefits spanned three separate domains — memory, physical performance, and stress — suggesting the brain's conditioned response can simultaneously improve multiple systems in the body, not just mask a single symptom.",
+        "If open-label placebos prove consistently effective, doctors could one day ethically prescribe them without any deception, offering real relief for conditions like chronic pain or anxiety with none of the risks that come with pharmaceutical side effects.",
+        "The likely mechanism is behavioral conditioning: decades of 'I take a pill and feel better' experiences have physically trained the brain and body to launch a recovery response the moment a pill is swallowed, making the conscious mind almost irrelevant."
       ]
     },
     {
       "type": "cta",
-      "headline": "Share this before someone gets hurt",
-      "highlight": "Share"
+      "headline": "Follow for daily DECODED science",
+      "highlight": "DECODED"
     }
   ],
   "handle": "@decodededge",
-  "palette": "orange",
+  "palette": "yellow",
   "accent_rgb": [
     255,
-    106,
+    212,
     0
   ]
 }
