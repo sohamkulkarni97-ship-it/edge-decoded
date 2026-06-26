@@ -152,13 +152,13 @@ def _recent_lanes(n=3):
 
 def _call_model(system, user):
     client = anthropic.Anthropic()
-    resp = client.messages.create(
-        model=MODEL,
-        max_tokens=16000,
-        thinking={"type": "adaptive"},
-        system=system,
-        messages=[{"role": "user", "content": user}],
-    )
+    # Streaming + capped effort so adaptive thinking can't eat the whole budget and
+    # leave no room for the JSON output (that caused stop_reason=max_tokens, empty text).
+    with client.messages.stream(model=MODEL, max_tokens=22000,
+                                thinking={"type": "adaptive"},
+                                output_config={"effort": "medium"}, system=system,
+                                messages=[{"role": "user", "content": user}]) as stream:
+        resp = stream.get_final_message()
     text = "".join(b.text for b in resp.content if b.type == "text")
     if not text.strip():
         raise RuntimeError(f"Empty model text (stop_reason={resp.stop_reason}).")
