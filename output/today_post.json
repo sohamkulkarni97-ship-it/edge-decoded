@@ -1,63 +1,63 @@
 {
-  "chosen_title": "They knew the pill was fake but their memory still improved",
-  "lane": "psychology",
-  "source": "ScienceDaily",
-  "score": 83,
-  "caption": "🧠 They told participants the pill was fake. Their memories improved anyway.\n\nScientists gave healthy older adults 'open-label' placebos — sugar pills they were explicitly told had zero active ingredient — and asked them to take the pills for just three weeks. The result? Measurable improvements in memory, physical performance, and stress levels. No deception necessary.\n\nThis challenges one of the most basic assumptions about how placebos work. The standard belief has been that the effect depends on the patient believing the treatment is real. But the study suggests the brain's conditioned response — a lifetime of 'take a pill, feel better' wiring — can fire even when you consciously know there's nothing inside.\n\nWhy it matters: If open-label placebos reliably work, doctors could one day ethically prescribe them for chronic pain, fatigue, or anxiety — delivering real, measurable benefits with zero drug side effects and zero deception.\n\nSource: ScienceDaily\n\n#Psychology #Science #DidYouKnow #Mindblowing #BrainScience #PlaceboEffect #MedicalBreakthrough #MemoryHealth #MentalHealth #Health",
+  "chosen_title": "World's first solid tumor CAR-T approval — CARsgen",
+  "lane": "pharma",
+  "source": "Fierce Pharma",
+  "score": 82,
+  "caption": "🧬 The 'impossible' cancer treatment just became reality.\n\nFor decades, CAR-T cell therapy has been a quiet revolution — but only for blood cancers. The approach engineers a patient's own immune T-cells to hunt and destroy cancer, delivering dramatic remissions in leukemia and lymphoma. The problem: solid tumors, which form in the lungs, liver, colon, and stomach, always resisted it. The dense, hostile environment surrounding them essentially disarms T-cells before they can attack — a barrier oncologists have called the field's hardest unsolved problem.\n\nThat barrier just fell. Chinese biotech CARsgen has received what Fierce Pharma reports is the world's first regulatory approval for a CAR-T therapy targeting a solid tumor. Roughly 90% of all cancer deaths worldwide involve solid tumors — the very cancers that have never responded to this class of treatment. The approval is in China; it will still need FDA and EMA review before reaching Western patients, but it sets a precedent the field has been working toward since CAR-T was first approved in 2017.\n\nWhy it matters: If this approach holds up globally, it could bring the life-extending power of CAR-T to the cancers that kill the most people — lung, gastric, and colorectal among them.\n\nSource: Fierce Pharma\n\n#Cancer #CancerResearch #MedicalBreakthrough #Science #Health #DidYouKnow #MedicalNews #CancerTreatment #Biotech #Immunotherapy #Healthcare #BreakingNews",
   "slides": [
     {
       "type": "cover",
-      "label": "PSYCHOLOGY",
-      "art_prompt": "A bewildered elderly woman holding a tiny sugar pill up to a bright light with a cartoon magnifying glass, squinting in total disbelief, while a giant glowing brain floats above her head celebrating with confetti and tiny sparks shooting from its synapses; flat lime green and white cartoon style, bold comic energy, no text in image",
-      "headline": "They knew it was FAKE. Their memory improved anyway.",
-      "highlight": "FAKE",
-      "source": "ScienceDaily",
+      "label": "BREAKING",
+      "art_prompt": "A bold flat cartoon of a muscular T-cell warrior in sci-fi battle armor mid-leap, sword raised and crackling with electric energy, dramatically smashing through a thick crumbling gray stone wall with the words 'SOLID TUMOR' cracking apart — debris flying everywhere, dramatic radiating impact lines, confident heroic expression, lime green and white color palette, dynamic action-movie energy",
+      "headline": "Cancer's Hardest Wall Just Cracked",
+      "highlight": "Cracked",
+      "source": "Fierce Pharma",
       "image": "assets/gen_00.png"
     },
     {
       "type": "context",
       "label": "THE STORY",
-      "headline": "Zero deception. Real results.",
-      "highlight": "Zero",
-      "body": "Scientists gave healthy older adults placebo pills and told them upfront — explicitly — that the pills contained no active ingredient whatsoever. After just three weeks, participants showed measurable improvements in memory, physical performance, and stress levels. The most striking finding: being fully aware the pill was fake did not blunt the effect at all."
+      "headline": "A First in Cancer History",
+      "highlight": "First",
+      "body": "Chinese biotech CARsgen has received what Fierce Pharma reports is the world's first regulatory approval for a CAR-T therapy targeting a solid tumor. CAR-T — which engineers a patient's own immune T-cells to seek and destroy cancer — has been approved for blood cancers like leukemia and lymphoma since 2017, but solid tumors have always resisted it. The dense, immunosuppressive environment surrounding solid tumors was long considered an insurmountable barrier for this class of treatment."
     },
     {
       "type": "illustration",
       "label": "HOW IT WORKS",
-      "art_prompt": "A smug cartoon brain wearing a tiny white pharmacist coat, confidently pressing a large glowing 'SELF-HEAL' button on a control panel while a plain sugar pill rolls past on a conveyor belt; little lightning bolt sparks fire across illustrated synapses in the background; flat lime green and white cartoon style, no text in image",
-      "art": "heart",
-      "headline": "Your brain is its own pharmacist",
-      "highlight": "brain",
-      "body": "Researchers believe the ritual of taking a pill — even a known fake — activates the brain's conditioned healing response. After a lifetime of 'pill → relief' associations, the nervous system has learned to start healing the moment you swallow, regardless of what is actually inside.",
+      "art_prompt": "A cartoon scientist in a white lab coat hunched over a glowing T-cell on a workbench, bolting on custom rocket boosters and a targeting scope like a mechanic hotrodding a race car, with tiny frightened cancer cells peeking around the corner of the lab — flat cartoon style, cluttered science equipment everywhere, sparks flying, lime and white palette, humorous and energetic tone",
+      "art": "flask",
+      "headline": "Your Own Cells, Weaponized",
+      "highlight": "Weaponized",
+      "body": "CAR-T therapy extracts a patient's immune T-cells, genetically re-engineers them in a lab to recognize a specific cancer target, and infuses them back into the body to hunt the tumor — essentially turning the immune system into a precision-guided weapon.",
       "image": "assets/gen_02.png"
     },
     {
       "type": "stat",
       "label": "THE NUMBER",
-      "value": "3 WEEKS",
-      "caption": "That is all it took for measurable improvements in memory, physical performance, and stress to appear in healthy older adults taking open-label placebos — pills they were explicitly told had no active ingredient inside."
+      "value": "~90%",
+      "caption": "Roughly 90% of all cancer deaths worldwide involve solid tumors — the very cancers CAR-T therapy has never been able to treat, until this approval."
     },
     {
       "type": "points",
       "label": "WHY IT MATTERS",
       "points": [
-        "This was a fully 'open-label' trial — participants were clearly told the pills were placebos before they ever took one — yet significant improvements still appeared, directly overturning the assumption that deception is a required ingredient for the placebo effect.",
-        "The benefits spanned three separate domains — memory, physical performance, and stress — suggesting the brain's conditioned response can simultaneously improve multiple systems in the body, not just mask a single symptom.",
-        "If open-label placebos prove consistently effective, doctors could one day ethically prescribe them without any deception, offering real relief for conditions like chronic pain or anxiety with none of the risks that come with pharmaceutical side effects.",
-        "The likely mechanism is behavioral conditioning: decades of 'I take a pill and feel better' experiences have physically trained the brain and body to launch a recovery response the moment a pill is swallowed, making the conscious mind almost irrelevant."
+        "Solid tumors form in organs like the lungs, liver, colon, and stomach, and have resisted CAR-T because the microenvironment surrounding them actively shuts down T-cells before they can attack — a problem CARsgen appears to have cracked.",
+        "CARsgen's approval is the first anywhere in the world for a solid-tumor CAR-T therapy, a milestone oncologists have been chasing ever since the treatment first showed dramatic results in blood cancers nearly a decade ago.",
+        "The approval is currently in China and will still require separate FDA and EMA review before the therapy can reach patients in the US or Europe, meaning the road to widespread use is not yet complete.",
+        "If the approach proves safe and effective across broader trials and geographies, it could eventually bring the same kind of deep remissions seen in leukemia patients to people with lung, gastric, and colorectal cancers — diseases with far fewer good treatment options."
       ]
     },
     {
       "type": "cta",
-      "headline": "Follow for daily DECODED science",
-      "highlight": "DECODED"
+      "headline": "Follow @decodededge for the breakthroughs that actually matter",
+      "highlight": "breakthroughs"
     }
   ],
   "handle": "@decodededge",
-  "palette": "yellow",
+  "palette": "violet",
   "accent_rgb": [
-    255,
-    212,
-    0
+    157,
+    123,
+    255
   ]
 }
