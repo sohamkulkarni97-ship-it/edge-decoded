@@ -30,6 +30,11 @@ GOOGLE_NEWS_TOPICS = {
     "health":  "https://news.google.com/rss/headlines/section/topic/HEALTH?hl=en-US&gl=US&ceid=US:en",
 }
 
+# On-brand subreddits — "rising" surfaces posts gaining traction RIGHT NOW (most
+# real-time virality signal we can legitimately read, free, no auth).
+REDDIT_RISING_SUBS = ["science", "space", "technology", "Futurology",
+                      "todayilearned", "Damnthatsinteresting", "UpliftingNews"]
+
 
 def _clean(t):
     t = re.sub(r"<[^>]+>", "", t or "")
@@ -75,10 +80,31 @@ def _wiki_titles(limit=12):
     return out
 
 
+def _reddit_rising(per_sub=5, limit=16):
+    """Reddit 'rising' across on-brand subs — topics gaining traction this hour."""
+    out = []
+    for sub in REDDIT_RISING_SUBS:
+        url = f"https://www.reddit.com/r/{sub}/rising/.rss?limit={per_sub}"
+        try:
+            feed = feedparser.parse(url, agent=UA["User-Agent"])
+        except Exception:
+            continue
+        for e in feed.entries[:per_sub]:
+            title = _clean(e.get("title"))
+            if title:
+                out.append(title[:120])
+    return out[:limit]
+
+
 def trend_signals():
-    """A short, deduped list of hot terms for model context (best-effort)."""
+    """A short, deduped list of hot terms for model context (best-effort).
+
+    Mixes real-time virality (Reddit rising, HN front page) with day-scale
+    attention (Wikipedia most-viewed). Reddit/HN are hour-fresh, so this leans
+    current rather than lagging.
+    """
     seen, out = set(), []
-    for t in _hn_titles() + _wiki_titles():
+    for t in _reddit_rising() + _hn_titles() + _wiki_titles():
         k = _key(t)
         if k and k not in seen:
             seen.add(k)
