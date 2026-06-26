@@ -16,6 +16,8 @@ import re
 import feedparser
 import requests
 
+import trends
+
 HERE = os.path.dirname(os.path.abspath(__file__))
 POSTED_LOG = os.path.join(HERE, "posted.json")
 
@@ -149,6 +151,11 @@ def fetch_candidates():
                     "link": entry.get("link", ""),
                 })
     out.extend(_history_candidates(posted, seen))
+    # trending sourced articles (Google News on-brand topic feeds), tagged trending=True
+    try:
+        out.extend(trends.trending_candidates(posted, seen))
+    except Exception as e:
+        print(f"[note] trending fetch skipped ({e})")
     return out
 
 

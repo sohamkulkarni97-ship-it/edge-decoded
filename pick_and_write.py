@@ -20,6 +20,7 @@ import re
 import anthropic
 
 import fetch
+import trends
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 POSTED_LOG = os.path.join(HERE, "posted.json")
@@ -43,6 +44,12 @@ You will receive a list of fresh news candidates. Do two jobs:
    - Shareability (would someone send it to a friend) - 15
    - Timeliness - 10
    Avoid: dry procedural news, partisan politics, anything ambiguous or unverifiable.
+   TREND BOOST (light): some candidates are marked "🔥TRENDING" and a "TRENDING NOW"
+   list of hot terms may be given. Give a MODERATE boost (a few points) to on-brand
+   candidates that match what's trending right now — timeliness helps reach. But never
+   let a trend override lane fit, a real source, or genuine "wow" quality, and IGNORE
+   off-brand trends entirely (sports, celebrity gossip, partisan politics, movie/TV
+   churn). A trend is a tie-breaker, not a mandate.
 
 2) Pick the SINGLE highest scorer, then build an Edge Decoded carousel for it.
 
@@ -167,14 +174,20 @@ def _extract_json(text):
     return json.loads(text[start:end + 1])
 
 
-def generate_post(candidates, avoid_lanes=None):
+def generate_post(candidates, avoid_lanes=None, hot_terms=None):
     avoid_lanes = avoid_lanes or []
     lines = []
     for i, c in enumerate(candidates):
-        lines.append(f"[{i}] ({c['lane']}) {c['title']} — {c['source']}\n    {c['summary'][:240]}")
+        flag = " 🔥TRENDING" if c.get("trending") else ""
+        lines.append(f"[{i}] ({c['lane']}){flag} {c['title']} — {c['source']}\n    {c['summary'][:240]}")
+    trend_block = ""
+    if hot_terms:
+        trend_block = ("TRENDING NOW (hot terms across the internet right now — use as a "
+                       "light timeliness signal, ignore off-brand ones):\n  "
+                       + "  ·  ".join(hot_terms[:20]) + "\n\n")
     user = (
         f"Recent lanes already posted (rotate away from these if quality is close): "
-        f"{avoid_lanes}\n\nCANDIDATES:\n" + "\n".join(lines)
+        f"{avoid_lanes}\n\n{trend_block}CANDIDATES:\n" + "\n".join(lines)
     )
     raw = _call_model(SYSTEM, user)
     post = _extract_json(raw)
@@ -187,7 +200,7 @@ if __name__ == "__main__":
     if not cands:
         raise SystemExit("No candidates fetched.")
     print(f"Ranking {len(cands)} candidates with {MODEL}...")
-    post = generate_post(cands, avoid_lanes=_recent_lanes())
+    post = generate_post(cands, avoid_lanes=_recent_lanes(), hot_terms=trends.trend_signals())
     os.makedirs(os.path.dirname(OUT_POST), exist_ok=True)
     with open(OUT_POST, "w", encoding="utf-8") as fh:
         json.dump(post, fh, indent=2, ensure_ascii=False)

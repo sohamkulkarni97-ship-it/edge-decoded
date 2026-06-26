@@ -14,6 +14,7 @@ import os
 import fetch
 import pick_and_write
 import render
+import trends
 
 HERE = pick_and_write.HERE
 
@@ -42,7 +43,8 @@ def main():
     if not cands:
         raise SystemExit("No fresh candidates today.")
     print(f"Fetched {len(cands)} candidates.")
-    post = pick_and_write.generate_post(cands, avoid_lanes=pick_and_write._recent_lanes())
+    post = pick_and_write.generate_post(cands, avoid_lanes=pick_and_write._recent_lanes(),
+                                        hot_terms=trends.trend_signals())
     print(f"Chosen [{post.get('lane')}] (score {post.get('score')}): {post.get('chosen_title')}")
     name, rgb, accent_hex = render.pick_palette()
     post["palette"] = name
