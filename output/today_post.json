@@ -1,54 +1,57 @@
 {
-  "chosen_title": "US CDC raises Ebola outbreak response to highest level",
-  "lane": "health",
-  "source": "Reuters",
-  "score": 86,
-  "caption": "🚨 The CDC just raised its Ebola response to the highest possible level — and Africa's CDC warns this could become the largest outbreak in history.\n\nThe U.S. Centers for Disease Control and Prevention elevated its emergency response to Level 1 — its maximum activation — as an Ebola outbreak in the Democratic Republic of Congo continues to escalate. Africa's CDC has issued a stark warning that the current outbreak could surpass the 2014–2016 West Africa crisis, which killed roughly 11,000 people and remains the deadliest Ebola outbreak ever recorded.\n\nEbola is a hemorrhagic fever with no widely available cure. Fatality rates in past outbreaks have ranged from 25% to 90% depending on strain and access to care. A Level 1 CDC response — the same tier triggered during COVID-19 — activates the agency's maximum staffing, funding, and global coordination capacity.\n\nWhy it matters: If this outbreak surpasses 2014–2016, it would be an unprecedented strain on regional health systems and a genuine test of global early-warning infrastructure.\n\nSource: Reuters\n\n#Ebola #PublicHealth #CDC #GlobalHealth #OutbreakAlert #HealthEmergency #News #DidYouKnow #Pandemic #DRC",
+  "chosen_title": "Prosecutors used ChatGPT logs as evidence in the Palisades fire trial",
+  "lane": "ai",
+  "source": "The Verge",
+  "score": 83,
+  "caption": "🚨 Prosecutors just used someone's ChatGPT conversation history as evidence in a criminal trial — and it worked.\n\nJonathan Rinderknecht was charged with arson for allegedly setting a fire on New Year's Day 2025 in Los Angeles. That blaze became entangled with the catastrophic Palisades wildfire, described as one of the deadliest in LA history. To build their case, prosecutors assembled three threads of digital evidence: iPhone location data, security camera footage — and Rinderknecht's ChatGPT logs.\n\nThis marks a striking new chapter in digital evidence law. Police have long subpoenaed emails, texts, and browser searches. But AI chatbot logs are now in the mix. OpenAI, like most tech platforms, stores your conversation history on its servers, and a court-issued subpoena can legally compel the company to hand it over. Unlike a Google search, an AI conversation often captures your reasoning, fears, and state of mind in full, flowing sentences — making it unusually detailed for investigators.\n\nWhy it matters: Every query you type into a logged-in AI session is a potential digital witness. The Rinderknecht case shows that what you ask a chatbot can end up read aloud in a courtroom.\n\nSource: The Verge\n\n#AI #ChatGPT #Tech #DigitalPrivacy #TrueCrime #LegalNews #ArtificialIntelligence #Cybersecurity #DidYouKnow #News",
   "slides": [
     {
       "type": "cover",
-      "label": "BREAKING",
-      "art_prompt": "A frantic cartoon CDC scientist in a bright yellow hazmat suit sprinting down a red-lit emergency corridor, alarm lights strobing on the ceiling, clutching a clipboard stamped with 'LEVEL 1 ACTIVATED' in a bold red badge, dramatic long shadow behind them, flat bold cartoon style with lime green and red accents, no text in image",
-      "headline": "CDC just hit its highest EBOLA alert ever",
-      "highlight": "EBOLA",
-      "source": "Reuters"
+      "label": "AI",
+      "art_prompt": "a wide-eyed cartoon man in an orange prison jumpsuit sitting frozen in a courtroom witness box as a sharply dressed prosecutor thrusts a giant glowing phone into the air displaying a recognizable ChatGPT chat thread, a cartoon judge peers over the bench with jaw dropped, dramatic courtroom lighting, bold flat comic style, lime and white palette",
+      "headline": "Your ChatGPT History Can Go to Court",
+      "highlight": "ChatGPT",
+      "source": "The Verge"
     },
     {
       "type": "context",
       "label": "THE STORY",
-      "headline": "An outbreak that could BREAK records",
-      "highlight": "BREAK",
-      "body": "The U.S. CDC has elevated its Ebola emergency response to Level 1 — the highest tier of activation — as an outbreak in the Democratic Republic of Congo continues to grow. Africa's CDC has issued a direct warning: this outbreak could become the largest in recorded history, eclipsing the devastating 2014–2016 West Africa epidemic. Level 1 is the same emergency tier the CDC triggered during COVID-19, deploying its full global resources and expert teams."
+      "headline": "Arson, Wildfire, and an AI Paper Trail",
+      "highlight": "AI Paper Trail",
+      "body": "Jonathan Rinderknecht was charged with arson for allegedly setting a fire in Los Angeles on New Year's Day 2025 — a blaze linked to the catastrophic Palisades wildfire, described as one of the deadliest in LA history. To make their case, prosecutors pulled together iPhone location data, security camera footage, and something entirely new as courtroom evidence: the suspect's own ChatGPT conversation logs."
     },
     {
       "type": "illustration",
-      "label": "THE VIRUS",
-      "art_prompt": "A giant menacing cartoon Ebola virus particle — thread-shaped, deep red with spiky protrusions — looming like a monster over a tiny flat-style silhouette map of central Africa, with small cartoon figures in hazmat suits forming a defensive ring around it, bold flat cartoon style in lime, white, and red, no text in image",
-      "art": "flask",
-      "headline": "One of the deadliest viruses on Earth",
-      "highlight": "deadliest",
-      "body": "Ebola hemorrhagic fever has no widely available cure. In past outbreaks, fatality rates have ranged from 25% to 90% depending on the viral strain and quality of care — making containment speed everything."
+      "label": "THE CASE",
+      "art_prompt": "a cartoon Los Angeles hillside neighborhood engulfed in towering orange and red wildfire at night, palm trees torching against a dark sky, a lone cartoon firefighter in full gear silhouetted against the blaze, dramatic deep shadows, flat bold comic-book illustration style",
+      "art": "bolt",
+      "headline": "One of LA's Deadliest Wildfires",
+      "highlight": "Deadliest",
+      "body": "The January 2025 Palisades fire became one of the most destructive wildfires in California history. Prosecutors allege Rinderknecht's New Year's Day fire helped feed the broader disaster, making the arson charge uniquely high-stakes."
     },
     {
-      "type": "stat",
-      "label": "THE NUMBER",
-      "value": "~11,000",
-      "caption": "Approximately 11,000 people died in the 2014–2016 West Africa Ebola outbreak — the deadliest in history. Africa's CDC has warned the current DRC outbreak is on a trajectory that could exceed that death toll."
+      "type": "illustration",
+      "label": "THE EVIDENCE",
+      "art_prompt": "a cartoon detective sitting at a glowing blue evidence desk with three floating digital cards fanned out in front of him: a smartphone showing GPS coordinates, a security camera with a red recording light, and a glowing ChatGPT chat window with visible message bubbles, all three connected by dotted lines to a central folder labelled CASE, flat bright bold illustration",
+      "art": "globe",
+      "headline": "Three Pieces of Digital Evidence",
+      "highlight": "Digital",
+      "body": "Location data and camera footage are familiar courtroom tools — but the ChatGPT logs were the new ingredient. What you type into a logged-in AI session is stored on OpenAI's servers and can be legally subpoenaed and read aloud before a jury."
     },
     {
       "type": "points",
       "label": "WHY IT MATTERS",
       "points": [
-        "CDC Level 1 is the agency's maximum emergency activation — reserved for only the most severe global health crises — and its declaration signals that officials believe the situation could deteriorate rapidly without aggressive international action.",
-        "Africa's CDC explicitly warning of a potential record-breaking outbreak puts this in a different category from routine DRC Ebola flare-ups, which the region has managed roughly a dozen times since the virus was first identified in 1976.",
-        "The Democratic Republic of Congo's combination of active conflict zones, under-resourced health infrastructure, and dense population centers makes containing any outbreak significantly harder than in previous episodes.",
-        "In an era of global air travel, a large uncontrolled Ebola outbreak raises the real — though historically manageable — risk of international spread, keeping health agencies from Washington to Geneva on the highest alert."
+        "OpenAI stores the full history of your logged-in ChatGPT conversations on its servers, which means a judge can issue a subpoena compelling the company to hand that data to law enforcement.",
+        "This case establishes AI chatbot logs as viable criminal evidence — a new category sitting alongside emails, text messages, and browser histories as a legal record of your digital life.",
+        "Unlike a search query, an AI conversation often captures your reasoning, plans, and emotions in full sentences, making it far more revealing to investigators than a single keyword.",
+        "The only way to prevent your conversations from being stored and retrievable is to use ChatGPT without logging in, or to switch to a privacy-focused AI tool that does not retain chat history."
       ]
     },
     {
       "type": "cta",
-      "headline": "Follow @decodededge for stories that actually MATTER",
-      "highlight": "MATTER"
+      "headline": "Does Your AI Know Too Much?",
+      "highlight": "AI"
     }
   ],
   "handle": "@decodededge",
