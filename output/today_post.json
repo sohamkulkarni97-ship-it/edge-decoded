@@ -1,64 +1,67 @@
 {
-  "chosen_title": "Prosecutors used ChatGPT logs as evidence in the Palisades fire trial",
-  "lane": "ai",
-  "source": "The Verge",
-  "score": 83,
-  "caption": "🚨 Prosecutors just used someone's ChatGPT conversation history as evidence in a criminal trial — and it worked.\n\nJonathan Rinderknecht was charged with arson for allegedly setting a fire on New Year's Day 2025 in Los Angeles. That blaze became entangled with the catastrophic Palisades wildfire, described as one of the deadliest in LA history. To build their case, prosecutors assembled three threads of digital evidence: iPhone location data, security camera footage — and Rinderknecht's ChatGPT logs.\n\nThis marks a striking new chapter in digital evidence law. Police have long subpoenaed emails, texts, and browser searches. But AI chatbot logs are now in the mix. OpenAI, like most tech platforms, stores your conversation history on its servers, and a court-issued subpoena can legally compel the company to hand it over. Unlike a Google search, an AI conversation often captures your reasoning, fears, and state of mind in full, flowing sentences — making it unusually detailed for investigators.\n\nWhy it matters: Every query you type into a logged-in AI session is a potential digital witness. The Rinderknecht case shows that what you ask a chatbot can end up read aloud in a courtroom.\n\nSource: The Verge\n\n#AI #ChatGPT #Tech #DigitalPrivacy #TrueCrime #LegalNews #ArtificialIntelligence #Cybersecurity #DidYouKnow #News",
+  "chosen_title": "Scientists discover what triggers belly fat as we age",
+  "lane": "science",
+  "source": "ScienceDaily",
+  "score": 84,
+  "caption": "🔓 Scientists just cracked one of the most frustrating mysteries of getting older: why belly fat piles up even when nothing else seems to change.\n\nResearchers have discovered that aging triggers the appearance of specialized stem cells that actively supercharge the body's ability to create new abdominal fat. Crucially, these cells don't exist in younger bodies — they only emerge as we age, suggesting the body has a built-in biological \"on switch\" for belly fat production. The finding, published in 2026 via ScienceDaily, may finally explain why middle-age weight gain can feel almost inevitable — because, biologically, it kind of is.\n\nWhat makes this genuinely new is the mechanism. Prior research focused on fat storage; this points to fat creation driven by age-specific stem cells. Researchers say these pro-adipogenic cells represent a promising molecular target for future anti-obesity treatments — meaning a drug could one day block the process at its source.\n\nWhy it matters: Visceral belly fat is strongly linked to heart disease, type 2 diabetes, and metabolic syndrome. A therapy targeting these stem cells wouldn't just be cosmetic — it could meaningfully reduce disease risk.\n\nSource: ScienceDaily\n\n#Science #WeightLoss #BellyFat #AntiAging #MedicalBreakthrough #DidYouKnow #ObesityResearch #Fitness #Biology #Health",
   "slides": [
     {
       "type": "cover",
-      "label": "AI",
-      "art_prompt": "a wide-eyed cartoon man in an orange prison jumpsuit sitting frozen in a courtroom witness box as a sharply dressed prosecutor thrusts a giant glowing phone into the air displaying a recognizable ChatGPT chat thread, a cartoon judge peers over the bench with jaw dropped, dramatic courtroom lighting, bold flat comic style, lime and white palette",
-      "headline": "Your ChatGPT History Can Go to Court",
-      "highlight": "ChatGPT",
-      "source": "The Verge"
+      "label": "SCIENCE",
+      "art_prompt": "A cartoon middle-aged man in a polo shirt lifts his shirt to reveal a tiny villainous stem cell wearing a hard hat and foreman's vest, operating a miniature fat-production factory inside his belly complete with conveyor belts churning out round yellow fat blobs and a smokestack, the man looks completely baffled, bold flat illustration, lime green and white palette",
+      "headline": "Why belly fat always wins",
+      "highlight": "belly fat",
+      "source": "ScienceDaily",
+      "image": "assets/gen_00.png"
     },
     {
       "type": "context",
       "label": "THE STORY",
-      "headline": "Arson, Wildfire, and an AI Paper Trail",
-      "highlight": "AI Paper Trail",
-      "body": "Jonathan Rinderknecht was charged with arson for allegedly setting a fire in Los Angeles on New Year's Day 2025 — a blaze linked to the catastrophic Palisades wildfire, described as one of the deadliest in LA history. To make their case, prosecutors pulled together iPhone location data, security camera footage, and something entirely new as courtroom evidence: the suspect's own ChatGPT conversation logs."
+      "headline": "A hidden biological trigger",
+      "highlight": "biological",
+      "body": "Researchers have discovered that aging triggers the appearance of specialized stem cells that supercharge the body's ability to create new belly fat — not just store it, but manufacture it. These cells are absent in young bodies and only emerge as we get older, pointing to a specific biological mechanism behind middle-age weight gain. Scientists say the finding also reveals a promising new target for future anti-obesity treatments."
     },
     {
       "type": "illustration",
-      "label": "THE CASE",
-      "art_prompt": "a cartoon Los Angeles hillside neighborhood engulfed in towering orange and red wildfire at night, palm trees torching against a dark sky, a lone cartoon firefighter in full gear silhouetted against the blaze, dramatic deep shadows, flat bold comic-book illustration style",
-      "art": "bolt",
-      "headline": "One of LA's Deadliest Wildfires",
-      "highlight": "Deadliest",
-      "body": "The January 2025 Palisades fire became one of the most destructive wildfires in California history. Prosecutors allege Rinderknecht's New Year's Day fire helped feed the broader disaster, making the arson charge uniquely high-stakes."
+      "label": "HOW IT WORKS",
+      "art_prompt": "A flat cartoon split-panel: on the left a young body's interior is calm and tidy with a bored ordinary fat cell sitting on a bench; on the right an older body's interior shows a glowing cape-wearing stem cell villain labeled 'PRO-ADIPOGENIC' holding a megaphone and commanding an army of new fat blobs marching in formation, lime green and white cartoon style, energetic and comic",
+      "art": "flask",
+      "headline": "A switch that flips with age",
+      "highlight": "switch",
+      "body": "These specialized pro-adipogenic stem cells don't show up in younger bodies. They appear specifically as aging progresses, actively driving the production of entirely new fat tissue in the abdominal region — a fundamentally different process from simply gaining weight.",
+      "image": "assets/gen_02.png"
     },
     {
       "type": "illustration",
-      "label": "THE EVIDENCE",
-      "art_prompt": "a cartoon detective sitting at a glowing blue evidence desk with three floating digital cards fanned out in front of him: a smartphone showing GPS coordinates, a security camera with a red recording light, and a glowing ChatGPT chat window with visible message bubbles, all three connected by dotted lines to a central folder labelled CASE, flat bright bold illustration",
-      "art": "globe",
-      "headline": "Three Pieces of Digital Evidence",
-      "highlight": "Digital",
-      "body": "Location data and camera footage are familiar courtroom tools — but the ChatGPT logs were the new ingredient. What you type into a logged-in AI session is stored on OpenAI's servers and can be legally subpoenaed and read aloud before a jury."
+      "label": "THE OPPORTUNITY",
+      "art_prompt": "A cartoon scientist in a white lab coat holds up a glowing lasso and squares off against a tiny mischievous stem cell villain on a laboratory countertop, a 'WANTED' poster pinned to a whiteboard behind them reading 'PRO-ADIPOGENIC CELL — REWARD: ANTI-OBESITY BREAKTHROUGH', flat lime and white illustration, bold comic energy",
+      "art": "pill",
+      "headline": "A new target for treatment",
+      "highlight": "target",
+      "body": "Because these stem cells are specific to aging biology rather than general metabolism, scientists believe blocking them could one day slow or reverse age-related belly fat accumulation without disrupting the rest of the body's normal fat regulation.",
+      "image": "assets/gen_03.png"
     },
     {
       "type": "points",
       "label": "WHY IT MATTERS",
       "points": [
-        "OpenAI stores the full history of your logged-in ChatGPT conversations on its servers, which means a judge can issue a subpoena compelling the company to hand that data to law enforcement.",
-        "This case establishes AI chatbot logs as viable criminal evidence — a new category sitting alongside emails, text messages, and browser histories as a legal record of your digital life.",
-        "Unlike a search query, an AI conversation often captures your reasoning, plans, and emotions in full sentences, making it far more revealing to investigators than a single keyword.",
-        "The only way to prevent your conversations from being stored and retrievable is to use ChatGPT without logging in, or to switch to a privacy-focused AI tool that does not retain chat history."
+        "Middle-age belly fat is not simply the result of eating more or exercising less — the body actually develops new cellular machinery dedicated to producing it as we get older.",
+        "Visceral belly fat is strongly associated with heart disease, type 2 diabetes, and metabolic syndrome, making this far more than a cosmetic issue.",
+        "Identifying these age-specific stem cells gives researchers a precise molecular target, opening a path to drugs that could interrupt belly fat creation at the source rather than just managing symptoms.",
+        "The discovery could fundamentally shift how medicine approaches age-related obesity, adding a biological intervention layer alongside existing diet and lifestyle guidance."
       ]
     },
     {
       "type": "cta",
-      "headline": "Does Your AI Know Too Much?",
-      "highlight": "AI"
+      "headline": "Follow for science that actually affects your life",
+      "highlight": "your life"
     }
   ],
   "handle": "@decodededge",
-  "palette": "cyan",
+  "palette": "pink",
   "accent_rgb": [
-    0,
-    229,
-    255
+    255,
+    61,
+    165
   ]
 }
