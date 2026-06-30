@@ -30,10 +30,12 @@ def _add_cartoons(post, accent_hex):
         if not prompt:
             continue
         rel = os.path.join("assets", f"gen_{i:02d}.png")
+        # cover is the conversion-critical, scroll-stopping image — worth the extra quality
+        quality = "high" if sl.get("type") == "cover" else "medium"
         try:
-            gen_image.generate(prompt, os.path.join(HERE, rel), accent_hex=accent_hex)
+            gen_image.generate(prompt, os.path.join(HERE, rel), accent_hex=accent_hex, quality=quality)
             sl["image"] = rel
-            print(f"  cartoon -> {rel}  ({prompt[:48]}...)")
+            print(f"  cartoon [{quality}] -> {rel}  ({prompt[:48]}...)")
         except Exception as e:
             print(f"  [warn] cartoon gen failed ({e}); using fallback shape.")
 

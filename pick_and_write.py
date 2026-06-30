@@ -83,18 +83,25 @@ CAROUSEL RULES (ENGAGING first, informative second):
 SLIDE SCHEMA — every slide object MUST include a "type" field set to one of:
 cover, context, stat, ring, bars, illustration, points, cta. Then add its fields:
   cover         : label, art_prompt, headline, highlight, source
-       art_prompt = a VIVID, detailed, scroll-stopping cartoon SCENE for the cover (a
-                    character mid-action, comic energy) — the single most important graphic;
-                    it decides whether people swipe. Describe it fully. No text in the image.
+       art_prompt = the SINGLE most important graphic — it decides whether people swipe, so
+                    make it count. Write 2-4 FULL SENTENCES (not a one-liner), covering:
+                    (1) the character/subject caught mid-ACTION with a specific, funny or
+                    dramatic pose; (2) one or two concrete, story-specific PROPS or details
+                    that make it instantly read as THIS story, not a generic stock scene;
+                    (3) the mood/energy (comic, tense, awe-struck — match the story). A house
+                    cartoon style is applied automatically — spend your words on specific,
+                    vivid content, not generic style adjectives. No text in the image.
   context       : label, headline, highlight, body   (body = 2-4 full sentences — the core explanation)
   stat          : label, value (e.g. "60%"), caption (caption = a full explanatory sentence)
   ring          : label, percent (number), big (e.g. "78%"), caption, headline, highlight
   bars          : label, bars (list of 4-6 numbers), barlabel, headline, highlight
   illustration  : label, art_prompt, art, headline, highlight, body
-       art_prompt = a vivid ONE-LINE description of a SINGLE cartoon subject that captures
-                    this specific story (e.g. "a smiling elderly woman with a glowing speech
-                    bubble", "a strand of DNA breaking through a brick wall"). It is rendered
-                    as a flat lime+white cartoon. Make it concrete and story-specific. No text.
+       art_prompt = 1-2 vivid sentences describing a SINGLE cartoon subject/mini-scene that
+                    captures THIS specific story — not a generic icon. Give it action or a
+                    telling detail (e.g. "An elderly woman mid-laugh, swatting away a swarm
+                    of tiny glitching speech-bubble icons that keep scattering her words" not
+                    "a smiling elderly woman with a speech bubble"). Concrete, story-specific,
+                    a little unexpected. No text in the image.
        art = closest fallback key from the list below (used only if image generation is off).
        body = 1-2 sentence supporting fact.
   points        : label, points (list of 3-4 FULL-SENTENCE strings)

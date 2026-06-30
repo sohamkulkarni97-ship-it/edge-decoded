@@ -15,14 +15,23 @@ from openai import OpenAI
 MODEL = "gpt-image-1"
 
 # House style — bold, punchy, characterful; lime-dominant so it stays on-brand
-# while being eye-catching enough to stop the scroll.
+# while being eye-catching enough to stop the scroll. Thick art-direction (not
+# just "cartoon") so even a short story prompt yields a premium, dynamic result —
+# the same upgrade applied to the X engine's hero-image style.
 STYLE = (
-    "Bold punchy editorial CARTOON illustration with comic-book energy and personality. "
-    "Thick clean black outlines, flat vibrant colors, the color {accent} as the DOMINANT "
-    "accent alongside white and a couple of bold pop colors. Expressive, slightly "
-    "exaggerated and funny characters; dynamic composition. Fully TRANSPARENT "
-    "background (the art will sit on a black canvas). One focused character or mini-scene. "
-    "Absolutely NO text, letters, numbers, speech-bubble words, watermark, or border. Scene: "
+    "Award-winning, scroll-stopping editorial CARTOON illustration — think a top-tier "
+    "New Yorker or Pixar concept artist, NOT a generic clip-art icon. ART DIRECTION: "
+    "one bold, instantly-readable character or mini-scene caught mid-ACTION (not a static "
+    "pose) — exaggerated, characterful, a little funny or dramatic depending on the story, "
+    "with real comic-book energy: dynamic camera angle, a sense of motion (speed lines, "
+    "motion blur, flying debris/objects where it fits), expressive oversized gestures and "
+    "faces. RENDERING: thick clean confident black outlines, bold flat vibrant color "
+    "fields with the color {accent} as the DOMINANT accent alongside white and one or two "
+    "bold pop colors, subtle cel-shading/highlight for depth, crisp and high-detail. "
+    "Fully TRANSPARENT background (the art sits on a black canvas) — compose the subject "
+    "so it reads instantly even small. Make a bold, unexpected creative choice that makes "
+    "the viewer look twice. STRICTLY NO text, letters, numbers, speech-bubble words, "
+    "watermark, or border anywhere. THE SCENE: "
 )
 
 
