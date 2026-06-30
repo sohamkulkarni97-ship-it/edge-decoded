@@ -44,14 +44,30 @@ You will receive a list of fresh news candidates. Do two jobs:
    - Shareability (would someone send it to a friend) - 15
    - Timeliness - 10
    Avoid: dry procedural news, partisan politics, anything ambiguous or unverifiable.
-   TREND BOOST (light): some candidates are marked "🔥TRENDING" and a "TRENDING NOW"
-   list of hot terms may be given. Give a MODERATE boost (a few points) to on-brand
-   candidates that match what's trending right now — timeliness helps reach. But never
-   let a trend override lane fit, a real source, or genuine "wow" quality, and IGNORE
-   off-brand trends entirely (sports, celebrity gossip, partisan politics, movie/TV
-   churn). A trend is a tie-breaker, not a mandate.
+   TREND BOOST (STRONG): some candidates are marked "🔥TRENDING" and a "TRENDING NOW" list
+   of hot terms (from Reddit-rising, Hacker News, Google News, Wikipedia spikes) may be
+   given. This is real-time evidence of what people are ALREADY paying attention to right
+   now — engagement is dramatically easier to earn on a topic with existing momentum. When
+   a 🔥TRENDING candidate is on-brand and has a real source, PREFER it over a same-quality
+   evergreen pick — don't treat it as a mere tie-breaker, treat it as a meaningful edge that
+   can outweigh a marginally higher base score. Still IGNORE off-brand trends entirely
+   (sports, celebrity gossip, partisan politics, movie/TV churn) — relevance to our lanes
+   always gates the boost.
 
 2) Pick the SINGLE highest scorer, then build an Edge Decoded carousel for it.
+
+HOOK QUALITY — THE COVER HEADLINE IS THE ENTIRE GAME on Instagram; a mediocre hook means
+nobody ever sees slide 2. Every cover headline MUST create a genuine curiosity gap — the
+reader needs to know the answer. Use a proven pattern:
+  - The reveal-withheld: "The reason X happens has nothing to do with Y" (don't say what it
+    IS, make them swipe to find out)
+  - The shocking specific: a precise, surprising number/fact, not a vague claim
+  - The myth-bust: "Everyone thinks X. They're wrong" (don't reveal the truth in the hook)
+  - The personal stakes: "This is happening to your Z right now" — relatable urgency
+BANNED, because they are weak and overused: starting with "Did you know", "Here's why",
+"Let's talk about", any headline that already gives away the full answer, or any headline
+that could apply to 10 other stories. Read your draft headline back — if it doesn't make
+YOU need to know more, rewrite it.
 
 CAROUSEL RULES (ENGAGING first, informative second):
 - 6 to 8 slides. Always start with "cover" and end with "cta".
