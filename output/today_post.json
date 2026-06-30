@@ -1,56 +1,56 @@
 {
-  "chosen_title": "'The start of a new era': Rocket Lab buying satellite-communications company Iridium for $8 billion",
+  "chosen_title": "Two 'Super-Puff' Planets Lighter Than Cotton Candy Discovered by Researchers",
   "lane": "space",
-  "source": "Space.com",
+  "source": "Good News Network / CBC / NASA TESS Mission",
   "score": 87,
-  "caption": "🛰️ Rocket Lab just stopped being a rocket company.\n\nIn a deal valued at $8 billion, Rocket Lab — best known for launching small satellites on its Electron rocket — has agreed to acquire Iridium, the operator of the world's only truly global satellite communications network. The move transforms Rocket Lab overnight from a launch-for-hire provider into a vertically integrated space company that both flies the rockets and runs the satellites inside them. CEO Peter Beck called it \"the start of a new era.\"\n\nIridium operates 66 low-Earth orbit satellites that blanket every corner of the planet — oceans, polar ice caps, and remote wilderness where no cell tower has ever existed. Its network is the backbone for maritime crews, military operations, emergency responders, and the satellite SOS messaging feature built into modern smartphones. Owning it gives Rocket Lab a massive base of recurring subscription revenue, far more stable than winning launch contracts one at a time.\n\nWhy it matters: Vertical integration — owning the rocket AND the satellite network it feeds — may define who wins the space economy. Rocket Lab just placed the biggest bet in its history that the future belongs to companies that control the whole stack.\n\nSource: Space.com\n\n#Space #RocketLab #Iridium #SpaceExploration #SatelliteInternet #Tech #Science #Mindblowing #BusinessNews #SpaceIndustry",
+  "caption": "Two new planets are 1,000 times Earth's size. That's not the bizarre part. 🪐\n\nResearchers using NASA's TESS mission have discovered two so-called 'super-puff' exoplanets that are roughly 1,000 times larger than Earth by volume — yet so incredibly low in density that their material is lighter than cotton candy. That means these giants, despite their colossal size, have almost no mass to speak of.\n\nSuper-puff planets are one of astronomy's most puzzling categories. Scientists believe they have a small rocky or icy core surrounded by a vast, extended atmosphere — so thin and spread out that the planet's average density barely registers. What makes this discovery unusual is finding two of them together, giving researchers a rare pair to study side by side.\n\nThe catch: scientists aren't sure how super-puffs survive. Their wispy atmospheres should be slowly boiling away from stellar radiation — meaning these worlds may be temporary by cosmic standards.\n\nWhy it matters: every planet like this forces us to rethink what a 'planet' can be — and sharpens our models of how our own solar system came to look the way it does.\n\nSource: Good News Network / CBC / NASA TESS Mission\n\n#Space #Science #NASA #Astronomy #Exoplanets #SpaceExploration #PlanetDiscovery #DidYouKnow #MindBlowing #UniverseDiscovery",
   "slides": [
     {
       "type": "cover",
       "label": "SPACE",
-      "art_prompt": "A cartoon Rocket Lab engineer in an orange flight suit stands triumphantly on top of a tiny Electron rocket as if surfing it, holding a massive golden satellite dish labeled 'IRIDIUM' above his head like a trophy. The satellite dish is comically larger than the rocket beneath him, and 66 tiny satellites orbit his head in a glowing ring like a halo. Below, shocked businessmen in suits stare up open-mouthed, their briefcases falling. Bold, comic, triumphant energy — a David-just-became-Goliath moment.",
-      "headline": "Rocket Lab just bet $8 billion on something that has nothing to do with rockets",
-      "highlight": "$8 billion",
-      "source": "Space.com",
+      "art_prompt": "A cartoon astronomer in a rumpled lab coat stands at a massive observatory telescope, jaw hanging open in total disbelief, staring out at a sky dominated by an enormous, impossibly fluffy pink planet that looks exactly like cotton candy — swirled in pastel pinks and purples, with wispy candy-floss clouds drifting off its surface. Tiny cotton candy cones float in orbit around it as moons, while a tiny blue marble (Earth) sits in the corner for humbling scale. The mood is pure comic awe.",
+      "headline": "Two new planets are 1,000× Earth's size. That's not the bizarre part.",
+      "highlight": "bizarre part",
+      "source": "NASA TESS Mission / CBC",
       "image": "assets/gen_00.png"
     },
     {
       "type": "context",
       "label": "THE STORY",
-      "headline": "A launch company just bought a satellite empire",
-      "highlight": "empire",
-      "body": "Rocket Lab has agreed to acquire Iridium — the company that operates the world's only truly pole-to-pole satellite communications network — for $8 billion. For a company that built its reputation launching other people's satellites on small rockets, this is a fundamental identity shift. Rocket Lab is no longer just a transportation service for space; it is becoming an owner and operator of the infrastructure itself. CEO Peter Beck described the deal as 'the start of a new era.'"
-    },
-    {
-      "type": "illustration",
-      "label": "HOW IT WORKS",
-      "art_prompt": "A lone cartoon hiker stranded on a tiny storm-battered life raft in the middle of a featureless dark ocean holds up a chunky brick-sized satellite phone, and a single golden signal beam shoots straight up from it into the clouds, connecting to a glowing ring of 66 tiny satellites orbiting high overhead — the only light in an otherwise empty world. Awe-inspiring, slightly surreal, quietly heroic mood.",
-      "art": "rocket",
-      "headline": "66 satellites cover every inch of Earth",
-      "highlight": "every inch",
-      "body": "Iridium's 66-satellite low-Earth orbit constellation is the only network providing voice and data coverage across the entire planet — including open oceans, polar regions, and remote wilderness. It powers maritime rescue, military communications, and the satellite emergency SOS built into modern iPhones and other smartphones.",
-      "image": "assets/gen_02.png"
+      "headline": "Meet the two impossible planets",
+      "highlight": "impossible",
+      "body": "Researchers using NASA's TESS planet-hunting mission have confirmed two 'super-puff' exoplanets, each approximately 1,000 times larger than Earth by volume. The twist: despite their enormous size, both planets have such extraordinarily low density that their material is lighter than cotton candy. They belong to a rare and poorly understood class of worlds that challenge everything we know about how planets form and hold themselves together."
     },
     {
       "type": "stat",
       "label": "THE NUMBER",
-      "value": "$8B",
-      "caption": "The price Rocket Lab agreed to pay for Iridium — making it one of the largest acquisitions in the history of the commercial space industry, and nearly twice Rocket Lab's previous market capitalization."
+      "value": "1,000×",
+      "caption": "Each super-puff planet is roughly 1,000 times larger than Earth in volume — yet so feather-light in density that the average material across the whole planet is less dense than the spun sugar in a carnival cotton candy cone."
+    },
+    {
+      "type": "illustration",
+      "label": "HOW IT WORKS",
+      "art_prompt": "A cutaway cartoon diagram of a super-puff planet: a vast, translucent cotton-candy-pink sphere dominates the frame, its interior showing a tiny dense pebble-sized rocky core at the very center, surrounded by an enormous billowing atmosphere hundreds of times the core's size — like a marble inside a hot-air balloon the size of a house. A tiny blue Earth floats beside it for scale, barely visible. Stars pepper the cosmic background.",
+      "art": "globe",
+      "headline": "Mostly atmosphere — almost no substance",
+      "highlight": "no substance",
+      "body": "Scientists believe super-puff planets have a small rocky or icy core wrapped in a hugely extended, gossamer-thin atmosphere. That atmosphere is so vast and spread out that when you average the density across the whole planet, the number almost vanishes — producing a world that is physically enormous but nearly weightless.",
+      "image": "assets/gen_03.png"
     },
     {
       "type": "points",
       "label": "WHY IT MATTERS",
       "points": [
-        "Rocket Lab is pivoting from selling individual launches to owning the entire infrastructure stack — building the rocket, launching the satellite, and operating the network — a vertical integration strategy that mirrors how SpaceX has grown into a dominant space company.",
-        "Iridium generates recurring subscription revenue from governments, navies, shipping operators, and emergency services around the world, giving Rocket Lab a stable income base that doesn't evaporate if it loses a launch contract.",
-        "Because Iridium underpins the satellite SOS and off-grid messaging features on Apple iPhones and other modern devices, Rocket Lab will soon be the silent infrastructure company behind your phone's last-resort emergency lifeline.",
-        "The deal signals a broader shift in the space economy: the companies that will dominate long-term may not be the ones who fly the most rockets, but the ones who own what the rockets put up there."
+        "Super-puff planets are one of astronomy's most contested mysteries — scientists still debate whether their bloated atmospheres can survive long-term without being slowly baked away by their host star's radiation.",
+        "Finding two super-puffs at once gives researchers a rare side-by-side comparison, making it far easier to study how these extreme worlds form, evolve, and manage to stay intact.",
+        "NASA's TESS mission was designed to find Earth-like worlds, but keeps delivering rule-breaking planets like these — dramatically widening what scientists consider physically possible.",
+        "Every strange planet discovered sharpens the models scientists use to understand our own solar system's four-billion-year history, including why Earth turned out the way it did."
       ]
     },
     {
       "type": "cta",
-      "headline": "Follow @decodededge — the most interesting thing in space, money & tech, daily",
-      "highlight": "daily"
+      "headline": "Follow for your daily dose of the universe",
+      "highlight": "daily dose"
     }
   ],
   "handle": "@decodededge",
