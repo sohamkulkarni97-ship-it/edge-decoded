@@ -1,67 +1,63 @@
 {
-  "chosen_title": "Scientists discover what triggers belly fat as we age",
-  "lane": "science",
-  "source": "ScienceDaily",
-  "score": 84,
-  "caption": "🔓 Scientists just cracked one of the most frustrating mysteries of getting older: why belly fat piles up even when nothing else seems to change.\n\nResearchers have discovered that aging triggers the appearance of specialized stem cells that actively supercharge the body's ability to create new abdominal fat. Crucially, these cells don't exist in younger bodies — they only emerge as we age, suggesting the body has a built-in biological \"on switch\" for belly fat production. The finding, published in 2026 via ScienceDaily, may finally explain why middle-age weight gain can feel almost inevitable — because, biologically, it kind of is.\n\nWhat makes this genuinely new is the mechanism. Prior research focused on fat storage; this points to fat creation driven by age-specific stem cells. Researchers say these pro-adipogenic cells represent a promising molecular target for future anti-obesity treatments — meaning a drug could one day block the process at its source.\n\nWhy it matters: Visceral belly fat is strongly linked to heart disease, type 2 diabetes, and metabolic syndrome. A therapy targeting these stem cells wouldn't just be cosmetic — it could meaningfully reduce disease risk.\n\nSource: ScienceDaily\n\n#Science #WeightLoss #BellyFat #AntiAging #MedicalBreakthrough #DidYouKnow #ObesityResearch #Fitness #Biology #Health",
+  "chosen_title": "'The start of a new era': Rocket Lab buying satellite-communications company Iridium for $8 billion",
+  "lane": "space",
+  "source": "Space.com",
+  "score": 87,
+  "caption": "🛰️ Rocket Lab just stopped being a rocket company.\n\nIn a deal valued at $8 billion, Rocket Lab — best known for launching small satellites on its Electron rocket — has agreed to acquire Iridium, the operator of the world's only truly global satellite communications network. The move transforms Rocket Lab overnight from a launch-for-hire provider into a vertically integrated space company that both flies the rockets and runs the satellites inside them. CEO Peter Beck called it \"the start of a new era.\"\n\nIridium operates 66 low-Earth orbit satellites that blanket every corner of the planet — oceans, polar ice caps, and remote wilderness where no cell tower has ever existed. Its network is the backbone for maritime crews, military operations, emergency responders, and the satellite SOS messaging feature built into modern smartphones. Owning it gives Rocket Lab a massive base of recurring subscription revenue, far more stable than winning launch contracts one at a time.\n\nWhy it matters: Vertical integration — owning the rocket AND the satellite network it feeds — may define who wins the space economy. Rocket Lab just placed the biggest bet in its history that the future belongs to companies that control the whole stack.\n\nSource: Space.com\n\n#Space #RocketLab #Iridium #SpaceExploration #SatelliteInternet #Tech #Science #Mindblowing #BusinessNews #SpaceIndustry",
   "slides": [
     {
       "type": "cover",
-      "label": "SCIENCE",
-      "art_prompt": "A cartoon middle-aged man in a polo shirt lifts his shirt to reveal a tiny villainous stem cell wearing a hard hat and foreman's vest, operating a miniature fat-production factory inside his belly complete with conveyor belts churning out round yellow fat blobs and a smokestack, the man looks completely baffled, bold flat illustration, lime green and white palette",
-      "headline": "Why belly fat always wins",
-      "highlight": "belly fat",
-      "source": "ScienceDaily",
+      "label": "SPACE",
+      "art_prompt": "A cartoon Rocket Lab engineer in an orange flight suit stands triumphantly on top of a tiny Electron rocket as if surfing it, holding a massive golden satellite dish labeled 'IRIDIUM' above his head like a trophy. The satellite dish is comically larger than the rocket beneath him, and 66 tiny satellites orbit his head in a glowing ring like a halo. Below, shocked businessmen in suits stare up open-mouthed, their briefcases falling. Bold, comic, triumphant energy — a David-just-became-Goliath moment.",
+      "headline": "Rocket Lab just bet $8 billion on something that has nothing to do with rockets",
+      "highlight": "$8 billion",
+      "source": "Space.com",
       "image": "assets/gen_00.png"
     },
     {
       "type": "context",
       "label": "THE STORY",
-      "headline": "A hidden biological trigger",
-      "highlight": "biological",
-      "body": "Researchers have discovered that aging triggers the appearance of specialized stem cells that supercharge the body's ability to create new belly fat — not just store it, but manufacture it. These cells are absent in young bodies and only emerge as we get older, pointing to a specific biological mechanism behind middle-age weight gain. Scientists say the finding also reveals a promising new target for future anti-obesity treatments."
+      "headline": "A launch company just bought a satellite empire",
+      "highlight": "empire",
+      "body": "Rocket Lab has agreed to acquire Iridium — the company that operates the world's only truly pole-to-pole satellite communications network — for $8 billion. For a company that built its reputation launching other people's satellites on small rockets, this is a fundamental identity shift. Rocket Lab is no longer just a transportation service for space; it is becoming an owner and operator of the infrastructure itself. CEO Peter Beck described the deal as 'the start of a new era.'"
     },
     {
       "type": "illustration",
       "label": "HOW IT WORKS",
-      "art_prompt": "A flat cartoon split-panel: on the left a young body's interior is calm and tidy with a bored ordinary fat cell sitting on a bench; on the right an older body's interior shows a glowing cape-wearing stem cell villain labeled 'PRO-ADIPOGENIC' holding a megaphone and commanding an army of new fat blobs marching in formation, lime green and white cartoon style, energetic and comic",
-      "art": "flask",
-      "headline": "A switch that flips with age",
-      "highlight": "switch",
-      "body": "These specialized pro-adipogenic stem cells don't show up in younger bodies. They appear specifically as aging progresses, actively driving the production of entirely new fat tissue in the abdominal region — a fundamentally different process from simply gaining weight.",
+      "art_prompt": "A lone cartoon hiker stranded on a tiny storm-battered life raft in the middle of a featureless dark ocean holds up a chunky brick-sized satellite phone, and a single golden signal beam shoots straight up from it into the clouds, connecting to a glowing ring of 66 tiny satellites orbiting high overhead — the only light in an otherwise empty world. Awe-inspiring, slightly surreal, quietly heroic mood.",
+      "art": "rocket",
+      "headline": "66 satellites cover every inch of Earth",
+      "highlight": "every inch",
+      "body": "Iridium's 66-satellite low-Earth orbit constellation is the only network providing voice and data coverage across the entire planet — including open oceans, polar regions, and remote wilderness. It powers maritime rescue, military communications, and the satellite emergency SOS built into modern iPhones and other smartphones.",
       "image": "assets/gen_02.png"
     },
     {
-      "type": "illustration",
-      "label": "THE OPPORTUNITY",
-      "art_prompt": "A cartoon scientist in a white lab coat holds up a glowing lasso and squares off against a tiny mischievous stem cell villain on a laboratory countertop, a 'WANTED' poster pinned to a whiteboard behind them reading 'PRO-ADIPOGENIC CELL — REWARD: ANTI-OBESITY BREAKTHROUGH', flat lime and white illustration, bold comic energy",
-      "art": "pill",
-      "headline": "A new target for treatment",
-      "highlight": "target",
-      "body": "Because these stem cells are specific to aging biology rather than general metabolism, scientists believe blocking them could one day slow or reverse age-related belly fat accumulation without disrupting the rest of the body's normal fat regulation.",
-      "image": "assets/gen_03.png"
+      "type": "stat",
+      "label": "THE NUMBER",
+      "value": "$8B",
+      "caption": "The price Rocket Lab agreed to pay for Iridium — making it one of the largest acquisitions in the history of the commercial space industry, and nearly twice Rocket Lab's previous market capitalization."
     },
     {
       "type": "points",
       "label": "WHY IT MATTERS",
       "points": [
-        "Middle-age belly fat is not simply the result of eating more or exercising less — the body actually develops new cellular machinery dedicated to producing it as we get older.",
-        "Visceral belly fat is strongly associated with heart disease, type 2 diabetes, and metabolic syndrome, making this far more than a cosmetic issue.",
-        "Identifying these age-specific stem cells gives researchers a precise molecular target, opening a path to drugs that could interrupt belly fat creation at the source rather than just managing symptoms.",
-        "The discovery could fundamentally shift how medicine approaches age-related obesity, adding a biological intervention layer alongside existing diet and lifestyle guidance."
+        "Rocket Lab is pivoting from selling individual launches to owning the entire infrastructure stack — building the rocket, launching the satellite, and operating the network — a vertical integration strategy that mirrors how SpaceX has grown into a dominant space company.",
+        "Iridium generates recurring subscription revenue from governments, navies, shipping operators, and emergency services around the world, giving Rocket Lab a stable income base that doesn't evaporate if it loses a launch contract.",
+        "Because Iridium underpins the satellite SOS and off-grid messaging features on Apple iPhones and other modern devices, Rocket Lab will soon be the silent infrastructure company behind your phone's last-resort emergency lifeline.",
+        "The deal signals a broader shift in the space economy: the companies that will dominate long-term may not be the ones who fly the most rockets, but the ones who own what the rockets put up there."
       ]
     },
     {
       "type": "cta",
-      "headline": "Follow for science that actually affects your life",
-      "highlight": "your life"
+      "headline": "Follow @decodededge — the most interesting thing in space, money & tech, daily",
+      "highlight": "daily"
     }
   ],
   "handle": "@decodededge",
-  "palette": "pink",
+  "palette": "orange",
   "accent_rgb": [
     255,
-    61,
-    165
+    106,
+    0
   ]
 }
