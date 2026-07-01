@@ -1,63 +1,67 @@
 {
-  "chosen_title": "Two 'Super-Puff' Planets Lighter Than Cotton Candy Discovered by Researchers",
-  "lane": "space",
-  "source": "Good News Network / CBC / NASA TESS Mission",
-  "score": 87,
-  "caption": "Two new planets are 1,000 times Earth's size. That's not the bizarre part. 🪐\n\nResearchers using NASA's TESS mission have discovered two so-called 'super-puff' exoplanets that are roughly 1,000 times larger than Earth by volume — yet so incredibly low in density that their material is lighter than cotton candy. That means these giants, despite their colossal size, have almost no mass to speak of.\n\nSuper-puff planets are one of astronomy's most puzzling categories. Scientists believe they have a small rocky or icy core surrounded by a vast, extended atmosphere — so thin and spread out that the planet's average density barely registers. What makes this discovery unusual is finding two of them together, giving researchers a rare pair to study side by side.\n\nThe catch: scientists aren't sure how super-puffs survive. Their wispy atmospheres should be slowly boiling away from stellar radiation — meaning these worlds may be temporary by cosmic standards.\n\nWhy it matters: every planet like this forces us to rethink what a 'planet' can be — and sharpens our models of how our own solar system came to look the way it does.\n\nSource: Good News Network / CBC / NASA TESS Mission\n\n#Space #Science #NASA #Astronomy #Exoplanets #SpaceExploration #PlanetDiscovery #DidYouKnow #MindBlowing #UniverseDiscovery",
+  "chosen_title": "'Beautiful blobs': synthetic life a step closer as scientists make cells using lab-made DNA",
+  "lane": "science",
+  "source": "The Guardian / New York Times",
+  "score": 91,
+  "caption": "🧬 For billions of years, life has only ever come from life. That just changed.\n\nScientists have created what they describe as the first synthetic cell — built not by modifying an existing organism, but by assembling it from entirely lab-made DNA. The cell does everything a living cell does: it takes in nutrients, grows, and divides into copies of itself.\n\nThe team has also formed a public benefit corporation specifically to share the technology openly with the scientific community — a deliberate move to keep this foundational discovery in the commons rather than locked behind patents.\n\nThe implications reach far beyond the lab. Synthetic cells could one day be programmed to deliver drugs, repair tissue, or manufacture biological compounds inside the body. But researchers acknowledge this raises urgent philosophical, ethical, and regulatory questions — including the most basic one of all: what exactly counts as being alive?\n\nWhy it matters: If the findings hold up to scrutiny, this ranks among the most consequential biology milestones in history — putting us one step closer to truly understanding, and engineering, the fundamental unit of all living things.\n\nSource: The Guardian, New York Times\n\n#Science #Biology #Breakthrough #DidYouKnow #Mindblowing #SyntheticBiology #FutureOfMedicine #LifeScience #News #ScientificDiscovery",
   "slides": [
     {
       "type": "cover",
-      "label": "SPACE",
-      "art_prompt": "A cartoon astronomer in a rumpled lab coat stands at a massive observatory telescope, jaw hanging open in total disbelief, staring out at a sky dominated by an enormous, impossibly fluffy pink planet that looks exactly like cotton candy — swirled in pastel pinks and purples, with wispy candy-floss clouds drifting off its surface. Tiny cotton candy cones float in orbit around it as moons, while a tiny blue marble (Earth) sits in the corner for humbling scale. The mood is pure comic awe.",
-      "headline": "Two new planets are 1,000× Earth's size. That's not the bizarre part.",
-      "highlight": "bizarre part",
-      "source": "NASA TESS Mission / CBC",
+      "label": "SCIENCE",
+      "art_prompt": "A wide-eyed cartoon scientist in a rumpled lab coat stands at a glowing workbench, holding a petri dish up to eye level with trembling, amazed hands. Inside the dish, a tiny luminous blob-cell is visibly pinching in half — splitting into two identical glowing copies, each one raising a stubby arm in triumph. The bench behind them is buried under DNA helix models, scattered notebooks, and toppled beakers. The scientist's forgotten coffee mug drips off the edge of the table and their name badge reads 'Dr. Frankenstein Jr.' Warm golden light radiates from the dish, illuminating their awestruck face. Comic energy with a current of genuine wonder.",
+      "headline": "Life, we thought, could only come from life. Until now.",
+      "highlight": "Until now",
+      "source": "The Guardian / New York Times",
       "image": "assets/gen_00.png"
     },
     {
       "type": "context",
       "label": "THE STORY",
-      "headline": "Meet the two impossible planets",
-      "highlight": "impossible",
-      "body": "Researchers using NASA's TESS planet-hunting mission have confirmed two 'super-puff' exoplanets, each approximately 1,000 times larger than Earth by volume. The twist: despite their enormous size, both planets have such extraordinarily low density that their material is lighter than cotton candy. They belong to a rare and poorly understood class of worlds that challenge everything we know about how planets form and hold themselves together."
-    },
-    {
-      "type": "stat",
-      "label": "THE NUMBER",
-      "value": "1,000×",
-      "caption": "Each super-puff planet is roughly 1,000 times larger than Earth in volume — yet so feather-light in density that the average material across the whole planet is less dense than the spun sugar in a carnival cotton candy cone."
+      "headline": "A cell built entirely from scratch",
+      "highlight": "scratch",
+      "body": "Researchers have created what they say may be the first synthetic cell — constructed using entirely lab-made DNA, not derived from any existing organism. The cell feeds, grows, and divides on its own. The team has also founded a public benefit corporation to share the technology openly with scientists worldwide, rather than restricting it behind patents."
     },
     {
       "type": "illustration",
       "label": "HOW IT WORKS",
-      "art_prompt": "A cutaway cartoon diagram of a super-puff planet: a vast, translucent cotton-candy-pink sphere dominates the frame, its interior showing a tiny dense pebble-sized rocky core at the very center, surrounded by an enormous billowing atmosphere hundreds of times the core's size — like a marble inside a hot-air balloon the size of a house. A tiny blue Earth floats beside it for scale, barely visible. Stars pepper the cosmic background.",
-      "art": "globe",
-      "headline": "Mostly atmosphere — almost no substance",
-      "highlight": "no substance",
-      "body": "Scientists believe super-puff planets have a small rocky or icy core wrapped in a hugely extended, gossamer-thin atmosphere. That atmosphere is so vast and spread out that when you average the density across the whole planet, the number almost vanishes — producing a world that is physically enormous but nearly weightless.",
+      "art_prompt": "Inside a glowing lab flask, a cheerful cartoon blob-cell sits at the center surrounded by floating LEGO-like building blocks labeled 'lab-made DNA' that snap together around it like puzzle pieces assembling in real time. The cell has a huge grin and is mid-division — stretching into a figure-eight shape as it splits into two identical mini-cells. A simple arrow runs across the background from left to right, labelled 'chemistry' on one end and 'life' on the other, with a starburst explosion exactly at the midpoint where the cell sits.",
+      "art": "flask",
+      "headline": "It feeds. It grows. It divides.",
+      "highlight": "divides",
+      "body": "Unlike earlier synthetic biology milestones that edited or reprogrammed existing cells, this one was assembled from scratch using lab-synthesized DNA — making it a fundamentally new kind of living thing, not a remix of anything that existed before.",
+      "image": "assets/gen_02.png"
+    },
+    {
+      "type": "illustration",
+      "label": "THE CATCH",
+      "art_prompt": "Three cartoon scientists stand in a row, each holding up a whiteboard with a different definition of the word 'LIFE' scrawled on it — all three definitions are contradictory and the middle scientist is frantically erasing theirs for what is clearly the fifth time. Between them on a tiny glowing pedestal sits a small synthetic blob-cell looking extremely smug, a thought bubble above it reading '…so, what AM I exactly?' Stacks of philosophy textbooks and biology journals litter the floor around their feet. The mood is comic frustration mixed with genuine intellectual crisis.",
+      "art": "flask",
+      "headline": "Now the hard question: what even IS alive?",
+      "highlight": "alive",
+      "body": "The researchers themselves say the discovery generates as many questions as it answers — philosophical, ethical, and regulatory. Defining life precisely enough to govern synthetic versions of it is something science and policy have never had to do before.",
       "image": "assets/gen_03.png"
     },
     {
       "type": "points",
       "label": "WHY IT MATTERS",
       "points": [
-        "Super-puff planets are one of astronomy's most contested mysteries — scientists still debate whether their bloated atmospheres can survive long-term without being slowly baked away by their host star's radiation.",
-        "Finding two super-puffs at once gives researchers a rare side-by-side comparison, making it far easier to study how these extreme worlds form, evolve, and manage to stay intact.",
-        "NASA's TESS mission was designed to find Earth-like worlds, but keeps delivering rule-breaking planets like these — dramatically widening what scientists consider physically possible.",
-        "Every strange planet discovered sharpens the models scientists use to understand our own solar system's four-billion-year history, including why Earth turned out the way it did."
+        "This is the first time a cell has been built using entirely lab-made DNA — not reprogrammed from an existing organism — marking a genuine first in the history of biology.",
+        "Synthetic cells could eventually be engineered to deliver drugs with precision inside the body, repair damaged tissue, or manufacture biological compounds entirely on demand.",
+        "The research team formed a public benefit corporation to share the technology openly, a rare move in biotech designed to make the breakthrough accessible to scientists everywhere.",
+        "The discovery directly challenges biology's oldest principle — that life only comes from life — and forces regulators and ethicists to answer questions they have never had to face before."
       ]
     },
     {
       "type": "cta",
-      "headline": "Follow for your daily dose of the universe",
-      "highlight": "daily dose"
+      "headline": "Follow @decodededge — one extraordinary story, every single day.",
+      "highlight": "extraordinary"
     }
   ],
   "handle": "@decodededge",
-  "palette": "orange",
+  "palette": "yellow",
   "accent_rgb": [
     255,
-    106,
+    212,
     0
   ]
 }
