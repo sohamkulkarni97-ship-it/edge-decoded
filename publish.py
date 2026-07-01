@@ -95,13 +95,25 @@ def publish():
     ig = _env("IG_USER_ID")
     token = _env("IG_ACCESS_TOKEN")
 
+    # Give GitHub CDN time to propagate fresh commit before Instagram fetches images
+    print("Waiting 90s for CDN propagation...")
+    time.sleep(90)
+
     child_ids = []
     for u in urls:
-        res = _post(f"{ig}/media", {
-            "image_url": u, "is_carousel_item": "true", "access_token": token,
-        })
-        child_ids.append(res["id"])
-        print(f"  container {res['id']} <- {u}")
+        for attempt in range(1, 4):
+            try:
+                res = _post(f"{ig}/media", {
+                    "image_url": u, "is_carousel_item": "true", "access_token": token,
+                })
+                child_ids.append(res["id"])
+                print(f"  container {res['id']} <- {u}")
+                break
+            except RuntimeError as e:
+                if attempt == 3:
+                    raise
+                print(f"  [retry {attempt}/3] container creation failed: {e}")
+                time.sleep(15 * attempt)
 
     carousel = _post(f"{ig}/media", {
         "media_type": "CAROUSEL",
@@ -112,10 +124,19 @@ def publish():
     cid = carousel["id"]
 
     # carousel containers need a moment to finish processing children
-    time.sleep(8)
-    published = _post(f"{ig}/media_publish", {
-        "creation_id": cid, "access_token": token,
-    })
+    time.sleep(15)
+    for attempt in range(1, 4):
+        try:
+            published = _post(f"{ig}/media_publish", {
+                "creation_id": cid, "access_token": token,
+            })
+            break
+        except RuntimeError as e:
+            if attempt == 3:
+                raise
+            print(f"  [retry {attempt}/3] media_publish failed: {e}")
+            time.sleep(30 * attempt)
+
     media_id = published["id"]
     print(f"PUBLISHED. media_id={media_id}")
     _log_posted(post, media_id)
