@@ -1,67 +1,67 @@
 {
-  "chosen_title": "'Beautiful blobs': synthetic life a step closer as scientists make cells using lab-made DNA",
+  "chosen_title": "Geoengineering could expose plane passengers to sulphuric acid",
   "lane": "science",
-  "source": "The Guardian / New York Times",
+  "source": "New Scientist",
   "score": 91,
-  "caption": "🧬 For billions of years, life has only ever come from life. That just changed.\n\nScientists have created what they describe as the first synthetic cell — built not by modifying an existing organism, but by assembling it from entirely lab-made DNA. The cell does everything a living cell does: it takes in nutrients, grows, and divides into copies of itself.\n\nThe team has also formed a public benefit corporation specifically to share the technology openly with the scientific community — a deliberate move to keep this foundational discovery in the commons rather than locked behind patents.\n\nThe implications reach far beyond the lab. Synthetic cells could one day be programmed to deliver drugs, repair tissue, or manufacture biological compounds inside the body. But researchers acknowledge this raises urgent philosophical, ethical, and regulatory questions — including the most basic one of all: what exactly counts as being alive?\n\nWhy it matters: If the findings hold up to scrutiny, this ranks among the most consequential biology milestones in history — putting us one step closer to truly understanding, and engineering, the fundamental unit of all living things.\n\nSource: The Guardian, New York Times\n\n#Science #Biology #Breakthrough #DidYouKnow #Mindblowing #SyntheticBiology #FutureOfMedicine #LifeScience #News #ScientificDiscovery",
+  "caption": "The plan to cool Earth could turn every polar flight path into a chemical hazard. ✈️\n\nScientists and policymakers are seriously exploring stratospheric aerosol injection — spraying sun-reflecting sulfate particles into the upper atmosphere near the poles — as an emergency brake on global warming. The theory is compelling: bounce enough sunlight back into space and buy the planet time while emissions are cut.\n\nBut a new analysis reported by New Scientist has exposed a dangerous blind spot. Those sulfate particles behave as sulphuric acid droplets in the cold polar stratosphere. Commercial aircraft routinely cross polar regions on high-traffic routes — London to New York, Tokyo to Vancouver, Frankfurt to Los Angeles — meaning flights would regularly pass through artificially created clouds of sulphuric acid. Researchers warn this poses a direct risk to passengers, crew, and aircraft components exposed repeatedly to the corrosive haze.\n\nThe finding arrives as geoengineering shifts from fringe science to serious policy debate, with no binding international framework yet governing who can deploy it, when, or who is liable for side effects.\n\nWhy it matters: Climate solutions at planetary scale carry planetary-scale risks — and this one could affect anyone who boards a long-haul flight.\n\nSource: New Scientist\n\n#Science #ClimateChange #Geoengineering #Aviation #GlobalWarming #DidYouKnow #Mindblowing #ClimateScience #AirTravel #Tech #Environment",
   "slides": [
     {
       "type": "cover",
       "label": "SCIENCE",
-      "art_prompt": "A wide-eyed cartoon scientist in a rumpled lab coat stands at a glowing workbench, holding a petri dish up to eye level with trembling, amazed hands. Inside the dish, a tiny luminous blob-cell is visibly pinching in half — splitting into two identical glowing copies, each one raising a stubby arm in triumph. The bench behind them is buried under DNA helix models, scattered notebooks, and toppled beakers. The scientist's forgotten coffee mug drips off the edge of the table and their name badge reads 'Dr. Frankenstein Jr.' Warm golden light radiates from the dish, illuminating their awestruck face. Comic energy with a current of genuine wonder.",
-      "headline": "Life, we thought, could only come from life. Until now.",
-      "highlight": "Until now",
-      "source": "The Guardian / New York Times",
+      "art_prompt": "A wide-body commercial airliner banks through a thick yellow-green chemical haze in the polar stratosphere, its wing visibly dripping with acid while horrified passengers press their faces to the windows. Far below on a tiny ice shelf, cheerful cartoon scientists in lab coats aim enormous spray cannons skyward, giving thumbs-up to each other, completely oblivious to the chaos above. The mood is darkly comic — bright sunlight reflects off the sulfate cloud while the plane's nose cone glows an ominous amber. No text in the image.",
+      "headline": "The world's most ambitious climate plan has a terrifying blind spot",
+      "highlight": "terrifying blind spot",
+      "source": "New Scientist",
       "image": "assets/gen_00.png"
     },
     {
       "type": "context",
       "label": "THE STORY",
-      "headline": "A cell built entirely from scratch",
-      "highlight": "scratch",
-      "body": "Researchers have created what they say may be the first synthetic cell — constructed using entirely lab-made DNA, not derived from any existing organism. The cell feeds, grows, and divides on its own. The team has also founded a public benefit corporation to share the technology openly with scientists worldwide, rather than restricting it behind patents."
+      "headline": "A Climate Fix With a Hidden Catch",
+      "highlight": "Hidden Catch",
+      "body": "Scientists have proposed fighting global warming by spraying sun-reflecting sulfate particles into the stratosphere near the Earth's poles — a technique called polar stratospheric aerosol injection. The idea is to bounce sunlight back into space before it heats the planet. But a new study reported by New Scientist reveals a serious problem nobody fully mapped: commercial aircraft flying through these artificially created particle clouds would be exposed to sulphuric acid, putting passengers and crew at direct risk."
     },
     {
       "type": "illustration",
       "label": "HOW IT WORKS",
-      "art_prompt": "Inside a glowing lab flask, a cheerful cartoon blob-cell sits at the center surrounded by floating LEGO-like building blocks labeled 'lab-made DNA' that snap together around it like puzzle pieces assembling in real time. The cell has a huge grin and is mid-division — stretching into a figure-eight shape as it splits into two identical mini-cells. A simple arrow runs across the background from left to right, labelled 'chemistry' on one end and 'life' on the other, with a starburst explosion exactly at the midpoint where the cell sits.",
-      "art": "flask",
-      "headline": "It feeds. It grows. It divides.",
-      "highlight": "divides",
-      "body": "Unlike earlier synthetic biology milestones that edited or reprogrammed existing cells, this one was assembled from scratch using lab-synthesized DNA — making it a fundamentally new kind of living thing, not a remix of anything that existed before.",
+      "art_prompt": "A side-on cartoon cutaway of the Earth's polar stratosphere: tiny scientists on a research vessel fire silver particles from a cannon into a high atmospheric layer, where the particles form a shimmering reflective haze that bounces yellow sunlight arrows back into space. Just below the haze layer, a commercial jumbo jet flies directly into the chemical cloud, the plane's fuselage already beginning to acquire a faint acidic sheen, while a flock of confused penguins watches from the ice sheet below. No text in the image.",
+      "art": "globe",
+      "headline": "Sulfate in the Sky = Acid in the Air",
+      "highlight": "Acid",
+      "body": "Sulfate aerosols sprayed into the cold polar stratosphere behave chemically like sulphuric acid droplets. Polar flight routes connecting North America, Europe, and Asia cross directly through the zones where these particles would accumulate.",
       "image": "assets/gen_02.png"
     },
     {
       "type": "illustration",
       "label": "THE CATCH",
-      "art_prompt": "Three cartoon scientists stand in a row, each holding up a whiteboard with a different definition of the word 'LIFE' scrawled on it — all three definitions are contradictory and the middle scientist is frantically erasing theirs for what is clearly the fifth time. Between them on a tiny glowing pedestal sits a small synthetic blob-cell looking extremely smug, a thought bubble above it reading '…so, what AM I exactly?' Stacks of philosophy textbooks and biology journals litter the floor around their feet. The mood is comic frustration mixed with genuine intellectual crisis.",
-      "art": "flask",
-      "headline": "Now the hard question: what even IS alive?",
-      "highlight": "alive",
-      "body": "The researchers themselves say the discovery generates as many questions as it answers — philosophical, ethical, and regulatory. Defining life precisely enough to govern synthetic versions of it is something science and policy have never had to do before.",
+      "art_prompt": "Close-up cartoon inside an aircraft cabin: a wide-eyed passenger presses their face to the oval window, staring out at a thick yellow-green acid cloud completely swallowing the aircraft's wing — the wing surface visibly etched and dripping. The flight attendant in the aisle behind clutches a drinks trolley with an expression of pure alarm, a single coffee mug sliding off the edge. Overhead bins rattle. The mood is urgent and absurd simultaneously. No text in the image.",
+      "art": "bolt",
+      "headline": "Your Flight, Through a Cloud of Sulphuric Acid",
+      "highlight": "Sulphuric Acid",
+      "body": "Researchers warn repeated exposure to sulphuric acid clouds could corrode aircraft engines and fuselages, and potentially harm passengers and crew if contaminated air enters the cabin system.",
       "image": "assets/gen_03.png"
     },
     {
       "type": "points",
       "label": "WHY IT MATTERS",
       "points": [
-        "This is the first time a cell has been built using entirely lab-made DNA — not reprogrammed from an existing organism — marking a genuine first in the history of biology.",
-        "Synthetic cells could eventually be engineered to deliver drugs with precision inside the body, repair damaged tissue, or manufacture biological compounds entirely on demand.",
-        "The research team formed a public benefit corporation to share the technology openly, a rare move in biotech designed to make the breakthrough accessible to scientists everywhere.",
-        "The discovery directly challenges biology's oldest principle — that life only comes from life — and forces regulators and ethicists to answer questions they have never had to face before."
+        "Polar stratospheric aerosol injection is being seriously explored by governments and climate scientists as a last-resort tool to slow warming without requiring immediate deep emissions cuts.",
+        "Commercial polar routes — among the busiest in the world — cross exactly the regions where sulfate particles would be concentrated, making the risk global, not regional.",
+        "The discovery adds to a growing list of geoengineering side effects: other studies have flagged disrupted monsoon patterns, unequal cooling across the Northern and Southern hemispheres, and ozone depletion.",
+        "There is currently no binding international framework governing who can deploy stratospheric aerosol injection, under what conditions, or who bears legal responsibility when things go wrong."
       ]
     },
     {
       "type": "cta",
-      "headline": "Follow @decodededge — one extraordinary story, every single day.",
-      "highlight": "extraordinary"
+      "headline": "Follow for the science stories nobody else is telling",
+      "highlight": "nobody else"
     }
   ],
   "handle": "@decodededge",
-  "palette": "yellow",
+  "palette": "violet",
   "accent_rgb": [
-    255,
-    212,
-    0
+    157,
+    123,
+    255
   ]
 }
