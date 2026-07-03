@@ -1,67 +1,63 @@
 {
-  "chosen_title": "Geoengineering could expose plane passengers to sulphuric acid",
-  "lane": "science",
-  "source": "New Scientist",
-  "score": 91,
-  "caption": "The plan to cool Earth could turn every polar flight path into a chemical hazard. ✈️\n\nScientists and policymakers are seriously exploring stratospheric aerosol injection — spraying sun-reflecting sulfate particles into the upper atmosphere near the poles — as an emergency brake on global warming. The theory is compelling: bounce enough sunlight back into space and buy the planet time while emissions are cut.\n\nBut a new analysis reported by New Scientist has exposed a dangerous blind spot. Those sulfate particles behave as sulphuric acid droplets in the cold polar stratosphere. Commercial aircraft routinely cross polar regions on high-traffic routes — London to New York, Tokyo to Vancouver, Frankfurt to Los Angeles — meaning flights would regularly pass through artificially created clouds of sulphuric acid. Researchers warn this poses a direct risk to passengers, crew, and aircraft components exposed repeatedly to the corrosive haze.\n\nThe finding arrives as geoengineering shifts from fringe science to serious policy debate, with no binding international framework yet governing who can deploy it, when, or who is liable for side effects.\n\nWhy it matters: Climate solutions at planetary scale carry planetary-scale risks — and this one could affect anyone who boards a long-haul flight.\n\nSource: New Scientist\n\n#Science #ClimateChange #Geoengineering #Aviation #GlobalWarming #DidYouKnow #Mindblowing #ClimateScience #AirTravel #Tech #Environment",
+  "chosen_title": "Astronomers discover a potentially habitable planet just 25 light-years away. 'This one is exciting'",
+  "lane": "space",
+  "source": "Space.com",
+  "score": 86,
+  "caption": "🪐 A potentially habitable planet was just found practically next door — and astronomers can't hide their excitement.\n\nScientists have discovered an exoplanet just 25 light-years from Earth sitting squarely in its star's habitable zone — the narrow orbital band where surface temperatures could allow liquid water to exist. Researchers described the find as 'exciting,' a word scientists don't throw around lightly. At this distance, it's one of the closest potentially life-friendly worlds ever identified.\n\n25 light-years sounds vast, but context flips the script entirely: the Milky Way stretches 100,000 light-years across. Finding a habitable-zone candidate this close is like discovering a second door in a hallway you thought had only one. Next-generation space telescopes are already capable of scanning nearby exoplanet atmospheres for biosignatures — chemical signs of biology like oxygen or methane — making this planet a serious future target.\n\nWhy it matters: The more habitable-zone planets we find close to home, the more likely life isn't a one-time accident — and 25 light-years is close enough that we could actually investigate within our lifetimes.\n\nSource: Space.com\n\n#Space #Exoplanet #Science #Astronomy #HabitablePlanet #AlienLife #SpaceExploration #Mindblowing #DidYouKnow #NASA",
   "slides": [
     {
       "type": "cover",
-      "label": "SCIENCE",
-      "art_prompt": "A wide-body commercial airliner banks through a thick yellow-green chemical haze in the polar stratosphere, its wing visibly dripping with acid while horrified passengers press their faces to the windows. Far below on a tiny ice shelf, cheerful cartoon scientists in lab coats aim enormous spray cannons skyward, giving thumbs-up to each other, completely oblivious to the chaos above. The mood is darkly comic — bright sunlight reflects off the sulfate cloud while the plane's nose cone glows an ominous amber. No text in the image.",
-      "headline": "The world's most ambitious climate plan has a terrifying blind spot",
-      "highlight": "terrifying blind spot",
-      "source": "New Scientist",
+      "label": "SPACE",
+      "art_prompt": "A wide-eyed astronomer in a cluttered observatory has just swiveled his chair around to stare at a star map, jaw hanging open in pure disbelief. He is jabbing a trembling finger at a tiny glowing blue-green planet plotted on the chart that sits almost comically close to a dot labeled 'You Are Here' — separated by just a thumb's width of paper. His coffee mug is tipping off the desk, completely forgotten. Warm amber lamp light, stacked books, a large telescope in the background, genuine comic shock energy — no text in the image.",
+      "headline": "The nearest planet that could support life isn't where astronomers expected to find it",
+      "highlight": "support life",
+      "source": "Space.com",
       "image": "assets/gen_00.png"
     },
     {
       "type": "context",
       "label": "THE STORY",
-      "headline": "A Climate Fix With a Hidden Catch",
-      "highlight": "Hidden Catch",
-      "body": "Scientists have proposed fighting global warming by spraying sun-reflecting sulfate particles into the stratosphere near the Earth's poles — a technique called polar stratospheric aerosol injection. The idea is to bounce sunlight back into space before it heats the planet. But a new study reported by New Scientist reveals a serious problem nobody fully mapped: commercial aircraft flying through these artificially created particle clouds would be exposed to sulphuric acid, putting passengers and crew at direct risk."
+      "headline": "A world in the Goldilocks zone — right next door",
+      "highlight": "right next door",
+      "body": "Astronomers have discovered an exoplanet just 25 light-years from Earth that sits inside its star's habitable zone — the narrow orbital band where surface temperatures could allow liquid water to pool and persist. Scientists described the find as 'exciting,' and the reason is simple: at 25 light-years, it's one of the closest potentially habitable worlds ever found. The Milky Way alone spans 100,000 light-years, putting this planet practically on our cosmic doorstep."
+    },
+    {
+      "type": "stat",
+      "label": "THE NUMBER",
+      "value": "25",
+      "caption": "25 light-years — the distance to the newly discovered potentially habitable exoplanet, making it one of the closest Earth-zone candidates ever identified. For scale, the Milky Way galaxy stretches 100,000 light-years from end to end."
     },
     {
       "type": "illustration",
       "label": "HOW IT WORKS",
-      "art_prompt": "A side-on cartoon cutaway of the Earth's polar stratosphere: tiny scientists on a research vessel fire silver particles from a cannon into a high atmospheric layer, where the particles form a shimmering reflective haze that bounces yellow sunlight arrows back into space. Just below the haze layer, a commercial jumbo jet flies directly into the chemical cloud, the plane's fuselage already beginning to acquire a faint acidic sheen, while a flock of confused penguins watches from the ice sheet below. No text in the image.",
+      "art_prompt": "A cartoon planet wearing cozy oven mitts sits smug and content in a perfectly warm strip of sunlight, nestled exactly between two dramatic extremes: on one side a furious red star blasting scorching heat and wilting everything, on the other side a frozen pitch-black zone with icicles hanging in space. The planet is the only one grinning, perched in the sweet spot like a fairy-tale Goldilocks who found the porridge that's just right. Comic storybook energy, bright colors — no text in the image.",
       "art": "globe",
-      "headline": "Sulfate in the Sky = Acid in the Air",
-      "highlight": "Acid",
-      "body": "Sulfate aerosols sprayed into the cold polar stratosphere behave chemically like sulphuric acid droplets. Polar flight routes connecting North America, Europe, and Asia cross directly through the zones where these particles would accumulate.",
-      "image": "assets/gen_02.png"
-    },
-    {
-      "type": "illustration",
-      "label": "THE CATCH",
-      "art_prompt": "Close-up cartoon inside an aircraft cabin: a wide-eyed passenger presses their face to the oval window, staring out at a thick yellow-green acid cloud completely swallowing the aircraft's wing — the wing surface visibly etched and dripping. The flight attendant in the aisle behind clutches a drinks trolley with an expression of pure alarm, a single coffee mug sliding off the edge. Overhead bins rattle. The mood is urgent and absurd simultaneously. No text in the image.",
-      "art": "bolt",
-      "headline": "Your Flight, Through a Cloud of Sulphuric Acid",
-      "highlight": "Sulphuric Acid",
-      "body": "Researchers warn repeated exposure to sulphuric acid clouds could corrode aircraft engines and fuselages, and potentially harm passengers and crew if contaminated air enters the cabin system.",
+      "headline": "The 'Goldilocks zone' — not too hot, not too cold",
+      "highlight": "Goldilocks",
+      "body": "The habitable zone is the orbital distance from a star where temperatures sit in just the right range for liquid water — the ingredient scientists consider most essential for life as we know it — to exist stably on a planet's surface.",
       "image": "assets/gen_03.png"
     },
     {
       "type": "points",
       "label": "WHY IT MATTERS",
       "points": [
-        "Polar stratospheric aerosol injection is being seriously explored by governments and climate scientists as a last-resort tool to slow warming without requiring immediate deep emissions cuts.",
-        "Commercial polar routes — among the busiest in the world — cross exactly the regions where sulfate particles would be concentrated, making the risk global, not regional.",
-        "The discovery adds to a growing list of geoengineering side effects: other studies have flagged disrupted monsoon patterns, unequal cooling across the Northern and Southern hemispheres, and ozone depletion.",
-        "There is currently no binding international framework governing who can deploy stratospheric aerosol injection, under what conditions, or who bears legal responsibility when things go wrong."
+        "At just 25 light-years away, this is one of the nearest potentially habitable exoplanets ever discovered, making it a prime target for follow-up observation by current and next-generation telescopes.",
+        "Liquid water on a planetary surface is the single most important prerequisite for life as scientists currently understand it, which is why a habitable-zone orbit is such a meaningful signal.",
+        "Next-generation space telescopes are already capable of scanning nearby exoplanet atmospheres for biosignatures — chemical signs of biology such as oxygen or methane — meaning this planet could realistically be studied within our lifetimes.",
+        "Each nearby habitable-zone planet found raises the statistical likelihood that life-friendly worlds are common throughout the galaxy, not a rare cosmic accident."
       ]
     },
     {
       "type": "cta",
-      "headline": "Follow for the science stories nobody else is telling",
-      "highlight": "nobody else"
+      "headline": "Would you make the trip?",
+      "highlight": "trip"
     }
   ],
   "handle": "@decodededge",
-  "palette": "violet",
+  "palette": "lime",
   "accent_rgb": [
-    157,
-    123,
-    255
+    200,
+    255,
+    0
   ]
 }
