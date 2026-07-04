@@ -1,63 +1,63 @@
 {
-  "chosen_title": "Astronomers discover a potentially habitable planet just 25 light-years away. 'This one is exciting'",
-  "lane": "space",
-  "source": "Space.com",
-  "score": 86,
-  "caption": "🪐 A potentially habitable planet was just found practically next door — and astronomers can't hide their excitement.\n\nScientists have discovered an exoplanet just 25 light-years from Earth sitting squarely in its star's habitable zone — the narrow orbital band where surface temperatures could allow liquid water to exist. Researchers described the find as 'exciting,' a word scientists don't throw around lightly. At this distance, it's one of the closest potentially life-friendly worlds ever identified.\n\n25 light-years sounds vast, but context flips the script entirely: the Milky Way stretches 100,000 light-years across. Finding a habitable-zone candidate this close is like discovering a second door in a hallway you thought had only one. Next-generation space telescopes are already capable of scanning nearby exoplanet atmospheres for biosignatures — chemical signs of biology like oxygen or methane — making this planet a serious future target.\n\nWhy it matters: The more habitable-zone planets we find close to home, the more likely life isn't a one-time accident — and 25 light-years is close enough that we could actually investigate within our lifetimes.\n\nSource: Space.com\n\n#Space #Exoplanet #Science #Astronomy #HabitablePlanet #AlienLife #SpaceExploration #Mindblowing #DidYouKnow #NASA",
+  "chosen_title": "'Hobbit' hominins scavenged meat left over by Komodo dragons",
+  "lane": "science",
+  "source": "New Scientist / CNN, July 2026",
+  "score": 80,
+  "caption": "🦎 Our ancient 'hobbit' relatives may have been eating Komodo dragons' leftovers.\n\nNew research combining a real-life Komodo dragon feeding experiment with the analysis of thousands of ancient bones from Flores, Indonesia, suggests Homo floresiensis — the 3.5-foot-tall ancient humans nicknamed 'hobbits' — were not skilled hunters. They were scavengers.\n\nScientists fed a dead goat to a Komodo dragon, recorded the distinctive bite and scratch marks left on the bones, then matched those exact patterns to thousands of animal bones found at hobbit archaeological sites. The evidence strongly suggests the hobbits were waiting for the giant lizards to finish their kills — then moving in for the scraps. The study also found no solid evidence the hobbits could reliably make fire, meaning they were likely eating raw or minimally processed meat. They were surviving, not dominating.\n\nWhy it matters: It challenges the assumption that all ancient human relatives were on an upward march toward greater intelligence and tool use. Homo floresiensis may have been on a distinctly more limited evolutionary path — for hundreds of thousands of years.\n\nSource: New Scientist / CNN, 2026\n\n#Science #AncientHistory #HumanEvolution #Archaeology #Mindblowing #DidYouKnow #Fossils #PrehistoricLife #KomodoDragon #AncientHumans #Paleontology",
   "slides": [
     {
       "type": "cover",
-      "label": "SPACE",
-      "art_prompt": "A wide-eyed astronomer in a cluttered observatory has just swiveled his chair around to stare at a star map, jaw hanging open in pure disbelief. He is jabbing a trembling finger at a tiny glowing blue-green planet plotted on the chart that sits almost comically close to a dot labeled 'You Are Here' — separated by just a thumb's width of paper. His coffee mug is tipping off the desk, completely forgotten. Warm amber lamp light, stacked books, a large telescope in the background, genuine comic shock energy — no text in the image.",
-      "headline": "The nearest planet that could support life isn't where astronomers expected to find it",
-      "highlight": "support life",
-      "source": "Space.com",
+      "label": "SCIENCE",
+      "art_prompt": "A tiny, wide-eyed early human — barely waist-height — crouches behind a mossy jungle boulder, peering nervously around its edge at a massive, slow-moving Komodo dragon hunched over the steaming carcass of a large animal. The little hominin grips a crude stone tool with both hands, its expression caught perfectly between desperate hunger and sheer terror. Shafts of dappled light filter through dense tropical ferns, and scattered gnawed bones litter the muddy ground around the oblivious lizard.",
+      "headline": "Your Ancient Relatives Weren't Apex Predators. They Ate After the Komodo Dragon.",
+      "highlight": "Komodo Dragon",
+      "source": "New Scientist / CNN, 2026",
       "image": "assets/gen_00.png"
     },
     {
       "type": "context",
       "label": "THE STORY",
-      "headline": "A world in the Goldilocks zone — right next door",
-      "highlight": "right next door",
-      "body": "Astronomers have discovered an exoplanet just 25 light-years from Earth that sits inside its star's habitable zone — the narrow orbital band where surface temperatures could allow liquid water to pool and persist. Scientists described the find as 'exciting,' and the reason is simple: at 25 light-years, it's one of the closest potentially habitable worlds ever found. The Milky Way alone spans 100,000 light-years, putting this planet practically on our cosmic doorstep."
-    },
-    {
-      "type": "stat",
-      "label": "THE NUMBER",
-      "value": "25",
-      "caption": "25 light-years — the distance to the newly discovered potentially habitable exoplanet, making it one of the closest Earth-zone candidates ever identified. For scale, the Milky Way galaxy stretches 100,000 light-years from end to end."
+      "headline": "Meet the Hobbits",
+      "highlight": "Hobbits",
+      "body": "Homo floresiensis — nicknamed 'hobbits' — were a species of tiny ancient humans who lived on the Indonesian island of Flores until roughly 50,000 years ago. Standing only about 3.5 feet tall, they have long puzzled scientists: with no clear evidence of coordinated big-game hunting or reliable fire use, how did they get enough protein to survive? A new study combining a real Komodo dragon feeding experiment with the analysis of thousands of ancient animal bones from hobbit sites has produced a startling answer: they scavenged the giant lizard's kills."
     },
     {
       "type": "illustration",
       "label": "HOW IT WORKS",
-      "art_prompt": "A cartoon planet wearing cozy oven mitts sits smug and content in a perfectly warm strip of sunlight, nestled exactly between two dramatic extremes: on one side a furious red star blasting scorching heat and wilting everything, on the other side a frozen pitch-black zone with icicles hanging in space. The planet is the only one grinning, perched in the sweet spot like a fairy-tale Goldilocks who found the porridge that's just right. Comic storybook energy, bright colors — no text in the image.",
-      "art": "globe",
-      "headline": "The 'Goldilocks zone' — not too hot, not too cold",
-      "highlight": "Goldilocks",
-      "body": "The habitable zone is the orbital distance from a star where temperatures sit in just the right range for liquid water — the ingredient scientists consider most essential for life as we know it — to exist stably on a planet's surface.",
-      "image": "assets/gen_03.png"
+      "art_prompt": "A plump, satisfied Komodo dragon sprawls lazily across a flat sun-warmed rock, tongue flicking slowly, surrounded by a messy scatter of large gnawed bones. A few feet behind it, a small shaggy-haired Homo floresiensis figure peeks out from behind a thick tree trunk — stone tool clutched to its chest, eyes wide, wearing a sheepish expression of cautious, embarrassed hunger as it eyes the leftover scraps.",
+      "art": "flask",
+      "headline": "Scavengers, Not Hunters",
+      "highlight": "Scavengers",
+      "body": "Researchers fed a dead goat to a Komodo dragon, carefully recorded the distinctive marks left on the bones, then compared those patterns to thousands of bones from ancient Flores archaeological sites. The bite marks matched — pointing to a diet built on the lizard's leftovers, not independent kills.",
+      "image": "assets/gen_02.png"
+    },
+    {
+      "type": "stat",
+      "label": "THE NUMBER",
+      "value": "~50,000",
+      "caption": "Years ago that Homo floresiensis went extinct — after surviving for hundreds of thousands of years on Flores, apparently by scavenging Komodo dragon kills rather than hunting large prey themselves."
     },
     {
       "type": "points",
       "label": "WHY IT MATTERS",
       "points": [
-        "At just 25 light-years away, this is one of the nearest potentially habitable exoplanets ever discovered, making it a prime target for follow-up observation by current and next-generation telescopes.",
-        "Liquid water on a planetary surface is the single most important prerequisite for life as scientists currently understand it, which is why a habitable-zone orbit is such a meaningful signal.",
-        "Next-generation space telescopes are already capable of scanning nearby exoplanet atmospheres for biosignatures — chemical signs of biology such as oxygen or methane — meaning this planet could realistically be studied within our lifetimes.",
-        "Each nearby habitable-zone planet found raises the statistical likelihood that life-friendly worlds are common throughout the galaxy, not a rare cosmic accident."
+        "The study found no solid evidence that hobbits could reliably make fire, meaning they were likely eating raw or sun-dried scavenged meat — a survival strategy, not a thriving one.",
+        "Komodo dragons are ambush predators that often leave large portions of a kill uneaten, creating a dangerous but consistent food source for smaller, more patient scavengers.",
+        "The finding suggests Homo floresiensis was on a 'less advanced' evolutionary path than previously assumed — not every ancient human relative was evolving toward greater intelligence and tool complexity.",
+        "The experiment-plus-bone-analysis method is a novel technique that could reshape how scientists reconstruct ancient hominin diets at other fossil sites around the world."
       ]
     },
     {
       "type": "cta",
-      "headline": "Would you make the trip?",
-      "highlight": "trip"
+      "headline": "Share This With Someone Who Thinks Humans Were Always Top of the Food Chain",
+      "highlight": "Top of the Food Chain"
     }
   ],
   "handle": "@decodededge",
-  "palette": "lime",
+  "palette": "cyan",
   "accent_rgb": [
-    200,
-    255,
-    0
+    0,
+    229,
+    255
   ]
 }
