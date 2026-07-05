@@ -1,63 +1,63 @@
 {
-  "chosen_title": "'Hobbit' hominins scavenged meat left over by Komodo dragons",
+  "chosen_title": "Astronomers discover Earth's new 'next-door neighbor' — a potentially habitable planet",
   "lane": "science",
-  "source": "New Scientist / CNN, July 2026",
-  "score": 80,
-  "caption": "🦎 Our ancient 'hobbit' relatives may have been eating Komodo dragons' leftovers.\n\nNew research combining a real-life Komodo dragon feeding experiment with the analysis of thousands of ancient bones from Flores, Indonesia, suggests Homo floresiensis — the 3.5-foot-tall ancient humans nicknamed 'hobbits' — were not skilled hunters. They were scavengers.\n\nScientists fed a dead goat to a Komodo dragon, recorded the distinctive bite and scratch marks left on the bones, then matched those exact patterns to thousands of animal bones found at hobbit archaeological sites. The evidence strongly suggests the hobbits were waiting for the giant lizards to finish their kills — then moving in for the scraps. The study also found no solid evidence the hobbits could reliably make fire, meaning they were likely eating raw or minimally processed meat. They were surviving, not dominating.\n\nWhy it matters: It challenges the assumption that all ancient human relatives were on an upward march toward greater intelligence and tool use. Homo floresiensis may have been on a distinctly more limited evolutionary path — for hundreds of thousands of years.\n\nSource: New Scientist / CNN, 2026\n\n#Science #AncientHistory #HumanEvolution #Archaeology #Mindblowing #DidYouKnow #Fossils #PrehistoricLife #KomodoDragon #AncientHumans #Paleontology",
+  "source": "Space.com / New York Post (UC Irvine)",
+  "score": 88,
+  "caption": "🪐 A potentially livable planet was just found 25 light-years away — and astronomers are calling it 'exciting.'\n\nA team of astronomers, including researchers at UC Irvine, has discovered a planet orbiting inside its star's habitable zone just 25 light-years from Earth. The habitable zone is the orbital sweet spot where conditions could theoretically allow liquid water to exist on a planet's surface — the first and most critical box scientists check when hunting for life beyond Earth.\n\nFor perspective: the celebrated TRAPPIST-1 system — home to the most famous cluster of potentially Earth-sized planets — sits roughly 40 light-years away. At 25 light-years, this newly found neighbor is significantly closer, and its proximity makes it one of the best candidates yet for telescopes like James Webb to scan for atmospheric gases that could point toward biological activity.\n\nWhy it matters: Every nearby candidate like this shrinks the search for life from 'somewhere in the infinite universe' to 'that specific star, right there.' The closer it is, the better our chances of actually learning something real.\n\nSource: Space.com / New York Post (UC Irvine research)\n\n#Space #Science #Astronomy #ExoPlanet #HabitablePlanet #SpaceExploration #Mindblowing #DidYouKnow #AlienLife #JamesWebbTelescope #NewDiscovery #Universe",
   "slides": [
     {
       "type": "cover",
-      "label": "SCIENCE",
-      "art_prompt": "A tiny, wide-eyed early human — barely waist-height — crouches behind a mossy jungle boulder, peering nervously around its edge at a massive, slow-moving Komodo dragon hunched over the steaming carcass of a large animal. The little hominin grips a crude stone tool with both hands, its expression caught perfectly between desperate hunger and sheer terror. Shafts of dappled light filter through dense tropical ferns, and scattered gnawed bones litter the muddy ground around the oblivious lizard.",
-      "headline": "Your Ancient Relatives Weren't Apex Predators. They Ate After the Komodo Dragon.",
-      "highlight": "Komodo Dragon",
-      "source": "New Scientist / CNN, 2026",
+      "label": "SPACE",
+      "art_prompt": "A wide-eyed cartoon astronomer in a rumpled lab coat leans so far into the eyepiece of an enormous brass telescope that his thick-rimmed glasses have completely fogged over. His clipboard of equations is tumbling mid-air toward the floor and his coffee mug is tipping sideways off the desk beside him. Through the observatory's open dome behind him, a lush blue-green planet glows unreasonably close in the star-speckled night sky — close enough to look almost like a neighbor's porch light. The mood is pure comic shock and awe, the astronomer's jaw visibly dropped.",
+      "headline": "Everyone assumed the nearest habitable planet was impossibly far. It isn't.",
+      "highlight": "It isn't",
+      "source": "Space.com / UC Irvine",
       "image": "assets/gen_00.png"
     },
     {
       "type": "context",
       "label": "THE STORY",
-      "headline": "Meet the Hobbits",
-      "highlight": "Hobbits",
-      "body": "Homo floresiensis — nicknamed 'hobbits' — were a species of tiny ancient humans who lived on the Indonesian island of Flores until roughly 50,000 years ago. Standing only about 3.5 feet tall, they have long puzzled scientists: with no clear evidence of coordinated big-game hunting or reliable fire use, how did they get enough protein to survive? A new study combining a real Komodo dragon feeding experiment with the analysis of thousands of ancient animal bones from hobbit sites has produced a startling answer: they scavenged the giant lizard's kills."
+      "headline": "A planet. 25 light-years away. Potentially livable.",
+      "highlight": "25 light-years",
+      "body": "Astronomers — including researchers at UC Irvine — have discovered a planet sitting just 25 light-years from Earth that orbits inside its star's habitable zone, the region where liquid water could theoretically exist on a surface. Scientists described the find as 'exciting,' and the numbers back that up: 25 light-years is one of the shortest distances ever recorded for a potentially habitable world. For comparison, the famous TRAPPIST-1 system — home to several Earth-sized habitable-zone planets — sits roughly 40 light-years away, making this new neighbor significantly closer to home."
     },
     {
       "type": "illustration",
       "label": "HOW IT WORKS",
-      "art_prompt": "A plump, satisfied Komodo dragon sprawls lazily across a flat sun-warmed rock, tongue flicking slowly, surrounded by a messy scatter of large gnawed bones. A few feet behind it, a small shaggy-haired Homo floresiensis figure peeks out from behind a thick tree trunk — stone tool clutched to its chest, eyes wide, wearing a sheepish expression of cautious, embarrassed hunger as it eyes the leftover scraps.",
-      "art": "flask",
-      "headline": "Scavengers, Not Hunters",
-      "highlight": "Scavengers",
-      "body": "Researchers fed a dead goat to a Komodo dragon, carefully recorded the distinctive marks left on the bones, then compared those patterns to thousands of bones from ancient Flores archaeological sites. The bite marks matched — pointing to a diet built on the lizard's leftovers, not independent kills.",
+      "art_prompt": "A cartoon cosmic map drawn like a cozy suburban neighborhood directory: Earth's sun sits at the top of a starry street with a tiny mailbox and a bright 'YOU ARE HERE' lawn flag, and just a short block of darkness away, a warm blue-green planet nestles in front of a small orange star with a hand-painted 'HABITABLE ZONE' welcome banner strung above it like a shop sign — the two worlds looking almost close enough to wave at each other across the dark.",
+      "art": "globe",
+      "headline": "The Goldilocks zone, explained",
+      "highlight": "Goldilocks",
+      "body": "The habitable zone is the orbital distance from a star that is not too hot and not too cold — the precise range where liquid water could pool on a planet's surface. It is the single most important first filter in the search for life beyond Earth.",
       "image": "assets/gen_02.png"
     },
     {
       "type": "stat",
       "label": "THE NUMBER",
-      "value": "~50,000",
-      "caption": "Years ago that Homo floresiensis went extinct — after surviving for hundreds of thousands of years on Flores, apparently by scavenging Komodo dragon kills rather than hunting large prey themselves."
+      "value": "25",
+      "caption": "Light-years from Earth to our newly discovered potentially habitable neighbor. Most confirmed habitable-zone exoplanets sit hundreds to thousands of light-years away — making this one of the closest candidates ever found."
     },
     {
       "type": "points",
       "label": "WHY IT MATTERS",
       "points": [
-        "The study found no solid evidence that hobbits could reliably make fire, meaning they were likely eating raw or sun-dried scavenged meat — a survival strategy, not a thriving one.",
-        "Komodo dragons are ambush predators that often leave large portions of a kill uneaten, creating a dangerous but consistent food source for smaller, more patient scavengers.",
-        "The finding suggests Homo floresiensis was on a 'less advanced' evolutionary path than previously assumed — not every ancient human relative was evolving toward greater intelligence and tool complexity.",
-        "The experiment-plus-bone-analysis method is a novel technique that could reshape how scientists reconstruct ancient hominin diets at other fossil sites around the world."
+        "At just 25 light-years, this planet is closer to Earth than the celebrated TRAPPIST-1 system at roughly 40 light-years, making it one of the nearest potentially habitable worlds ever confirmed.",
+        "Being in the habitable zone does not guarantee life — it means liquid water could theoretically survive on the surface, which is the first and most critical condition scientists require before investigating further.",
+        "The planet's proximity makes it an exceptional target for the James Webb Space Telescope, which can analyze the atmospheres of nearby worlds for gases like oxygen or methane that might hint at biological processes.",
+        "UC Irvine researchers called the discovery 'exciting' — unusually strong language in academic astronomy, where cautious understatement is very much the norm."
       ]
     },
     {
       "type": "cta",
-      "headline": "Share This With Someone Who Thinks Humans Were Always Top of the Food Chain",
-      "highlight": "Top of the Food Chain"
+      "headline": "Tag someone who needs to know we have a new neighbor 🚀",
+      "highlight": "new neighbor"
     }
   ],
   "handle": "@decodededge",
-  "palette": "cyan",
+  "palette": "pink",
   "accent_rgb": [
-    0,
-    229,
-    255
+    255,
+    61,
+    165
   ]
 }
