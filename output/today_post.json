@@ -1,63 +1,63 @@
 {
-  "chosen_title": "Astronomers discover Earth's new 'next-door neighbor' — a potentially habitable planet",
-  "lane": "science",
-  "source": "Space.com / New York Post (UC Irvine)",
-  "score": 88,
-  "caption": "🪐 A potentially livable planet was just found 25 light-years away — and astronomers are calling it 'exciting.'\n\nA team of astronomers, including researchers at UC Irvine, has discovered a planet orbiting inside its star's habitable zone just 25 light-years from Earth. The habitable zone is the orbital sweet spot where conditions could theoretically allow liquid water to exist on a planet's surface — the first and most critical box scientists check when hunting for life beyond Earth.\n\nFor perspective: the celebrated TRAPPIST-1 system — home to the most famous cluster of potentially Earth-sized planets — sits roughly 40 light-years away. At 25 light-years, this newly found neighbor is significantly closer, and its proximity makes it one of the best candidates yet for telescopes like James Webb to scan for atmospheric gases that could point toward biological activity.\n\nWhy it matters: Every nearby candidate like this shrinks the search for life from 'somewhere in the infinite universe' to 'that specific star, right there.' The closer it is, the better our chances of actually learning something real.\n\nSource: Space.com / New York Post (UC Irvine research)\n\n#Space #Science #Astronomy #ExoPlanet #HabitablePlanet #SpaceExploration #Mindblowing #DidYouKnow #AlienLife #JamesWebbTelescope #NewDiscovery #Universe",
+  "chosen_title": "NASA launched an emergency mission to stop the Swift Observatory from crashing to Earth",
+  "lane": "space",
+  "source": "The Verge / CNN",
+  "score": 85,
+  "caption": "A NASA space telescope started falling out of orbit — so they launched a robot to catch it. 🛸\n\nNASA's Neil Gehrels Swift Observatory, a 3,200-pound spacecraft that has been detecting gamma-ray bursts and studying black holes since 2004, ran into a critical crisis when onboard systems began to fail. Without intervention, the observatory faced an uncontrolled reentry — meaning it could tumble back through Earth's atmosphere and scatter debris unpredictably over populated areas below.\n\nRather than abandoning it, NASA launched a daring emergency rescue mission: a robotic spacecraft sent to intercept Swift in orbit and boost it to a safe altitude. It is the kind of in-space operation that was once the stuff of pure science fiction — now it is a real, operational emergency response.\n\nWhy it matters: Swift is one of NASA's most scientifically productive telescopes, and this rescue marks a turning point — active orbital servicing is no longer a futuristic concept, it is a practical necessity for managing aging satellites before they become public safety hazards.\n\nSource: The Verge / CNN\n\n#Space #NASA #Science #SpaceExploration #Astronomy #DidYouKnow #Mindblowing #SpaceTech #ScienceNews #SpaceDebris",
   "slides": [
     {
       "type": "cover",
       "label": "SPACE",
-      "art_prompt": "A wide-eyed cartoon astronomer in a rumpled lab coat leans so far into the eyepiece of an enormous brass telescope that his thick-rimmed glasses have completely fogged over. His clipboard of equations is tumbling mid-air toward the floor and his coffee mug is tipping sideways off the desk beside him. Through the observatory's open dome behind him, a lush blue-green planet glows unreasonably close in the star-speckled night sky — close enough to look almost like a neighbor's porch light. The mood is pure comic shock and awe, the astronomer's jaw visibly dropped.",
-      "headline": "Everyone assumed the nearest habitable planet was impossibly far. It isn't.",
-      "highlight": "It isn't",
-      "source": "Space.com / UC Irvine",
+      "art_prompt": "A wide-eyed NASA flight controller sitting rigid in a mission control chair, both hands pressed flat to their cheeks in pure disbelief, locked onto a massive wall-sized monitor showing a boxy, solar-paneled space telescope slowly tumbling toward a glowing blue Earth. Every screen in the room is strobing a bright red 'UNCONTROLLED REENTRY' warning. Forgotten coffee cups and rolled-up orbital trajectory printouts litter the desk around them. The mood is urgent and darkly comic — the full-body energy of 'Houston, we have a very big problem.'",
+      "headline": "A NASA telescope started falling to Earth. The rescue plan is unlike anything ever tried.",
+      "highlight": "falling",
+      "source": "The Verge / CNN",
       "image": "assets/gen_00.png"
     },
     {
       "type": "context",
       "label": "THE STORY",
-      "headline": "A planet. 25 light-years away. Potentially livable.",
-      "highlight": "25 light-years",
-      "body": "Astronomers — including researchers at UC Irvine — have discovered a planet sitting just 25 light-years from Earth that orbits inside its star's habitable zone, the region where liquid water could theoretically exist on a surface. Scientists described the find as 'exciting,' and the numbers back that up: 25 light-years is one of the shortest distances ever recorded for a potentially habitable world. For comparison, the famous TRAPPIST-1 system — home to several Earth-sized habitable-zone planets — sits roughly 40 light-years away, making this new neighbor significantly closer to home."
+      "headline": "A telescope in freefall",
+      "highlight": "freefall",
+      "body": "NASA's Neil Gehrels Swift Observatory, a 3,200-pound space telescope that has been detecting gamma-ray bursts and studying black holes since 2004, entered a crisis when critical onboard systems began to fail. Without intervention, the observatory faced an uncontrolled reentry — meaning it could tumble back into Earth's atmosphere and scatter debris unpredictably across a wide area. NASA decided the risk was unacceptable and the science too valuable to simply let it go."
     },
     {
       "type": "illustration",
-      "label": "HOW IT WORKS",
-      "art_prompt": "A cartoon cosmic map drawn like a cozy suburban neighborhood directory: Earth's sun sits at the top of a starry street with a tiny mailbox and a bright 'YOU ARE HERE' lawn flag, and just a short block of darkness away, a warm blue-green planet nestles in front of a small orange star with a hand-painted 'HABITABLE ZONE' welcome banner strung above it like a shop sign — the two worlds looking almost close enough to wave at each other across the dark.",
-      "art": "globe",
-      "headline": "The Goldilocks zone, explained",
-      "highlight": "Goldilocks",
-      "body": "The habitable zone is the orbital distance from a star that is not too hot and not too cold — the precise range where liquid water could pool on a planet's surface. It is the single most important first filter in the search for life beyond Earth.",
+      "label": "THE RESCUE",
+      "art_prompt": "A small but intensely determined robotic spacecraft — boxy silver body, two extending mechanical arms spread wide open, bright blue thruster flames blazing from the back — zooming purposefully through a black star-flecked void toward a slowly tumbling, battle-worn space telescope that is drifting dangerously low. The robot's arms are outstretched like it is about to deliver the most important bear hug in the history of space exploration. Comic heroic energy: tiny robot, enormous stakes.",
+      "art": "rocket",
+      "headline": "Enter the robot rescuer",
+      "highlight": "robot",
+      "body": "NASA launched an emergency robotic spacecraft to intercept Swift in orbit, with the goal of physically pushing it to a safe altitude before it could fall into an uncontrolled reentry — the first time an aging observatory has been targeted for this kind of active in-space rescue.",
       "image": "assets/gen_02.png"
     },
     {
       "type": "stat",
       "label": "THE NUMBER",
-      "value": "25",
-      "caption": "Light-years from Earth to our newly discovered potentially habitable neighbor. Most confirmed habitable-zone exoplanets sit hundreds to thousands of light-years away — making this one of the closest candidates ever found."
+      "value": "3,200 lbs",
+      "caption": "That is the weight of the Swift Observatory — heavy enough that an uncontrolled reentry could send dangerous debris raining down across a wide swath of Earth's surface, turning a science crisis into a genuine public safety emergency."
     },
     {
       "type": "points",
       "label": "WHY IT MATTERS",
       "points": [
-        "At just 25 light-years, this planet is closer to Earth than the celebrated TRAPPIST-1 system at roughly 40 light-years, making it one of the nearest potentially habitable worlds ever confirmed.",
-        "Being in the habitable zone does not guarantee life — it means liquid water could theoretically survive on the surface, which is the first and most critical condition scientists require before investigating further.",
-        "The planet's proximity makes it an exceptional target for the James Webb Space Telescope, which can analyze the atmospheres of nearby worlds for gases like oxygen or methane that might hint at biological processes.",
-        "UC Irvine researchers called the discovery 'exciting' — unusually strong language in academic astronomy, where cautious understatement is very much the norm."
+        "Swift has spent over two decades detecting gamma-ray bursts — the most powerful explosions in the known universe — making it one of NASA's most scientifically productive observatories ever flown.",
+        "A 3,200-pound spacecraft re-entering uncontrolled is a real public safety concern, since dense components can survive atmospheric heating and reach the ground in unpredictable locations.",
+        "This emergency operation is a landmark moment for 'orbital servicing' — using robotic spacecraft to rescue, reposition, or extend the life of failing satellites rather than writing them off as debris.",
+        "If successful, the mission could extend Swift's scientific life by years and prove that active satellite rescue is a viable and repeatable tool for space agencies worldwide."
       ]
     },
     {
       "type": "cta",
-      "headline": "Tag someone who needs to know we have a new neighbor 🚀",
-      "highlight": "new neighbor"
+      "headline": "Follow @decodededge for the one story worth knowing every day",
+      "highlight": "every day"
     }
   ],
   "handle": "@decodededge",
-  "palette": "pink",
+  "palette": "orange",
   "accent_rgb": [
     255,
-    61,
-    165
+    106,
+    0
   ]
 }
